@@ -1,0 +1,29 @@
+CREATE TABLE "SHT_PUSH_NOTIFY" (
+    PUSH_ID                   NUMBER(11)          NOT NULL,
+    PUSH_TITLE                VARCHAR2(255)       NOT NULL,
+    PUSH_CONTENT              VARCHAR2(4000)      NOT NULL,
+    ADMIN_ID                  NUMBER(11)          NOT NULL,
+    PUSH_ANDROID              NUMBER(1)           DEFAULT 0 NOT NULL,
+    PUSH_IOS                  NUMBER(1)           DEFAULT 0 NOT NULL,
+    PUSH_IMMEDIATE            NUMBER(1)           DEFAULT 0 NOT NULL,
+    PUSH_STATUS               NUMBER(1)           DEFAULT 0 NOT NULL,
+    SEND_DATE                 DATE                ,
+    TIMER_DATE                DATE                ,
+    ANDROID_NUMBER            NUMBER(11)          DEFAULT 0 NOT NULL,
+    IOS_NUMBER                NUMBER(11)          DEFAULT 0 NOT NULL,
+    ANDROID_READ_NUMBER       NUMBER(11)          DEFAULT 0 NOT NULL,
+    IOS_READ_NUMBER           NUMBER(11)          DEFAULT 0 NOT NULL,
+
+    CMN_DELETE_FLAG           NUMBER(1)           DEFAULT 0 NOT NULL,
+    CMN_ENTRY_DATE            DATE                DEFAULT CURRENT_DATE NOT NULL,
+    CMN_LAST_UPDT_DATE        DATE                DEFAULT CURRENT_DATE NOT NULL,
+    CMN_ENTRY_USER_NO         NUMBER(11),
+    CMN_ENTRY_USER_TYPE       NUMBER(1),
+    CMN_LAST_UPDT_USER_NO     NUMBER(11),
+    CMN_LAST_UPDT_USER_TYPE   NUMBER(1)
+);
+
+ALTER TABLE "SHT_PUSH_NOTIFY"
+ADD CONSTRAINT SHT_PUSH_NOTIFY_PK PRIMARY KEY (PUSH_ID);
+
+CREATE SEQUENCE SHT_PUSH_NOTIFY_SEQ START WITH 1;

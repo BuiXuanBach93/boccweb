@@ -1,0 +1,565 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="10" failures="4" name="jp.bo.bocc.service.impl.PostServiceImplTest" time="2.529" errors="5" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\bin"/>
+    <property name="java.vm.version" value="25.121-b13"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\workspace\PROJECT\BOCC\web"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\workspace\PROJECT\BOCC\web"/>
+    <property name="java.runtime.version" value="1.8.0_121-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\buixu\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Program Files (x86)\JetBrains\IntelliJ IDEA 2016.3.5\plugins\maven\lib\maven3\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_121\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\HashiCorp\Vagrant\bin;C:\Program Files\nodejs\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\PuTTY\;C:\Program Files\PostgreSQL\9.6\bin\;C:\Program Files (x86)\JetBrains\IntelliJ IDEA 2016.3.5\plugins\maven\lib\maven3\bin;C:\Users\buixu\AppData\Local\Microsoft\WindowsApps;;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Users\buixu\AppData\Roaming\npm;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\buixu"/>
+    <property name="user.timezone" value="Asia/Bangkok"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="buixu"/>
+    <property name="java.class.path" value="C:\Program Files (x86)\JetBrains\IntelliJ IDEA 2016.3.5\plugins\maven\lib\maven3\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_121\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_121"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_121\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp850"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files (x86)\JetBrains\IntelliJ IDEA 2016.3.5\plugins\maven\lib\maven3\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp850"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="jp.bo.bocc.service.impl.PostServiceImplTest" name="searchPostSameCompany" time="0.105">
+    <error message="ユーザーがみつかりません。" type="jp.bo.bocc.system.exception.ResourceNotFoundException">jp.bo.bocc.system.exception.ResourceNotFoundException: ユーザーがみつかりません。
+	at jp.bo.bocc.service.impl.UserServiceImpl.getUserById(UserServiceImpl.java:189)
+	at jp.bo.bocc.service.impl.UserServiceImpl$$FastClassBySpringCGLIB$$3f98627d.invoke(&lt;generated&gt;)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:721)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:99)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:282)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:656)
+	at jp.bo.bocc.service.impl.UserServiceImpl$$EnhancerBySpringCGLIB$$4e33adae.getUserById(&lt;generated&gt;)
+	at jp.bo.bocc.service.impl.PostServiceImpl.buildCompanyCode(PostServiceImpl.java:684)
+	at jp.bo.bocc.service.impl.PostServiceImpl.searchPost(PostServiceImpl.java:170)
+	at jp.bo.bocc.service.impl.PostServiceImpl$$FastClassBySpringCGLIB$$1165ce88.invoke(&lt;generated&gt;)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:721)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:99)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:282)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:656)
+	at jp.bo.bocc.service.impl.PostServiceImpl$$EnhancerBySpringCGLIB$$410e50af.searchPost(&lt;generated&gt;)
+	at jp.bo.bocc.service.impl.PostServiceImplTest.searchPostSameCompany(PostServiceImplTest.java:163)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:252)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</error>
+    <system-out>17/12/05 19:02:27 INFO DefaultTestContextBootstrapper: Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+17/12/05 19:02:27 INFO DefaultTestContextBootstrapper: Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@1e6bd367, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@2bd7f686, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@3601549f, org.springframework.test.context.support.DirtiesContextTestExecutionListener@5b2c7186, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1b9c716f, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@f6bc75c]
+17/12/05 19:02:27 INFO TransactionContext: Began transaction (1) for test context [DefaultTestContext@7b9d1a4 testClass = PostServiceImplTest, testInstance = jp.bo.bocc.service.impl.PostServiceImplTest@fcd3a6f, testMethod = searchPostSameCompany@PostServiceImplTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@33f2cf82 testClass = PostServiceImplTest, locations = &apos;{}&apos;, classes = &apos;{class jp.bo.bocc.system.config.AppConfig}&apos;, contextInitializerClasses = &apos;[]&apos;, activeProfiles = &apos;{app}&apos;, propertySourceLocations = &apos;{}&apos;, propertySourceProperties = &apos;{}&apos;, contextCustomizers = set[[empty]], contextLoader = &apos;org.springframework.test.context.support.DelegatingSmartContextLoader&apos;, parent = [null]]]; transaction manager [org.springframework.orm.jpa.JpaTransactionManager@3fde8f7c]; rollback [true]
+Hibernate: select shmuser0_.USER_ID as USER_ID1_5_0_, shmuser0_.CMN_ENTRY_DATE as CMN_ENTRY_DATE2_5_0_, shmuser0_.CMN_ENTRY_USER_NO as CMN_ENTRY_USER_NO3_5_0_, shmuser0_.CMN_ENTRY_USER_TYPE as CMN_ENTRY_USER_TYP4_5_0_, shmuser0_.CMN_DELETE_FLAG as CMN_DELETE_FLAG5_5_0_, shmuser0_.CMN_LAST_UPDT_DATE as CMN_LAST_UPDT_DATE6_5_0_, shmuser0_.CMN_LAST_UPDT_USER_NO as CMN_LAST_UPDT_USER7_5_0_, shmuser0_.CMN_LAST_UPDT_USER_TYPE as CMN_LAST_UPDT_USER8_5_0_, shmuser0_.USER_ADDRESS_ID as USER_ADDRESS_ID28_5_0_, shmuser0_.USER_AVTR as USER_AVTR29_5_0_, shmuser0_.USER_BSID as USER_BSID9_5_0_, shmuser0_.USER_CAREER as USER_CAREER10_5_0_, shmuser0_.USER_CTRL_STATUS as USER_CTRL_STATUS11_5_0_, shmuser0_.USER_DATE_OF_BIRTH as USER_DATE_OF_BIRT12_5_0_, shmuser0_.USER_DESCR as USER_DESCR13_5_0_, shmuser0_.USER_EMAIL as USER_EMAIL14_5_0_, shmuser0_.USER_FIRST_NAME as USER_FIRST_NAME15_5_0_, shmuser0_.USER_GENDER as USER_GENDER16_5_0_, shmuser0_.USER_IS_IN_PATROL as USER_IS_IN_PATROL17_5_0_, shmuser0_.USER_JOB as USER_JOB18_5_0_, shmuser0_.USER_LAST_NAME as USER_LAST_NAME19_5_0_, shmuser0_.LEFT_DATE as LEFT_DATE20_5_0_, shmuser0_.USER_NICK_NAME as USER_NICK_NAME21_5_0_, shmuser0_.USER_PWD as USER_PWD22_5_0_, shmuser0_.USER_PHONE as USER_PHONE23_5_0_, shmuser0_.USER_PTRL_STATUS as USER_PTRL_STATUS24_5_0_, shmuser0_.USER_STATUS as USER_STATUS25_5_0_, shmuser0_.USER_TIME_PATROL as USER_TIME_PATROL26_5_0_, shmuser0_.USER_UPDATE_AT as USER_UPDATE_AT27_5_0_, shmaddr1_.ADDR_ID as ADDR_ID1_0_1_, shmaddr1_.CMN_ENTRY_DATE as CMN_ENTRY_DATE2_0_1_, shmaddr1_.CMN_ENTRY_USER_NO as CMN_ENTRY_USER_NO3_0_1_, shmaddr1_.CMN_ENTRY_USER_TYPE as CMN_ENTRY_USER_TYP4_0_1_, shmaddr1_.CMN_DELETE_FLAG as CMN_DELETE_FLAG5_0_1_, shmaddr1_.CMN_LAST_UPDT_DATE as CMN_LAST_UPDT_DATE6_0_1_, shmaddr1_.CMN_LAST_UPDT_USER_NO as CMN_LAST_UPDT_USER7_0_1_, shmaddr1_.CMN_LAST_UPDT_USER_TYPE as CMN_LAST_UPDT_USER8_0_1_, shmaddr1_.ADDR_PARENT_ID as ADDR_PARENT_ID9_0_1_, shmaddr1_.ADDR_AREA_CODE as ADDR_AREA_CODE10_0_1_, shmaddr1_.ADDR_AREA_NAME as ADDR_AREA_NAME11_0_1_, shrfile2_.FILE_ID as FILE_ID1_6_2_, shrfile2_.CMN_ENTRY_DATE as CMN_ENTRY_DATE2_6_2_, shrfile2_.CMN_ENTRY_USER_NO as CMN_ENTRY_USER_NO3_6_2_, shrfile2_.CMN_ENTRY_USER_TYPE as CMN_ENTRY_USER_TYP4_6_2_, shrfile2_.CMN_DELETE_FLAG as CMN_DELETE_FLAG5_6_2_, shrfile2_.CMN_LAST_UPDT_DATE as CMN_LAST_UPDT_DATE6_6_2_, shrfile2_.CMN_LAST_UPDT_USER_NO as CMN_LAST_UPDT_USER7_6_2_, shrfile2_.CMN_LAST_UPDT_USER_TYPE as CMN_LAST_UPDT_USER8_6_2_, shrfile2_.FILE_DIR as FILE_DIR9_6_2_, shrfile2_.FILE_EXT as FILE_EXT10_6_2_, shrfile2_.FILE_HEIGHT as FILE_HEIGHT11_6_2_, shrfile2_.FILE_NAME as FILE_NAME12_6_2_, shrfile2_.FILE_ORG_NAME as FILE_ORG_NAME13_6_2_, shrfile2_.FILE_PROVIDER as FILE_PROVIDER14_6_2_, shrfile2_.FILE_SIZE as FILE_SIZE15_6_2_, shrfile2_.FILE_WIDTH as FILE_WIDTH16_6_2_ from SHM_USER shmuser0_ left outer join SHM_ADDR shmaddr1_ on shmuser0_.USER_ADDRESS_ID=shmaddr1_.ADDR_ID left outer join SHR_FILE shrfile2_ on shmuser0_.USER_AVTR=shrfile2_.FILE_ID where shmuser0_.USER_ID=? and ( shmuser0_.CMN_DELETE_FLAG=0)
+17/12/05 19:02:28 INFO TransactionContext: Rolled back transaction for test context [DefaultTestContext@7b9d1a4 testClass = PostServiceImplTest, testInstance = jp.bo.bocc.service.impl.PostServiceImplTest@fcd3a6f, testMethod = searchPostSameCompany@PostServiceImplTest, testException = jp.bo.bocc.system.exception.ResourceNotFoundException: ?????????????, mergedContextConfiguration = [MergedContextConfiguration@33f2cf82 testClass = PostServiceImplTest, locations = &apos;{}&apos;, classes = &apos;{class jp.bo.bocc.system.config.AppConfig}&apos;, contextInitializerClasses = &apos;[]&apos;, activeProfiles = &apos;{app}&apos;, propertySourceLocations = &apos;{}&apos;, propertySourceProperties = &apos;{}&apos;, contextCustomizers = set[[empty]], contextLoader = &apos;org.springframework.test.context.support.DelegatingSmartContextLoader&apos;, parent = [null]]].
+</system-out>
+  </testcase>
+  <testcase classname="jp.bo.bocc.service.impl.PostServiceImplTest" name="testCreatePostSuccessfully" time="0.134">
+    <error message="ユーザーがみつかりません。" type="jp.bo.bocc.system.exception.ResourceNotFoundException">jp.bo.bocc.system.exception.ResourceNotFoundException: ユーザーがみつかりません。
+	at jp.bo.bocc.service.impl.UserServiceImpl.getUserById(UserServiceImpl.java:189)
+	at jp.bo.bocc.service.impl.UserServiceImpl$$FastClassBySpringCGLIB$$3f98627d.invoke(&lt;generated&gt;)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:721)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:99)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:282)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:656)
+	at jp.bo.bocc.service.impl.UserServiceImpl$$EnhancerBySpringCGLIB$$4e33adae.getUserById(&lt;generated&gt;)
+	at jp.bo.bocc.service.impl.PostServiceImplTest.testCreatePostSuccessfully(PostServiceImplTest.java:66)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:252)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</error>
+    <system-out>17/12/05 19:02:28 INFO TransactionContext: Began transaction (1) for test context [DefaultTestContext@7b9d1a4 testClass = PostServiceImplTest, testInstance = jp.bo.bocc.service.impl.PostServiceImplTest@43cbafa6, testMethod = testCreatePostSuccessfully@PostServiceImplTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@33f2cf82 testClass = PostServiceImplTest, locations = &apos;{}&apos;, classes = &apos;{class jp.bo.bocc.system.config.AppConfig}&apos;, contextInitializerClasses = &apos;[]&apos;, activeProfiles = &apos;{app}&apos;, propertySourceLocations = &apos;{}&apos;, propertySourceProperties = &apos;{}&apos;, contextCustomizers = set[[empty]], contextLoader = &apos;org.springframework.test.context.support.DelegatingSmartContextLoader&apos;, parent = [null]]]; transaction manager [org.springframework.orm.jpa.JpaTransactionManager@3fde8f7c]; rollback [true]
+Hibernate: select shmuser0_.USER_ID as USER_ID1_5_0_, shmuser0_.CMN_ENTRY_DATE as CMN_ENTRY_DATE2_5_0_, shmuser0_.CMN_ENTRY_USER_NO as CMN_ENTRY_USER_NO3_5_0_, shmuser0_.CMN_ENTRY_USER_TYPE as CMN_ENTRY_USER_TYP4_5_0_, shmuser0_.CMN_DELETE_FLAG as CMN_DELETE_FLAG5_5_0_, shmuser0_.CMN_LAST_UPDT_DATE as CMN_LAST_UPDT_DATE6_5_0_, shmuser0_.CMN_LAST_UPDT_USER_NO as CMN_LAST_UPDT_USER7_5_0_, shmuser0_.CMN_LAST_UPDT_USER_TYPE as CMN_LAST_UPDT_USER8_5_0_, shmuser0_.USER_ADDRESS_ID as USER_ADDRESS_ID28_5_0_, shmuser0_.USER_AVTR as USER_AVTR29_5_0_, shmuser0_.USER_BSID as USER_BSID9_5_0_, shmuser0_.USER_CAREER as USER_CAREER10_5_0_, shmuser0_.USER_CTRL_STATUS as USER_CTRL_STATUS11_5_0_, shmuser0_.USER_DATE_OF_BIRTH as USER_DATE_OF_BIRT12_5_0_, shmuser0_.USER_DESCR as USER_DESCR13_5_0_, shmuser0_.USER_EMAIL as USER_EMAIL14_5_0_, shmuser0_.USER_FIRST_NAME as USER_FIRST_NAME15_5_0_, shmuser0_.USER_GENDER as USER_GENDER16_5_0_, shmuser0_.USER_IS_IN_PATROL as USER_IS_IN_PATROL17_5_0_, shmuser0_.USER_JOB as USER_JOB18_5_0_, shmuser0_.USER_LAST_NAME as USER_LAST_NAME19_5_0_, shmuser0_.LEFT_DATE as LEFT_DATE20_5_0_, shmuser0_.USER_NICK_NAME as USER_NICK_NAME21_5_0_, shmuser0_.USER_PWD as USER_PWD22_5_0_, shmuser0_.USER_PHONE as USER_PHONE23_5_0_, shmuser0_.USER_PTRL_STATUS as USER_PTRL_STATUS24_5_0_, shmuser0_.USER_STATUS as USER_STATUS25_5_0_, shmuser0_.USER_TIME_PATROL as USER_TIME_PATROL26_5_0_, shmuser0_.USER_UPDATE_AT as USER_UPDATE_AT27_5_0_, shmaddr1_.ADDR_ID as ADDR_ID1_0_1_, shmaddr1_.CMN_ENTRY_DATE as CMN_ENTRY_DATE2_0_1_, shmaddr1_.CMN_ENTRY_USER_NO as CMN_ENTRY_USER_NO3_0_1_, shmaddr1_.CMN_ENTRY_USER_TYPE as CMN_ENTRY_USER_TYP4_0_1_, shmaddr1_.CMN_DELETE_FLAG as CMN_DELETE_FLAG5_0_1_, shmaddr1_.CMN_LAST_UPDT_DATE as CMN_LAST_UPDT_DATE6_0_1_, shmaddr1_.CMN_LAST_UPDT_USER_NO as CMN_LAST_UPDT_USER7_0_1_, shmaddr1_.CMN_LAST_UPDT_USER_TYPE as CMN_LAST_UPDT_USER8_0_1_, shmaddr1_.ADDR_PARENT_ID as ADDR_PARENT_ID9_0_1_, shmaddr1_.ADDR_AREA_CODE as ADDR_AREA_CODE10_0_1_, shmaddr1_.ADDR_AREA_NAME as ADDR_AREA_NAME11_0_1_, shrfile2_.FILE_ID as FILE_ID1_6_2_, shrfile2_.CMN_ENTRY_DATE as CMN_ENTRY_DATE2_6_2_, shrfile2_.CMN_ENTRY_USER_NO as CMN_ENTRY_USER_NO3_6_2_, shrfile2_.CMN_ENTRY_USER_TYPE as CMN_ENTRY_USER_TYP4_6_2_, shrfile2_.CMN_DELETE_FLAG as CMN_DELETE_FLAG5_6_2_, shrfile2_.CMN_LAST_UPDT_DATE as CMN_LAST_UPDT_DATE6_6_2_, shrfile2_.CMN_LAST_UPDT_USER_NO as CMN_LAST_UPDT_USER7_6_2_, shrfile2_.CMN_LAST_UPDT_USER_TYPE as CMN_LAST_UPDT_USER8_6_2_, shrfile2_.FILE_DIR as FILE_DIR9_6_2_, shrfile2_.FILE_EXT as FILE_EXT10_6_2_, shrfile2_.FILE_HEIGHT as FILE_HEIGHT11_6_2_, shrfile2_.FILE_NAME as FILE_NAME12_6_2_, shrfile2_.FILE_ORG_NAME as FILE_ORG_NAME13_6_2_, shrfile2_.FILE_PROVIDER as FILE_PROVIDER14_6_2_, shrfile2_.FILE_SIZE as FILE_SIZE15_6_2_, shrfile2_.FILE_WIDTH as FILE_WIDTH16_6_2_ from SHM_USER shmuser0_ left outer join SHM_ADDR shmaddr1_ on shmuser0_.USER_ADDRESS_ID=shmaddr1_.ADDR_ID left outer join SHR_FILE shrfile2_ on shmuser0_.USER_AVTR=shrfile2_.FILE_ID where shmuser0_.USER_ID=? and ( shmuser0_.CMN_DELETE_FLAG=0)
+17/12/05 19:02:28 INFO TransactionContext: Rolled back transaction for test context [DefaultTestContext@7b9d1a4 testClass = PostServiceImplTest, testInstance = jp.bo.bocc.service.impl.PostServiceImplTest@43cbafa6, testMethod = testCreatePostSuccessfully@PostServiceImplTest, testException = jp.bo.bocc.system.exception.ResourceNotFoundException: ?????????????, mergedContextConfiguration = [MergedContextConfiguration@33f2cf82 testClass = PostServiceImplTest, locations = &apos;{}&apos;, classes = &apos;{class jp.bo.bocc.system.config.AppConfig}&apos;, contextInitializerClasses = &apos;[]&apos;, activeProfiles = &apos;{app}&apos;, propertySourceLocations = &apos;{}&apos;, propertySourceProperties = &apos;{}&apos;, contextCustomizers = set[[empty]], contextLoader = &apos;org.springframework.test.context.support.DelegatingSmartContextLoader&apos;, parent = [null]]].
+</system-out>
+  </testcase>
+  <testcase classname="jp.bo.bocc.service.impl.PostServiceImplTest" name="searchPost" time="0.166">
+    <error message="ユーザーがみつかりません。" type="jp.bo.bocc.system.exception.ResourceNotFoundException">jp.bo.bocc.system.exception.ResourceNotFoundException: ユーザーがみつかりません。
+	at jp.bo.bocc.service.impl.UserServiceImpl.getUserById(UserServiceImpl.java:189)
+	at jp.bo.bocc.service.impl.UserServiceImpl$$FastClassBySpringCGLIB$$3f98627d.invoke(&lt;generated&gt;)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:721)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:99)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:282)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:656)
+	at jp.bo.bocc.service.impl.UserServiceImpl$$EnhancerBySpringCGLIB$$4e33adae.getUserById(&lt;generated&gt;)
+	at jp.bo.bocc.service.impl.PostServiceImpl.buildCompanyCode(PostServiceImpl.java:684)
+	at jp.bo.bocc.service.impl.PostServiceImpl.searchPost(PostServiceImpl.java:170)
+	at jp.bo.bocc.service.impl.PostServiceImpl$$FastClassBySpringCGLIB$$1165ce88.invoke(&lt;generated&gt;)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:721)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:99)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:282)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:656)
+	at jp.bo.bocc.service.impl.PostServiceImpl$$EnhancerBySpringCGLIB$$410e50af.searchPost(&lt;generated&gt;)
+	at jp.bo.bocc.service.impl.PostServiceImplTest.searchPost(PostServiceImplTest.java:141)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:252)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</error>
+    <system-out>17/12/05 19:02:28 INFO TransactionContext: Began transaction (1) for test context [DefaultTestContext@7b9d1a4 testClass = PostServiceImplTest, testInstance = jp.bo.bocc.service.impl.PostServiceImplTest@42db955e, testMethod = searchPost@PostServiceImplTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@33f2cf82 testClass = PostServiceImplTest, locations = &apos;{}&apos;, classes = &apos;{class jp.bo.bocc.system.config.AppConfig}&apos;, contextInitializerClasses = &apos;[]&apos;, activeProfiles = &apos;{app}&apos;, propertySourceLocations = &apos;{}&apos;, propertySourceProperties = &apos;{}&apos;, contextCustomizers = set[[empty]], contextLoader = &apos;org.springframework.test.context.support.DelegatingSmartContextLoader&apos;, parent = [null]]]; transaction manager [org.springframework.orm.jpa.JpaTransactionManager@3fde8f7c]; rollback [true]
+Hibernate: select shmuser0_.USER_ID as USER_ID1_5_0_, shmuser0_.CMN_ENTRY_DATE as CMN_ENTRY_DATE2_5_0_, shmuser0_.CMN_ENTRY_USER_NO as CMN_ENTRY_USER_NO3_5_0_, shmuser0_.CMN_ENTRY_USER_TYPE as CMN_ENTRY_USER_TYP4_5_0_, shmuser0_.CMN_DELETE_FLAG as CMN_DELETE_FLAG5_5_0_, shmuser0_.CMN_LAST_UPDT_DATE as CMN_LAST_UPDT_DATE6_5_0_, shmuser0_.CMN_LAST_UPDT_USER_NO as CMN_LAST_UPDT_USER7_5_0_, shmuser0_.CMN_LAST_UPDT_USER_TYPE as CMN_LAST_UPDT_USER8_5_0_, shmuser0_.USER_ADDRESS_ID as USER_ADDRESS_ID28_5_0_, shmuser0_.USER_AVTR as USER_AVTR29_5_0_, shmuser0_.USER_BSID as USER_BSID9_5_0_, shmuser0_.USER_CAREER as USER_CAREER10_5_0_, shmuser0_.USER_CTRL_STATUS as USER_CTRL_STATUS11_5_0_, shmuser0_.USER_DATE_OF_BIRTH as USER_DATE_OF_BIRT12_5_0_, shmuser0_.USER_DESCR as USER_DESCR13_5_0_, shmuser0_.USER_EMAIL as USER_EMAIL14_5_0_, shmuser0_.USER_FIRST_NAME as USER_FIRST_NAME15_5_0_, shmuser0_.USER_GENDER as USER_GENDER16_5_0_, shmuser0_.USER_IS_IN_PATROL as USER_IS_IN_PATROL17_5_0_, shmuser0_.USER_JOB as USER_JOB18_5_0_, shmuser0_.USER_LAST_NAME as USER_LAST_NAME19_5_0_, shmuser0_.LEFT_DATE as LEFT_DATE20_5_0_, shmuser0_.USER_NICK_NAME as USER_NICK_NAME21_5_0_, shmuser0_.USER_PWD as USER_PWD22_5_0_, shmuser0_.USER_PHONE as USER_PHONE23_5_0_, shmuser0_.USER_PTRL_STATUS as USER_PTRL_STATUS24_5_0_, shmuser0_.USER_STATUS as USER_STATUS25_5_0_, shmuser0_.USER_TIME_PATROL as USER_TIME_PATROL26_5_0_, shmuser0_.USER_UPDATE_AT as USER_UPDATE_AT27_5_0_, shmaddr1_.ADDR_ID as ADDR_ID1_0_1_, shmaddr1_.CMN_ENTRY_DATE as CMN_ENTRY_DATE2_0_1_, shmaddr1_.CMN_ENTRY_USER_NO as CMN_ENTRY_USER_NO3_0_1_, shmaddr1_.CMN_ENTRY_USER_TYPE as CMN_ENTRY_USER_TYP4_0_1_, shmaddr1_.CMN_DELETE_FLAG as CMN_DELETE_FLAG5_0_1_, shmaddr1_.CMN_LAST_UPDT_DATE as CMN_LAST_UPDT_DATE6_0_1_, shmaddr1_.CMN_LAST_UPDT_USER_NO as CMN_LAST_UPDT_USER7_0_1_, shmaddr1_.CMN_LAST_UPDT_USER_TYPE as CMN_LAST_UPDT_USER8_0_1_, shmaddr1_.ADDR_PARENT_ID as ADDR_PARENT_ID9_0_1_, shmaddr1_.ADDR_AREA_CODE as ADDR_AREA_CODE10_0_1_, shmaddr1_.ADDR_AREA_NAME as ADDR_AREA_NAME11_0_1_, shrfile2_.FILE_ID as FILE_ID1_6_2_, shrfile2_.CMN_ENTRY_DATE as CMN_ENTRY_DATE2_6_2_, shrfile2_.CMN_ENTRY_USER_NO as CMN_ENTRY_USER_NO3_6_2_, shrfile2_.CMN_ENTRY_USER_TYPE as CMN_ENTRY_USER_TYP4_6_2_, shrfile2_.CMN_DELETE_FLAG as CMN_DELETE_FLAG5_6_2_, shrfile2_.CMN_LAST_UPDT_DATE as CMN_LAST_UPDT_DATE6_6_2_, shrfile2_.CMN_LAST_UPDT_USER_NO as CMN_LAST_UPDT_USER7_6_2_, shrfile2_.CMN_LAST_UPDT_USER_TYPE as CMN_LAST_UPDT_USER8_6_2_, shrfile2_.FILE_DIR as FILE_DIR9_6_2_, shrfile2_.FILE_EXT as FILE_EXT10_6_2_, shrfile2_.FILE_HEIGHT as FILE_HEIGHT11_6_2_, shrfile2_.FILE_NAME as FILE_NAME12_6_2_, shrfile2_.FILE_ORG_NAME as FILE_ORG_NAME13_6_2_, shrfile2_.FILE_PROVIDER as FILE_PROVIDER14_6_2_, shrfile2_.FILE_SIZE as FILE_SIZE15_6_2_, shrfile2_.FILE_WIDTH as FILE_WIDTH16_6_2_ from SHM_USER shmuser0_ left outer join SHM_ADDR shmaddr1_ on shmuser0_.USER_ADDRESS_ID=shmaddr1_.ADDR_ID left outer join SHR_FILE shrfile2_ on shmuser0_.USER_AVTR=shrfile2_.FILE_ID where shmuser0_.USER_ID=? and ( shmuser0_.CMN_DELETE_FLAG=0)
+17/12/05 19:02:28 INFO TransactionContext: Rolled back transaction for test context [DefaultTestContext@7b9d1a4 testClass = PostServiceImplTest, testInstance = jp.bo.bocc.service.impl.PostServiceImplTest@42db955e, testMethod = searchPost@PostServiceImplTest, testException = jp.bo.bocc.system.exception.ResourceNotFoundException: ?????????????, mergedContextConfiguration = [MergedContextConfiguration@33f2cf82 testClass = PostServiceImplTest, locations = &apos;{}&apos;, classes = &apos;{class jp.bo.bocc.system.config.AppConfig}&apos;, contextInitializerClasses = &apos;[]&apos;, activeProfiles = &apos;{app}&apos;, propertySourceLocations = &apos;{}&apos;, propertySourceProperties = &apos;{}&apos;, contextCustomizers = set[[empty]], contextLoader = &apos;org.springframework.test.context.support.DelegatingSmartContextLoader&apos;, parent = [null]]].
+</system-out>
+  </testcase>
+  <testcase classname="jp.bo.bocc.service.impl.PostServiceImplTest" name="testSearchOwnPostHasConversation" time="0.216">
+    <failure type="java.lang.AssertionError">java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at jp.bo.bocc.service.impl.PostServiceImplTest.testSearchOwnPostHasConversation(PostServiceImplTest.java:203)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:252)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</failure>
+    <system-out>17/12/05 19:02:28 INFO TransactionContext: Began transaction (1) for test context [DefaultTestContext@7b9d1a4 testClass = PostServiceImplTest, testInstance = jp.bo.bocc.service.impl.PostServiceImplTest@1344f7fe, testMethod = testSearchOwnPostHasConversation@PostServiceImplTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@33f2cf82 testClass = PostServiceImplTest, locations = &apos;{}&apos;, classes = &apos;{class jp.bo.bocc.system.config.AppConfig}&apos;, contextInitializerClasses = &apos;[]&apos;, activeProfiles = &apos;{app}&apos;, propertySourceLocations = &apos;{}&apos;, propertySourceProperties = &apos;{}&apos;, contextCustomizers = set[[empty]], contextLoader = &apos;org.springframework.test.context.support.DelegatingSmartContextLoader&apos;, parent = [null]]]; transaction manager [org.springframework.orm.jpa.JpaTransactionManager@3fde8f7c]; rollback [true]
+Hibernate:     SELECT sp.POST_ID, sp.POST_NAME, sp.POST_DESCRIPTION, sp.POST_CATEGORY_ID, sp.POST_PRICE, sp.POST_LIKE_TIMES,          sp.POST_REPORT_TIMES, sp.POST_TYPE, sp.POST_IMAGES, sp.POST_ADDR, sp.POST_ADDR_TXT, sp.POST_SELL_STATUS,          sp.POST_HASH_TAG_VAL, sp.POST_CTRL_STATUS          FROM SHM_POST sp INNER JOIN                  (SELECT  tm.TALK_PURC_POST_ID, MAX(tm.LAST_CREATED) AS LAST_CREATED FROM (SELECT stp.TALK_PURC_POST_ID, stp.TALK_PURC_ID, stpm.LAST_CREATED FROM SHT_TALK_PURC stp INNER JOIN                  ( SELECT TALK_PURC_ID, MAX(CMN_ENTRY_DATE) AS LAST_CREATED FROM SHT_TALK_PURC_MSG WHERE CMN_DELETE_FLAG = 0 GROUP BY TALK_PURC_ID ) stpm                  ON stp.TALK_PURC_ID = stpm.TALK_PURC_ID) tm GROUP BY tm.TALK_PURC_POST_ID ) ptm          ON sp.POST_ID = ptm.TALK_PURC_POST_ID WHERE sp.POST_USER_ID =? ORDER BY ptm.LAST_CREATED DESC 
+Hibernate: select * from ( SELECT sp.POST_ID, sp.POST_NAME, sp.POST_DESCRIPTION, sp.POST_CATEGORY_ID, sp.POST_PRICE, sp.POST_LIKE_TIMES,          sp.POST_REPORT_TIMES, sp.POST_TYPE, sp.POST_IMAGES, sp.POST_ADDR, sp.POST_ADDR_TXT, sp.POST_SELL_STATUS,          sp.POST_HASH_TAG_VAL, sp.POST_CTRL_STATUS          FROM SHM_POST sp INNER JOIN                  (SELECT  tm.TALK_PURC_POST_ID, MAX(tm.LAST_CREATED) AS LAST_CREATED FROM (SELECT stp.TALK_PURC_POST_ID, stp.TALK_PURC_ID, stpm.LAST_CREATED FROM SHT_TALK_PURC stp INNER JOIN                  ( SELECT TALK_PURC_ID, MAX(CMN_ENTRY_DATE) AS LAST_CREATED FROM SHT_TALK_PURC_MSG WHERE CMN_DELETE_FLAG = 0 GROUP BY TALK_PURC_ID ) stpm                  ON stp.TALK_PURC_ID = stpm.TALK_PURC_ID) tm GROUP BY tm.TALK_PURC_POST_ID ) ptm          ON sp.POST_ID = ptm.TALK_PURC_POST_ID WHERE sp.POST_USER_ID =? ORDER BY ptm.LAST_CREATED DESC ) where rownum &lt;= ?
+17/12/05 19:02:28 INFO TransactionContext: Rolled back transaction for test context [DefaultTestContext@7b9d1a4 testClass = PostServiceImplTest, testInstance = jp.bo.bocc.service.impl.PostServiceImplTest@1344f7fe, testMethod = testSearchOwnPostHasConversation@PostServiceImplTest, testException = java.lang.AssertionError, mergedContextConfiguration = [MergedContextConfiguration@33f2cf82 testClass = PostServiceImplTest, locations = &apos;{}&apos;, classes = &apos;{class jp.bo.bocc.system.config.AppConfig}&apos;, contextInitializerClasses = &apos;[]&apos;, activeProfiles = &apos;{app}&apos;, propertySourceLocations = &apos;{}&apos;, propertySourceProperties = &apos;{}&apos;, contextCustomizers = set[[empty]], contextLoader = &apos;org.springframework.test.context.support.DelegatingSmartContextLoader&apos;, parent = [null]]].
+</system-out>
+  </testcase>
+  <testcase classname="jp.bo.bocc.service.impl.PostServiceImplTest" name="testGetPostHistory" time="0.168">
+    <failure type="java.lang.AssertionError">java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at jp.bo.bocc.service.impl.PostServiceImplTest.testGetPostHistory(PostServiceImplTest.java:219)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:252)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</failure>
+    <system-out>17/12/05 19:02:28 INFO TransactionContext: Began transaction (1) for test context [DefaultTestContext@7b9d1a4 testClass = PostServiceImplTest, testInstance = jp.bo.bocc.service.impl.PostServiceImplTest@5b2ff4df, testMethod = testGetPostHistory@PostServiceImplTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@33f2cf82 testClass = PostServiceImplTest, locations = &apos;{}&apos;, classes = &apos;{class jp.bo.bocc.system.config.AppConfig}&apos;, contextInitializerClasses = &apos;[]&apos;, activeProfiles = &apos;{app}&apos;, propertySourceLocations = &apos;{}&apos;, propertySourceProperties = &apos;{}&apos;, contextCustomizers = set[[empty]], contextLoader = &apos;org.springframework.test.context.support.DelegatingSmartContextLoader&apos;, parent = [null]]]; transaction manager [org.springframework.orm.jpa.JpaTransactionManager@3fde8f7c]; rollback [true]
+17/12/05 19:02:28 ERROR PostRepositoryImpl: ERROR: post type is not valid.
+17/12/05 19:02:28 ERROR PostRepositoryImpl: ERROR: post type is not valid.
+Hibernate: select shmpost0_.POST_ID as POST_ID1_4_, shmpost0_.CMN_ENTRY_DATE as CMN_ENTRY_DATE2_4_, shmpost0_.CMN_ENTRY_USER_NO as CMN_ENTRY_USER_NO3_4_, shmpost0_.CMN_ENTRY_USER_TYPE as CMN_ENTRY_USER_TYP4_4_, shmpost0_.CMN_DELETE_FLAG as CMN_DELETE_FLAG5_4_, shmpost0_.CMN_LAST_UPDT_DATE as CMN_LAST_UPDT_DATE6_4_, shmpost0_.CMN_LAST_UPDT_USER_NO as CMN_LAST_UPDT_USER7_4_, shmpost0_.CMN_LAST_UPDT_USER_TYPE as CMN_LAST_UPDT_USER8_4_, shmpost0_.DESTINATION_PUBLISH_TYPE as DESTINATION_PUBLIS9_4_, shmpost0_.GROUP_PUBLISH_ID as GROUP_PUBLISH_ID10_4_, shmpost0_.POST_IS_IN_PATROL as POST_IS_IN_PATROL11_4_, shmpost0_.POST_PARTNER_ID as POST_PARTNER_ID12_4_, shmpost0_.POST_ADDR_TXT as POST_ADDR_TXT13_4_, shmpost0_.POST_CATEGORY_ID as POST_CATEGORY_ID27_4_, shmpost0_.POST_CTRL_STATUS as POST_CTRL_STATUS14_4_, shmpost0_.POST_DESCRIPTION as POST_DESCRIPTION15_4_, shmpost0_.POST_HASH_TAG_VAL as POST_HASH_TAG_VAL16_4_, shmpost0_.POST_IMAGES as POST_IMAGES17_4_, shmpost0_.POST_LIKE_TIMES as POST_LIKE_TIMES18_4_, shmpost0_.POST_NAME as POST_NAME19_4_, shmpost0_.POST_PRICE as POST_PRICE20_4_, shmpost0_.POST_PTRL_STATUS as POST_PTRL_STATUS21_4_, shmpost0_.POST_REPORT_TIMES as POST_REPORT_TIMES22_4_, shmpost0_.POST_SELL_STATUS as POST_SELL_STATUS23_4_, shmpost0_.POST_TYPE as POST_TYPE24_4_, shmpost0_.POST_ADDR as POST_ADDR28_4_, shmpost0_.POST_USER_ID as POST_USER_ID29_4_, shmpost0_.POST_TIME_PATROL as POST_TIME_PATROL25_4_, shmpost0_.USER_UPDATE_AT as USER_UPDATE_AT26_4_ from SHM_POST shmpost0_ inner join SHM_USER shmuser1_ on shmpost0_.POST_USER_ID=shmuser1_.USER_ID where ( shmpost0_.CMN_DELETE_FLAG=0) and shmuser1_.USER_ID=? and shmpost0_.POST_SELL_STATUS&lt;&gt;4 and shmpost0_.POST_PRICE=? order by shmpost0_.CMN_ENTRY_DATE DESC, shmpost0_.POST_ID DESC
+17/12/05 19:02:28 INFO TransactionContext: Rolled back transaction for test context [DefaultTestContext@7b9d1a4 testClass = PostServiceImplTest, testInstance = jp.bo.bocc.service.impl.PostServiceImplTest@5b2ff4df, testMethod = testGetPostHistory@PostServiceImplTest, testException = java.lang.AssertionError, mergedContextConfiguration = [MergedContextConfiguration@33f2cf82 testClass = PostServiceImplTest, locations = &apos;{}&apos;, classes = &apos;{class jp.bo.bocc.system.config.AppConfig}&apos;, contextInitializerClasses = &apos;[]&apos;, activeProfiles = &apos;{app}&apos;, propertySourceLocations = &apos;{}&apos;, propertySourceProperties = &apos;{}&apos;, contextCustomizers = set[[empty]], contextLoader = &apos;org.springframework.test.context.support.DelegatingSmartContextLoader&apos;, parent = [null]]].
+</system-out>
+  </testcase>
+  <testcase classname="jp.bo.bocc.service.impl.PostServiceImplTest" name="testSearchPostByConditions" time="1.161"/>
+  <testcase classname="jp.bo.bocc.service.impl.PostServiceImplTest" name="testGetFavoritePostHistory" time="0.122">
+    <failure type="java.lang.AssertionError">java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at jp.bo.bocc.service.impl.PostServiceImplTest.testGetFavoritePostHistory(PostServiceImplTest.java:225)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:252)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</failure>
+    <system-out>17/12/05 19:02:29 INFO TransactionContext: Began transaction (1) for test context [DefaultTestContext@7b9d1a4 testClass = PostServiceImplTest, testInstance = jp.bo.bocc.service.impl.PostServiceImplTest@5edd9b4f, testMethod = testGetFavoritePostHistory@PostServiceImplTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@33f2cf82 testClass = PostServiceImplTest, locations = &apos;{}&apos;, classes = &apos;{class jp.bo.bocc.system.config.AppConfig}&apos;, contextInitializerClasses = &apos;[]&apos;, activeProfiles = &apos;{app}&apos;, propertySourceLocations = &apos;{}&apos;, propertySourceProperties = &apos;{}&apos;, contextCustomizers = set[[empty]], contextLoader = &apos;org.springframework.test.context.support.DelegatingSmartContextLoader&apos;, parent = [null]]]; transaction manager [org.springframework.orm.jpa.JpaTransactionManager@3fde8f7c]; rollback [true]
+17/12/05 19:02:29 ERROR PostRepositoryImpl: ERROR: post type is not valid.
+17/12/05 19:02:29 ERROR PostRepositoryImpl: ERROR: post type is not valid.
+Hibernate: select shmpost1_.POST_ID as POST_ID1_4_, shmpost1_.CMN_ENTRY_DATE as CMN_ENTRY_DATE2_4_, shmpost1_.CMN_ENTRY_USER_NO as CMN_ENTRY_USER_NO3_4_, shmpost1_.CMN_ENTRY_USER_TYPE as CMN_ENTRY_USER_TYP4_4_, shmpost1_.CMN_DELETE_FLAG as CMN_DELETE_FLAG5_4_, shmpost1_.CMN_LAST_UPDT_DATE as CMN_LAST_UPDT_DATE6_4_, shmpost1_.CMN_LAST_UPDT_USER_NO as CMN_LAST_UPDT_USER7_4_, shmpost1_.CMN_LAST_UPDT_USER_TYPE as CMN_LAST_UPDT_USER8_4_, shmpost1_.DESTINATION_PUBLISH_TYPE as DESTINATION_PUBLIS9_4_, shmpost1_.GROUP_PUBLISH_ID as GROUP_PUBLISH_ID10_4_, shmpost1_.POST_IS_IN_PATROL as POST_IS_IN_PATROL11_4_, shmpost1_.POST_PARTNER_ID as POST_PARTNER_ID12_4_, shmpost1_.POST_ADDR_TXT as POST_ADDR_TXT13_4_, shmpost1_.POST_CATEGORY_ID as POST_CATEGORY_ID27_4_, shmpost1_.POST_CTRL_STATUS as POST_CTRL_STATUS14_4_, shmpost1_.POST_DESCRIPTION as POST_DESCRIPTION15_4_, shmpost1_.POST_HASH_TAG_VAL as POST_HASH_TAG_VAL16_4_, shmpost1_.POST_IMAGES as POST_IMAGES17_4_, shmpost1_.POST_LIKE_TIMES as POST_LIKE_TIMES18_4_, shmpost1_.POST_NAME as POST_NAME19_4_, shmpost1_.POST_PRICE as POST_PRICE20_4_, shmpost1_.POST_PTRL_STATUS as POST_PTRL_STATUS21_4_, shmpost1_.POST_REPORT_TIMES as POST_REPORT_TIMES22_4_, shmpost1_.POST_SELL_STATUS as POST_SELL_STATUS23_4_, shmpost1_.POST_TYPE as POST_TYPE24_4_, shmpost1_.POST_ADDR as POST_ADDR28_4_, shmpost1_.POST_USER_ID as POST_USER_ID29_4_, shmpost1_.POST_TIME_PATROL as POST_TIME_PATROL25_4_, shmpost1_.USER_UPDATE_AT as USER_UPDATE_AT26_4_ from SHT_USER_FVRT shtuserfvr0_ right outer join SHM_POST shmpost1_ on shtuserfvr0_.POST_ID=shmpost1_.POST_ID right outer join SHM_USER shmuser2_ on shtuserfvr0_.USER_ID=shmuser2_.USER_ID cross join SHM_USER shmuser3_ where ( shtuserfvr0_.CMN_DELETE_FLAG=0) and shmpost1_.POST_USER_ID=shmuser3_.USER_ID and shmuser2_.USER_ID=? and shtuserfvr0_.USER_FVRT_STATUS=1 and (shmuser3_.USER_STATUS not in  (5 , 6)) and shmuser3_.USER_CTRL_STATUS&lt;&gt;2 order by shmpost1_.CMN_ENTRY_DATE DESC, shmpost1_.POST_ID DESC
+17/12/05 19:02:30 INFO TransactionContext: Rolled back transaction for test context [DefaultTestContext@7b9d1a4 testClass = PostServiceImplTest, testInstance = jp.bo.bocc.service.impl.PostServiceImplTest@5edd9b4f, testMethod = testGetFavoritePostHistory@PostServiceImplTest, testException = java.lang.AssertionError, mergedContextConfiguration = [MergedContextConfiguration@33f2cf82 testClass = PostServiceImplTest, locations = &apos;{}&apos;, classes = &apos;{class jp.bo.bocc.system.config.AppConfig}&apos;, contextInitializerClasses = &apos;[]&apos;, activeProfiles = &apos;{app}&apos;, propertySourceLocations = &apos;{}&apos;, propertySourceProperties = &apos;{}&apos;, contextCustomizers = set[[empty]], contextLoader = &apos;org.springframework.test.context.support.DelegatingSmartContextLoader&apos;, parent = [null]]].
+</system-out>
+  </testcase>
+  <testcase classname="jp.bo.bocc.service.impl.PostServiceImplTest" name="testSearchPostFromOthersHasConversation" time="0.194">
+    <failure type="java.lang.AssertionError">java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at jp.bo.bocc.service.impl.PostServiceImplTest.testSearchPostFromOthersHasConversation(PostServiceImplTest.java:213)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:252)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</failure>
+    <system-out>17/12/05 19:02:30 INFO TransactionContext: Began transaction (1) for test context [DefaultTestContext@7b9d1a4 testClass = PostServiceImplTest, testInstance = jp.bo.bocc.service.impl.PostServiceImplTest@7c02b3cb, testMethod = testSearchPostFromOthersHasConversation@PostServiceImplTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@33f2cf82 testClass = PostServiceImplTest, locations = &apos;{}&apos;, classes = &apos;{class jp.bo.bocc.system.config.AppConfig}&apos;, contextInitializerClasses = &apos;[]&apos;, activeProfiles = &apos;{app}&apos;, propertySourceLocations = &apos;{}&apos;, propertySourceProperties = &apos;{}&apos;, contextCustomizers = set[[empty]], contextLoader = &apos;org.springframework.test.context.support.DelegatingSmartContextLoader&apos;, parent = [null]]]; transaction manager [org.springframework.orm.jpa.JpaTransactionManager@3fde8f7c]; rollback [true]
+Hibernate:     SELECT sp.POST_ID, sp.POST_NAME, sp.POST_DESCRIPTION, sp.POST_CATEGORY_ID, sp.POST_PRICE, sp.POST_LIKE_TIMES,          sp.POST_REPORT_TIMES, sp.POST_TYPE, sp.POST_IMAGES, sp.POST_ADDR, sp.POST_ADDR_TXT, sp.POST_SELL_STATUS,          sp.POST_HASH_TAG_VAL, sp.POST_CTRL_STATUS, ptm.TALK_PURC_ID, ptm.LAST_CREATED          FROM SHM_POST sp INNER JOIN                  (SELECT  tm.TALK_PURC_POST_ID,tm.TALK_PURC_ID, MAX(tm.LAST_CREATED) AS LAST_CREATED FROM (SELECT stp.TALK_PURC_POST_ID, stp.TALK_PURC_ID, stpm.LAST_CREATED FROM SHT_TALK_PURC stp INNER JOIN                  ( SELECT TALK_PURC_ID, MAX(CMN_ENTRY_DATE) AS LAST_CREATED FROM SHT_TALK_PURC_MSG WHERE CMN_DELETE_FLAG = 0 GROUP BY TALK_PURC_ID ) stpm                  ON stp.TALK_PURC_ID = stpm.TALK_PURC_ID WHERE stp.TALK_PURC_PART_ID = ?) tm GROUP BY tm.TALK_PURC_POST_ID, tm.TALK_PURC_ID ) ptm          ON sp.POST_ID = ptm.TALK_PURC_POST_ID WHERE sp.POST_USER_ID &lt;&gt; ? ORDER BY ptm.LAST_CREATED DESC 
+Hibernate: select * from ( SELECT sp.POST_ID, sp.POST_NAME, sp.POST_DESCRIPTION, sp.POST_CATEGORY_ID, sp.POST_PRICE, sp.POST_LIKE_TIMES,          sp.POST_REPORT_TIMES, sp.POST_TYPE, sp.POST_IMAGES, sp.POST_ADDR, sp.POST_ADDR_TXT, sp.POST_SELL_STATUS,          sp.POST_HASH_TAG_VAL, sp.POST_CTRL_STATUS, ptm.TALK_PURC_ID, ptm.LAST_CREATED          FROM SHM_POST sp INNER JOIN                  (SELECT  tm.TALK_PURC_POST_ID,tm.TALK_PURC_ID, MAX(tm.LAST_CREATED) AS LAST_CREATED FROM (SELECT stp.TALK_PURC_POST_ID, stp.TALK_PURC_ID, stpm.LAST_CREATED FROM SHT_TALK_PURC stp INNER JOIN                  ( SELECT TALK_PURC_ID, MAX(CMN_ENTRY_DATE) AS LAST_CREATED FROM SHT_TALK_PURC_MSG WHERE CMN_DELETE_FLAG = 0 GROUP BY TALK_PURC_ID ) stpm                  ON stp.TALK_PURC_ID = stpm.TALK_PURC_ID WHERE stp.TALK_PURC_PART_ID = ?) tm GROUP BY tm.TALK_PURC_POST_ID, tm.TALK_PURC_ID ) ptm          ON sp.POST_ID = ptm.TALK_PURC_POST_ID WHERE sp.POST_USER_ID &lt;&gt; ? ORDER BY ptm.LAST_CREATED DESC ) where rownum &lt;= ?
+17/12/05 19:02:30 INFO TransactionContext: Rolled back transaction for test context [DefaultTestContext@7b9d1a4 testClass = PostServiceImplTest, testInstance = jp.bo.bocc.service.impl.PostServiceImplTest@7c02b3cb, testMethod = testSearchPostFromOthersHasConversation@PostServiceImplTest, testException = java.lang.AssertionError, mergedContextConfiguration = [MergedContextConfiguration@33f2cf82 testClass = PostServiceImplTest, locations = &apos;{}&apos;, classes = &apos;{class jp.bo.bocc.system.config.AppConfig}&apos;, contextInitializerClasses = &apos;[]&apos;, activeProfiles = &apos;{app}&apos;, propertySourceLocations = &apos;{}&apos;, propertySourceProperties = &apos;{}&apos;, contextCustomizers = set[[empty]], contextLoader = &apos;org.springframework.test.context.support.DelegatingSmartContextLoader&apos;, parent = [null]]].
+</system-out>
+  </testcase>
+  <testcase classname="jp.bo.bocc.service.impl.PostServiceImplTest" name="deletePost" time="0.134">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at jp.bo.bocc.service.impl.PostServiceImpl.deletePost(PostServiceImpl.java:1145)
+	at jp.bo.bocc.service.impl.PostServiceImpl$$FastClassBySpringCGLIB$$1165ce88.invoke(&lt;generated&gt;)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:652)
+	at jp.bo.bocc.service.impl.PostServiceImpl$$EnhancerBySpringCGLIB$$410e50af.deletePost(&lt;generated&gt;)
+	at jp.bo.bocc.service.impl.PostServiceImplTest.deletePost(PostServiceImplTest.java:121)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:252)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</error>
+    <system-out>17/12/05 19:02:30 INFO TransactionContext: Began transaction (1) for test context [DefaultTestContext@7b9d1a4 testClass = PostServiceImplTest, testInstance = jp.bo.bocc.service.impl.PostServiceImplTest@59a3eaf7, testMethod = deletePost@PostServiceImplTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@33f2cf82 testClass = PostServiceImplTest, locations = &apos;{}&apos;, classes = &apos;{class jp.bo.bocc.system.config.AppConfig}&apos;, contextInitializerClasses = &apos;[]&apos;, activeProfiles = &apos;{app}&apos;, propertySourceLocations = &apos;{}&apos;, propertySourceProperties = &apos;{}&apos;, contextCustomizers = set[[empty]], contextLoader = &apos;org.springframework.test.context.support.DelegatingSmartContextLoader&apos;, parent = [null]]]; transaction manager [org.springframework.orm.jpa.JpaTransactionManager@3fde8f7c]; rollback [true]
+Hibernate: select shmpost0_.POST_ID as POST_ID1_4_0_, shmpost0_.CMN_ENTRY_DATE as CMN_ENTRY_DATE2_4_0_, shmpost0_.CMN_ENTRY_USER_NO as CMN_ENTRY_USER_NO3_4_0_, shmpost0_.CMN_ENTRY_USER_TYPE as CMN_ENTRY_USER_TYP4_4_0_, shmpost0_.CMN_DELETE_FLAG as CMN_DELETE_FLAG5_4_0_, shmpost0_.CMN_LAST_UPDT_DATE as CMN_LAST_UPDT_DATE6_4_0_, shmpost0_.CMN_LAST_UPDT_USER_NO as CMN_LAST_UPDT_USER7_4_0_, shmpost0_.CMN_LAST_UPDT_USER_TYPE as CMN_LAST_UPDT_USER8_4_0_, shmpost0_.DESTINATION_PUBLISH_TYPE as DESTINATION_PUBLIS9_4_0_, shmpost0_.GROUP_PUBLISH_ID as GROUP_PUBLISH_ID10_4_0_, shmpost0_.POST_IS_IN_PATROL as POST_IS_IN_PATROL11_4_0_, shmpost0_.POST_PARTNER_ID as POST_PARTNER_ID12_4_0_, shmpost0_.POST_ADDR_TXT as POST_ADDR_TXT13_4_0_, shmpost0_.POST_CATEGORY_ID as POST_CATEGORY_ID27_4_0_, shmpost0_.POST_CTRL_STATUS as POST_CTRL_STATUS14_4_0_, shmpost0_.POST_DESCRIPTION as POST_DESCRIPTION15_4_0_, shmpost0_.POST_HASH_TAG_VAL as POST_HASH_TAG_VAL16_4_0_, shmpost0_.POST_IMAGES as POST_IMAGES17_4_0_, shmpost0_.POST_LIKE_TIMES as POST_LIKE_TIMES18_4_0_, shmpost0_.POST_NAME as POST_NAME19_4_0_, shmpost0_.POST_PRICE as POST_PRICE20_4_0_, shmpost0_.POST_PTRL_STATUS as POST_PTRL_STATUS21_4_0_, shmpost0_.POST_REPORT_TIMES as POST_REPORT_TIMES22_4_0_, shmpost0_.POST_SELL_STATUS as POST_SELL_STATUS23_4_0_, shmpost0_.POST_TYPE as POST_TYPE24_4_0_, shmpost0_.POST_ADDR as POST_ADDR28_4_0_, shmpost0_.POST_USER_ID as POST_USER_ID29_4_0_, shmpost0_.POST_TIME_PATROL as POST_TIME_PATROL25_4_0_, shmpost0_.USER_UPDATE_AT as USER_UPDATE_AT26_4_0_, shmcategor1_.CATEGORY_ID as CATEGORY_ID1_3_1_, shmcategor1_.CMN_ENTRY_DATE as CMN_ENTRY_DATE2_3_1_, shmcategor1_.CMN_ENTRY_USER_NO as CMN_ENTRY_USER_NO3_3_1_, shmcategor1_.CMN_ENTRY_USER_TYPE as CMN_ENTRY_USER_TYP4_3_1_, shmcategor1_.CMN_DELETE_FLAG as CMN_DELETE_FLAG5_3_1_, shmcategor1_.CMN_LAST_UPDT_DATE as CMN_LAST_UPDT_DATE6_3_1_, shmcategor1_.CMN_LAST_UPDT_USER_NO as CMN_LAST_UPDT_USER7_3_1_, shmcategor1_.CMN_LAST_UPDT_USER_TYPE as CMN_LAST_UPDT_USER8_3_1_, shmcategor1_.CATEGORY_NAME as CATEGORY_NAME9_3_1_, shmcategor1_.CATEGORY_PARENT_ID as CATEGORY_PARENT_I10_3_1_, shmcategor1_.IMAGE_REQUIRED as IMAGE_REQUIRED11_3_1_, shmaddr2_.ADDR_ID as ADDR_ID1_0_2_, shmaddr2_.CMN_ENTRY_DATE as CMN_ENTRY_DATE2_0_2_, shmaddr2_.CMN_ENTRY_USER_NO as CMN_ENTRY_USER_NO3_0_2_, shmaddr2_.CMN_ENTRY_USER_TYPE as CMN_ENTRY_USER_TYP4_0_2_, shmaddr2_.CMN_DELETE_FLAG as CMN_DELETE_FLAG5_0_2_, shmaddr2_.CMN_LAST_UPDT_DATE as CMN_LAST_UPDT_DATE6_0_2_, shmaddr2_.CMN_LAST_UPDT_USER_NO as CMN_LAST_UPDT_USER7_0_2_, shmaddr2_.CMN_LAST_UPDT_USER_TYPE as CMN_LAST_UPDT_USER8_0_2_, shmaddr2_.ADDR_PARENT_ID as ADDR_PARENT_ID9_0_2_, shmaddr2_.ADDR_AREA_CODE as ADDR_AREA_CODE10_0_2_, shmaddr2_.ADDR_AREA_NAME as ADDR_AREA_NAME11_0_2_, shmuser3_.USER_ID as USER_ID1_5_3_, shmuser3_.CMN_ENTRY_DATE as CMN_ENTRY_DATE2_5_3_, shmuser3_.CMN_ENTRY_USER_NO as CMN_ENTRY_USER_NO3_5_3_, shmuser3_.CMN_ENTRY_USER_TYPE as CMN_ENTRY_USER_TYP4_5_3_, shmuser3_.CMN_DELETE_FLAG as CMN_DELETE_FLAG5_5_3_, shmuser3_.CMN_LAST_UPDT_DATE as CMN_LAST_UPDT_DATE6_5_3_, shmuser3_.CMN_LAST_UPDT_USER_NO as CMN_LAST_UPDT_USER7_5_3_, shmuser3_.CMN_LAST_UPDT_USER_TYPE as CMN_LAST_UPDT_USER8_5_3_, shmuser3_.USER_ADDRESS_ID as USER_ADDRESS_ID28_5_3_, shmuser3_.USER_AVTR as USER_AVTR29_5_3_, shmuser3_.USER_BSID as USER_BSID9_5_3_, shmuser3_.USER_CAREER as USER_CAREER10_5_3_, shmuser3_.USER_CTRL_STATUS as USER_CTRL_STATUS11_5_3_, shmuser3_.USER_DATE_OF_BIRTH as USER_DATE_OF_BIRT12_5_3_, shmuser3_.USER_DESCR as USER_DESCR13_5_3_, shmuser3_.USER_EMAIL as USER_EMAIL14_5_3_, shmuser3_.USER_FIRST_NAME as USER_FIRST_NAME15_5_3_, shmuser3_.USER_GENDER as USER_GENDER16_5_3_, shmuser3_.USER_IS_IN_PATROL as USER_IS_IN_PATROL17_5_3_, shmuser3_.USER_JOB as USER_JOB18_5_3_, shmuser3_.USER_LAST_NAME as USER_LAST_NAME19_5_3_, shmuser3_.LEFT_DATE as LEFT_DATE20_5_3_, shmuser3_.USER_NICK_NAME as USER_NICK_NAME21_5_3_, shmuser3_.USER_PWD as USER_PWD22_5_3_, shmuser3_.USER_PHONE as USER_PHONE23_5_3_, shmuser3_.USER_PTRL_STATUS as USER_PTRL_STATUS24_5_3_, shmuser3_.USER_STATUS as USER_STATUS25_5_3_, shmuser3_.USER_TIME_PATROL as USER_TIME_PATROL26_5_3_, shmuser3_.USER_UPDATE_AT as USER_UPDATE_AT27_5_3_, shmaddr4_.ADDR_ID as ADDR_ID1_0_4_, shmaddr4_.CMN_ENTRY_DATE as CMN_ENTRY_DATE2_0_4_, shmaddr4_.CMN_ENTRY_USER_NO as CMN_ENTRY_USER_NO3_0_4_, shmaddr4_.CMN_ENTRY_USER_TYPE as CMN_ENTRY_USER_TYP4_0_4_, shmaddr4_.CMN_DELETE_FLAG as CMN_DELETE_FLAG5_0_4_, shmaddr4_.CMN_LAST_UPDT_DATE as CMN_LAST_UPDT_DATE6_0_4_, shmaddr4_.CMN_LAST_UPDT_USER_NO as CMN_LAST_UPDT_USER7_0_4_, shmaddr4_.CMN_LAST_UPDT_USER_TYPE as CMN_LAST_UPDT_USER8_0_4_, shmaddr4_.ADDR_PARENT_ID as ADDR_PARENT_ID9_0_4_, shmaddr4_.ADDR_AREA_CODE as ADDR_AREA_CODE10_0_4_, shmaddr4_.ADDR_AREA_NAME as ADDR_AREA_NAME11_0_4_, shrfile5_.FILE_ID as FILE_ID1_6_5_, shrfile5_.CMN_ENTRY_DATE as CMN_ENTRY_DATE2_6_5_, shrfile5_.CMN_ENTRY_USER_NO as CMN_ENTRY_USER_NO3_6_5_, shrfile5_.CMN_ENTRY_USER_TYPE as CMN_ENTRY_USER_TYP4_6_5_, shrfile5_.CMN_DELETE_FLAG as CMN_DELETE_FLAG5_6_5_, shrfile5_.CMN_LAST_UPDT_DATE as CMN_LAST_UPDT_DATE6_6_5_, shrfile5_.CMN_LAST_UPDT_USER_NO as CMN_LAST_UPDT_USER7_6_5_, shrfile5_.CMN_LAST_UPDT_USER_TYPE as CMN_LAST_UPDT_USER8_6_5_, shrfile5_.FILE_DIR as FILE_DIR9_6_5_, shrfile5_.FILE_EXT as FILE_EXT10_6_5_, shrfile5_.FILE_HEIGHT as FILE_HEIGHT11_6_5_, shrfile5_.FILE_NAME as FILE_NAME12_6_5_, shrfile5_.FILE_ORG_NAME as FILE_ORG_NAME13_6_5_, shrfile5_.FILE_PROVIDER as FILE_PROVIDER14_6_5_, shrfile5_.FILE_SIZE as FILE_SIZE15_6_5_, shrfile5_.FILE_WIDTH as FILE_WIDTH16_6_5_ from SHM_POST shmpost0_ left outer join SHM_CATEGORY shmcategor1_ on shmpost0_.POST_CATEGORY_ID=shmcategor1_.CATEGORY_ID inner join SHM_ADDR shmaddr2_ on shmpost0_.POST_ADDR=shmaddr2_.ADDR_ID left outer join SHM_USER shmuser3_ on shmpost0_.POST_USER_ID=shmuser3_.USER_ID left outer join SHM_ADDR shmaddr4_ on shmuser3_.USER_ADDRESS_ID=shmaddr4_.ADDR_ID left outer join SHR_FILE shrfile5_ on shmuser3_.USER_AVTR=shrfile5_.FILE_ID where shmpost0_.POST_ID=? and ( shmpost0_.CMN_DELETE_FLAG=0)
+17/12/05 19:02:30 INFO TransactionContext: Rolled back transaction for test context [DefaultTestContext@7b9d1a4 testClass = PostServiceImplTest, testInstance = jp.bo.bocc.service.impl.PostServiceImplTest@59a3eaf7, testMethod = deletePost@PostServiceImplTest, testException = java.lang.NullPointerException, mergedContextConfiguration = [MergedContextConfiguration@33f2cf82 testClass = PostServiceImplTest, locations = &apos;{}&apos;, classes = &apos;{class jp.bo.bocc.system.config.AppConfig}&apos;, contextInitializerClasses = &apos;[]&apos;, activeProfiles = &apos;{app}&apos;, propertySourceLocations = &apos;{}&apos;, propertySourceProperties = &apos;{}&apos;, contextCustomizers = set[[empty]], contextLoader = &apos;org.springframework.test.context.support.DelegatingSmartContextLoader&apos;, parent = [null]]].
+</system-out>
+  </testcase>
+  <testcase classname="jp.bo.bocc.service.impl.PostServiceImplTest" name="testCreatePostFailed" time="0.129">
+    <error message="ユーザーがみつかりません。" type="jp.bo.bocc.system.exception.ResourceNotFoundException">jp.bo.bocc.system.exception.ResourceNotFoundException: ユーザーがみつかりません。
+	at jp.bo.bocc.service.impl.UserServiceImpl.getUserById(UserServiceImpl.java:189)
+	at jp.bo.bocc.service.impl.UserServiceImpl$$FastClassBySpringCGLIB$$3f98627d.invoke(&lt;generated&gt;)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:721)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:99)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:282)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:656)
+	at jp.bo.bocc.service.impl.UserServiceImpl$$EnhancerBySpringCGLIB$$4e33adae.getUserById(&lt;generated&gt;)
+	at jp.bo.bocc.service.impl.PostServiceImplTest.testCreatePostFailed(PostServiceImplTest.java:87)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:252)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</error>
+    <system-out>17/12/05 19:02:30 INFO TransactionContext: Began transaction (1) for test context [DefaultTestContext@7b9d1a4 testClass = PostServiceImplTest, testInstance = jp.bo.bocc.service.impl.PostServiceImplTest@4eb5764d, testMethod = testCreatePostFailed@PostServiceImplTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@33f2cf82 testClass = PostServiceImplTest, locations = &apos;{}&apos;, classes = &apos;{class jp.bo.bocc.system.config.AppConfig}&apos;, contextInitializerClasses = &apos;[]&apos;, activeProfiles = &apos;{app}&apos;, propertySourceLocations = &apos;{}&apos;, propertySourceProperties = &apos;{}&apos;, contextCustomizers = set[[empty]], contextLoader = &apos;org.springframework.test.context.support.DelegatingSmartContextLoader&apos;, parent = [null]]]; transaction manager [org.springframework.orm.jpa.JpaTransactionManager@3fde8f7c]; rollback [true]
+Hibernate: select shmuser0_.USER_ID as USER_ID1_5_0_, shmuser0_.CMN_ENTRY_DATE as CMN_ENTRY_DATE2_5_0_, shmuser0_.CMN_ENTRY_USER_NO as CMN_ENTRY_USER_NO3_5_0_, shmuser0_.CMN_ENTRY_USER_TYPE as CMN_ENTRY_USER_TYP4_5_0_, shmuser0_.CMN_DELETE_FLAG as CMN_DELETE_FLAG5_5_0_, shmuser0_.CMN_LAST_UPDT_DATE as CMN_LAST_UPDT_DATE6_5_0_, shmuser0_.CMN_LAST_UPDT_USER_NO as CMN_LAST_UPDT_USER7_5_0_, shmuser0_.CMN_LAST_UPDT_USER_TYPE as CMN_LAST_UPDT_USER8_5_0_, shmuser0_.USER_ADDRESS_ID as USER_ADDRESS_ID28_5_0_, shmuser0_.USER_AVTR as USER_AVTR29_5_0_, shmuser0_.USER_BSID as USER_BSID9_5_0_, shmuser0_.USER_CAREER as USER_CAREER10_5_0_, shmuser0_.USER_CTRL_STATUS as USER_CTRL_STATUS11_5_0_, shmuser0_.USER_DATE_OF_BIRTH as USER_DATE_OF_BIRT12_5_0_, shmuser0_.USER_DESCR as USER_DESCR13_5_0_, shmuser0_.USER_EMAIL as USER_EMAIL14_5_0_, shmuser0_.USER_FIRST_NAME as USER_FIRST_NAME15_5_0_, shmuser0_.USER_GENDER as USER_GENDER16_5_0_, shmuser0_.USER_IS_IN_PATROL as USER_IS_IN_PATROL17_5_0_, shmuser0_.USER_JOB as USER_JOB18_5_0_, shmuser0_.USER_LAST_NAME as USER_LAST_NAME19_5_0_, shmuser0_.LEFT_DATE as LEFT_DATE20_5_0_, shmuser0_.USER_NICK_NAME as USER_NICK_NAME21_5_0_, shmuser0_.USER_PWD as USER_PWD22_5_0_, shmuser0_.USER_PHONE as USER_PHONE23_5_0_, shmuser0_.USER_PTRL_STATUS as USER_PTRL_STATUS24_5_0_, shmuser0_.USER_STATUS as USER_STATUS25_5_0_, shmuser0_.USER_TIME_PATROL as USER_TIME_PATROL26_5_0_, shmuser0_.USER_UPDATE_AT as USER_UPDATE_AT27_5_0_, shmaddr1_.ADDR_ID as ADDR_ID1_0_1_, shmaddr1_.CMN_ENTRY_DATE as CMN_ENTRY_DATE2_0_1_, shmaddr1_.CMN_ENTRY_USER_NO as CMN_ENTRY_USER_NO3_0_1_, shmaddr1_.CMN_ENTRY_USER_TYPE as CMN_ENTRY_USER_TYP4_0_1_, shmaddr1_.CMN_DELETE_FLAG as CMN_DELETE_FLAG5_0_1_, shmaddr1_.CMN_LAST_UPDT_DATE as CMN_LAST_UPDT_DATE6_0_1_, shmaddr1_.CMN_LAST_UPDT_USER_NO as CMN_LAST_UPDT_USER7_0_1_, shmaddr1_.CMN_LAST_UPDT_USER_TYPE as CMN_LAST_UPDT_USER8_0_1_, shmaddr1_.ADDR_PARENT_ID as ADDR_PARENT_ID9_0_1_, shmaddr1_.ADDR_AREA_CODE as ADDR_AREA_CODE10_0_1_, shmaddr1_.ADDR_AREA_NAME as ADDR_AREA_NAME11_0_1_, shrfile2_.FILE_ID as FILE_ID1_6_2_, shrfile2_.CMN_ENTRY_DATE as CMN_ENTRY_DATE2_6_2_, shrfile2_.CMN_ENTRY_USER_NO as CMN_ENTRY_USER_NO3_6_2_, shrfile2_.CMN_ENTRY_USER_TYPE as CMN_ENTRY_USER_TYP4_6_2_, shrfile2_.CMN_DELETE_FLAG as CMN_DELETE_FLAG5_6_2_, shrfile2_.CMN_LAST_UPDT_DATE as CMN_LAST_UPDT_DATE6_6_2_, shrfile2_.CMN_LAST_UPDT_USER_NO as CMN_LAST_UPDT_USER7_6_2_, shrfile2_.CMN_LAST_UPDT_USER_TYPE as CMN_LAST_UPDT_USER8_6_2_, shrfile2_.FILE_DIR as FILE_DIR9_6_2_, shrfile2_.FILE_EXT as FILE_EXT10_6_2_, shrfile2_.FILE_HEIGHT as FILE_HEIGHT11_6_2_, shrfile2_.FILE_NAME as FILE_NAME12_6_2_, shrfile2_.FILE_ORG_NAME as FILE_ORG_NAME13_6_2_, shrfile2_.FILE_PROVIDER as FILE_PROVIDER14_6_2_, shrfile2_.FILE_SIZE as FILE_SIZE15_6_2_, shrfile2_.FILE_WIDTH as FILE_WIDTH16_6_2_ from SHM_USER shmuser0_ left outer join SHM_ADDR shmaddr1_ on shmuser0_.USER_ADDRESS_ID=shmaddr1_.ADDR_ID left outer join SHR_FILE shrfile2_ on shmuser0_.USER_AVTR=shrfile2_.FILE_ID where shmuser0_.USER_ID=? and ( shmuser0_.CMN_DELETE_FLAG=0)
+17/12/05 19:02:30 INFO TransactionContext: Rolled back transaction for test context [DefaultTestContext@7b9d1a4 testClass = PostServiceImplTest, testInstance = jp.bo.bocc.service.impl.PostServiceImplTest@4eb5764d, testMethod = testCreatePostFailed@PostServiceImplTest, testException = jp.bo.bocc.system.exception.ResourceNotFoundException: ?????????????, mergedContextConfiguration = [MergedContextConfiguration@33f2cf82 testClass = PostServiceImplTest, locations = &apos;{}&apos;, classes = &apos;{class jp.bo.bocc.system.config.AppConfig}&apos;, contextInitializerClasses = &apos;[]&apos;, activeProfiles = &apos;{app}&apos;, propertySourceLocations = &apos;{}&apos;, propertySourceProperties = &apos;{}&apos;, contextCustomizers = set[[empty]], contextLoader = &apos;org.springframework.test.context.support.DelegatingSmartContextLoader&apos;, parent = [null]]].
+</system-out>
+  </testcase>
+</testsuite>

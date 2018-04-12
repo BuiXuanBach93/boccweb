@@ -1,0 +1,8 @@
+package jp.bo.bocc.enums;
+
+/**
+ * Created by Namlong on 6/30/2017.
+ */
+public enum SysConfigEnum {
+    MAINTAIN_MODE, MIGRATION_MSG_TASLK_PURCHASE,MIGRATION_MSG_QA, VALID_VERSION,PUSH_SUBSCRIBE_INTO_TOPIC_ALL, SYNC_EXC_DATE_MONTHLY;
+}

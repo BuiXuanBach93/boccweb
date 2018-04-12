@@ -1,0 +1,3 @@
+UPDATE SHT_QRTZ_JOB_DETAILS SET JOB_CLASS_NAME = 'jp.bo.bocc.jobs.JobHandleTalkPurcAfter48h' WHERE JOB_CLASS_NAME='jp.bo.bocc.jobs.HandleTalkPurcAfter48hJob';
+UPDATE SHT_QRTZ_JOB_DETAILS SET JOB_CLASS_NAME = 'jp.bo.bocc.jobs.JobUpdatePostPatrolAfter24h' WHERE JOB_CLASS_NAME='jp.bo.bocc.jobs.UpdatePostPatrolAfter24hJob';
+UPDATE SHT_QRTZ_JOB_DETAILS SET JOB_CLASS_NAME = 'jp.bo.bocc.jobs.JobUpdateUserPatrolAfter24h' WHERE JOB_CLASS_NAME='jp.bo.bocc.jobs.UpdateUserPatrolAfter24hJob';

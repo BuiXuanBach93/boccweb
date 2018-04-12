@@ -1,0 +1,574 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="9" failures="0" name="jp.bo.bocc.service.impl.TalkPurcMsgServiceImplTest" time="1.372" errors="7" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\bin"/>
+    <property name="java.vm.version" value="25.121-b13"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\workspace\PROJECT\BOCC\web"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\workspace\PROJECT\BOCC\web"/>
+    <property name="java.runtime.version" value="1.8.0_121-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\buixu\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Program Files (x86)\JetBrains\IntelliJ IDEA 2016.3.5\plugins\maven\lib\maven3\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_121\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\HashiCorp\Vagrant\bin;C:\Program Files\nodejs\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\PuTTY\;C:\Program Files\PostgreSQL\9.6\bin\;C:\Program Files (x86)\JetBrains\IntelliJ IDEA 2016.3.5\plugins\maven\lib\maven3\bin;C:\Users\buixu\AppData\Local\Microsoft\WindowsApps;;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Users\buixu\AppData\Roaming\npm;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\buixu"/>
+    <property name="user.timezone" value="Asia/Bangkok"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="buixu"/>
+    <property name="java.class.path" value="C:\Program Files (x86)\JetBrains\IntelliJ IDEA 2016.3.5\plugins\maven\lib\maven3\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_121\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_121"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_121\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp850"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files (x86)\JetBrains\IntelliJ IDEA 2016.3.5\plugins\maven\lib\maven3\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp850"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="jp.bo.bocc.service.impl.TalkPurcMsgServiceImplTest" name="testSendMessage" time="0.137">
+    <error message="No entity found for query; nested exception is javax.persistence.NoResultException: No entity found for query" type="org.springframework.dao.EmptyResultDataAccessException">org.springframework.dao.EmptyResultDataAccessException: No entity found for query; nested exception is javax.persistence.NoResultException: No entity found for query
+	at org.springframework.orm.jpa.EntityManagerFactoryUtils.convertJpaAccessExceptionIfPossible(EntityManagerFactoryUtils.java:392)
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.translateExceptionIfPossible(HibernateJpaDialect.java:246)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.translateExceptionIfPossible(AbstractEntityManagerFactoryBean.java:491)
+	at org.springframework.dao.support.ChainedPersistenceExceptionTranslator.translateExceptionIfPossible(ChainedPersistenceExceptionTranslator.java:59)
+	at org.springframework.dao.support.DataAccessUtils.translateIfNecessary(DataAccessUtils.java:213)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:147)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:133)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:213)
+	at com.sun.proxy.$Proxy108.getTalkPurcById(Unknown Source)
+	at jp.bo.bocc.service.impl.TalkPurcServiceImpl.getTalkPurcById(TalkPurcServiceImpl.java:293)
+	at jp.bo.bocc.service.impl.TalkPurcServiceImpl$$FastClassBySpringCGLIB$$441faa6.invoke(&lt;generated&gt;)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:721)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:99)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:282)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:656)
+	at jp.bo.bocc.service.impl.TalkPurcServiceImpl$$EnhancerBySpringCGLIB$$cad857c9.getTalkPurcById(&lt;generated&gt;)
+	at jp.bo.bocc.service.impl.TalkPurcMsgServiceImpl.sendMessage(TalkPurcMsgServiceImpl.java:95)
+	at jp.bo.bocc.service.impl.TalkPurcMsgServiceImpl$$FastClassBySpringCGLIB$$d9feb663.invoke(&lt;generated&gt;)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:652)
+	at jp.bo.bocc.service.impl.TalkPurcMsgServiceImpl$$EnhancerBySpringCGLIB$$d82f4920.sendMessage(&lt;generated&gt;)
+	at jp.bo.bocc.service.impl.TalkPurcMsgServiceImplTest.testSendMessage(TalkPurcMsgServiceImplTest.java:108)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:252)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Caused by: javax.persistence.NoResultException: No entity found for query
+	at org.hibernate.query.internal.AbstractProducedQuery.getSingleResult(AbstractProducedQuery.java:1461)
+	at jp.bo.bocc.repository.TalkPurcRepositoryImpl.getTalkPurcById(TalkPurcRepositoryImpl.java:50)
+	at jp.bo.bocc.repository.TalkPurcRepositoryImpl$$FastClassBySpringCGLIB$$fb53c808.invoke(&lt;generated&gt;)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:652)
+	at jp.bo.bocc.repository.TalkPurcRepositoryImpl$$EnhancerBySpringCGLIB$$30a02d2f.getTalkPurcById(&lt;generated&gt;)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.executeMethodOn(RepositoryFactorySupport.java:503)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.doInvoke(RepositoryFactorySupport.java:478)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.invoke(RepositoryFactorySupport.java:460)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:61)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:99)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:282)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:136)
+	... 59 more
+</error>
+    <system-out>17/12/05 19:02:31 INFO DefaultTestContextBootstrapper: Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+17/12/05 19:02:31 INFO DefaultTestContextBootstrapper: Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@7bfcc108, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@65b680b4, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@87f6ab5, org.springframework.test.context.support.DirtiesContextTestExecutionListener@5c316230, org.springframework.test.context.transaction.TransactionalTestExecutionListener@41581c3f, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@10ba9780]
+17/12/05 19:02:31 INFO TransactionContext: Began transaction (1) for test context [DefaultTestContext@4a3bf37c testClass = TalkPurcMsgServiceImplTest, testInstance = jp.bo.bocc.service.impl.TalkPurcMsgServiceImplTest@48aaaed9, testMethod = testSendMessage@TalkPurcMsgServiceImplTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@63636de0 testClass = TalkPurcMsgServiceImplTest, locations = &apos;{}&apos;, classes = &apos;{class jp.bo.bocc.system.config.AppConfig}&apos;, contextInitializerClasses = &apos;[]&apos;, activeProfiles = &apos;{app}&apos;, propertySourceLocations = &apos;{}&apos;, propertySourceProperties = &apos;{}&apos;, contextCustomizers = set[[empty]], contextLoader = &apos;org.springframework.test.context.support.DelegatingSmartContextLoader&apos;, parent = [null]]]; transaction manager [org.springframework.orm.jpa.JpaTransactionManager@3fde8f7c]; rollback [false]
+Hibernate: select shttalkpur0_.TALK_PURC_ID as TALK_PURC_ID1_21_, shttalkpur0_.CMN_ENTRY_DATE as CMN_ENTRY_DATE2_21_, shttalkpur0_.CMN_ENTRY_USER_NO as CMN_ENTRY_USER_NO3_21_, shttalkpur0_.CMN_ENTRY_USER_TYPE as CMN_ENTRY_USER_TYP4_21_, shttalkpur0_.CMN_DELETE_FLAG as CMN_DELETE_FLAG5_21_, shttalkpur0_.CMN_LAST_UPDT_DATE as CMN_LAST_UPDT_DATE6_21_, shttalkpur0_.CMN_LAST_UPDT_USER_NO as CMN_LAST_UPDT_USER7_21_, shttalkpur0_.CMN_LAST_UPDT_USER_TYPE as CMN_LAST_UPDT_USER8_21_, shttalkpur0_.TALK_PURC_POST_ID as TALK_PURC_POST_ID11_21_, shttalkpur0_.TALK_PURC_PART_ID as TALK_PURC_PART_ID12_21_, shttalkpur0_.TALK_PURC_STATUS as TALK_PURC_STATUS9_21_, shttalkpur0_.TALK_PURC_TEND_TO_SELL_TIME as TALK_PURC_TEND_TO10_21_ from SHT_TALK_PURC shttalkpur0_ where ( shttalkpur0_.CMN_DELETE_FLAG=0) and shttalkpur0_.TALK_PURC_ID=?
+17/12/05 19:02:31 WARN TestContextManager: Caught exception while allowing TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener@41581c3f] to process &apos;after&apos; execution for test: method [public void jp.bo.bocc.service.impl.TalkPurcMsgServiceImplTest.testSendMessage() throws java.lang.Exception], instance [jp.bo.bocc.service.impl.TalkPurcMsgServiceImplTest@48aaaed9], exception [org.springframework.dao.EmptyResultDataAccessException: No entity found for query; nested exception is javax.persistence.NoResultException: No entity found for query]
+org.springframework.orm.jpa.JpaSystemException: Transaction was marked for rollback only; cannot commit; nested exception is org.hibernate.TransactionException: Transaction was marked for rollback only; cannot commit
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.convertHibernateAccessException(HibernateJpaDialect.java:333)
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.translateExceptionIfPossible(HibernateJpaDialect.java:244)
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:521)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:761)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:730)
+	at org.springframework.test.context.transaction.TransactionContext.endTransaction(TransactionContext.java:128)
+	at org.springframework.test.context.transaction.TransactionalTestExecutionListener.afterTestMethod(TransactionalTestExecutionListener.java:227)
+	at org.springframework.test.context.TestContextManager.afterTestMethod(TestContextManager.java:319)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:94)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:252)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Caused by: org.hibernate.TransactionException: Transaction was marked for rollback only; cannot commit
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commit(JdbcResourceLocalTransactionCoordinatorImpl.java:217)
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:68)
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:517)
+	... 31 more
+</system-out>
+  </testcase>
+  <testcase classname="jp.bo.bocc.service.impl.TalkPurcMsgServiceImplTest" name="testSendMessage" time="0.137">
+    <error message="Transaction was marked for rollback only; cannot commit; nested exception is org.hibernate.TransactionException: Transaction was marked for rollback only; cannot commit" type="org.springframework.orm.jpa.JpaSystemException">org.springframework.orm.jpa.JpaSystemException: Transaction was marked for rollback only; cannot commit; nested exception is org.hibernate.TransactionException: Transaction was marked for rollback only; cannot commit
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.convertHibernateAccessException(HibernateJpaDialect.java:333)
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.translateExceptionIfPossible(HibernateJpaDialect.java:244)
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:521)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:761)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:730)
+	at org.springframework.test.context.transaction.TransactionContext.endTransaction(TransactionContext.java:128)
+	at org.springframework.test.context.transaction.TransactionalTestExecutionListener.afterTestMethod(TransactionalTestExecutionListener.java:227)
+	at org.springframework.test.context.TestContextManager.afterTestMethod(TestContextManager.java:319)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:94)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:252)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Caused by: org.hibernate.TransactionException: Transaction was marked for rollback only; cannot commit
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commit(JdbcResourceLocalTransactionCoordinatorImpl.java:217)
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:68)
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:517)
+	... 31 more
+</error>
+  </testcase>
+  <testcase classname="jp.bo.bocc.service.impl.TalkPurcMsgServiceImplTest" name="counterMsgResponseForTopPage" time="0.129"/>
+  <testcase classname="jp.bo.bocc.service.impl.TalkPurcMsgServiceImplTest" name="testCreateMessage" time="0.142">
+    <error message="No entity found for query; nested exception is javax.persistence.NoResultException: No entity found for query" type="org.springframework.dao.EmptyResultDataAccessException">org.springframework.dao.EmptyResultDataAccessException: No entity found for query; nested exception is javax.persistence.NoResultException: No entity found for query
+	at org.springframework.orm.jpa.EntityManagerFactoryUtils.convertJpaAccessExceptionIfPossible(EntityManagerFactoryUtils.java:392)
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.translateExceptionIfPossible(HibernateJpaDialect.java:246)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.translateExceptionIfPossible(AbstractEntityManagerFactoryBean.java:491)
+	at org.springframework.dao.support.ChainedPersistenceExceptionTranslator.translateExceptionIfPossible(ChainedPersistenceExceptionTranslator.java:59)
+	at org.springframework.dao.support.DataAccessUtils.translateIfNecessary(DataAccessUtils.java:213)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:147)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:133)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:213)
+	at com.sun.proxy.$Proxy108.getTalkPurcById(Unknown Source)
+	at jp.bo.bocc.service.impl.TalkPurcServiceImpl.getTalkPurcById(TalkPurcServiceImpl.java:293)
+	at jp.bo.bocc.service.impl.TalkPurcServiceImpl$$FastClassBySpringCGLIB$$441faa6.invoke(&lt;generated&gt;)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:721)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:99)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:282)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:656)
+	at jp.bo.bocc.service.impl.TalkPurcServiceImpl$$EnhancerBySpringCGLIB$$cad857c9.getTalkPurcById(&lt;generated&gt;)
+	at jp.bo.bocc.service.impl.TalkPurcMsgServiceImpl.sendMessage(TalkPurcMsgServiceImpl.java:95)
+	at jp.bo.bocc.service.impl.TalkPurcMsgServiceImpl$$FastClassBySpringCGLIB$$d9feb663.invoke(&lt;generated&gt;)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:652)
+	at jp.bo.bocc.service.impl.TalkPurcMsgServiceImpl$$EnhancerBySpringCGLIB$$d82f4920.sendMessage(&lt;generated&gt;)
+	at jp.bo.bocc.service.impl.TalkPurcMsgServiceImplTest.testCreateMessage(TalkPurcMsgServiceImplTest.java:72)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:252)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Caused by: javax.persistence.NoResultException: No entity found for query
+	at org.hibernate.query.internal.AbstractProducedQuery.getSingleResult(AbstractProducedQuery.java:1461)
+	at jp.bo.bocc.repository.TalkPurcRepositoryImpl.getTalkPurcById(TalkPurcRepositoryImpl.java:50)
+	at jp.bo.bocc.repository.TalkPurcRepositoryImpl$$FastClassBySpringCGLIB$$fb53c808.invoke(&lt;generated&gt;)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:652)
+	at jp.bo.bocc.repository.TalkPurcRepositoryImpl$$EnhancerBySpringCGLIB$$30a02d2f.getTalkPurcById(&lt;generated&gt;)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.executeMethodOn(RepositoryFactorySupport.java:503)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.doInvoke(RepositoryFactorySupport.java:478)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.invoke(RepositoryFactorySupport.java:460)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:61)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:99)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:282)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:136)
+	... 59 more
+</error>
+    <system-out>17/12/05 19:02:31 INFO TransactionContext: Began transaction (1) for test context [DefaultTestContext@4a3bf37c testClass = TalkPurcMsgServiceImplTest, testInstance = jp.bo.bocc.service.impl.TalkPurcMsgServiceImplTest@4742466e, testMethod = testCreateMessage@TalkPurcMsgServiceImplTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@63636de0 testClass = TalkPurcMsgServiceImplTest, locations = &apos;{}&apos;, classes = &apos;{class jp.bo.bocc.system.config.AppConfig}&apos;, contextInitializerClasses = &apos;[]&apos;, activeProfiles = &apos;{app}&apos;, propertySourceLocations = &apos;{}&apos;, propertySourceProperties = &apos;{}&apos;, contextCustomizers = set[[empty]], contextLoader = &apos;org.springframework.test.context.support.DelegatingSmartContextLoader&apos;, parent = [null]]]; transaction manager [org.springframework.orm.jpa.JpaTransactionManager@3fde8f7c]; rollback [false]
+Hibernate: select shttalkpur0_.TALK_PURC_ID as TALK_PURC_ID1_21_, shttalkpur0_.CMN_ENTRY_DATE as CMN_ENTRY_DATE2_21_, shttalkpur0_.CMN_ENTRY_USER_NO as CMN_ENTRY_USER_NO3_21_, shttalkpur0_.CMN_ENTRY_USER_TYPE as CMN_ENTRY_USER_TYP4_21_, shttalkpur0_.CMN_DELETE_FLAG as CMN_DELETE_FLAG5_21_, shttalkpur0_.CMN_LAST_UPDT_DATE as CMN_LAST_UPDT_DATE6_21_, shttalkpur0_.CMN_LAST_UPDT_USER_NO as CMN_LAST_UPDT_USER7_21_, shttalkpur0_.CMN_LAST_UPDT_USER_TYPE as CMN_LAST_UPDT_USER8_21_, shttalkpur0_.TALK_PURC_POST_ID as TALK_PURC_POST_ID11_21_, shttalkpur0_.TALK_PURC_PART_ID as TALK_PURC_PART_ID12_21_, shttalkpur0_.TALK_PURC_STATUS as TALK_PURC_STATUS9_21_, shttalkpur0_.TALK_PURC_TEND_TO_SELL_TIME as TALK_PURC_TEND_TO10_21_ from SHT_TALK_PURC shttalkpur0_ where ( shttalkpur0_.CMN_DELETE_FLAG=0) and shttalkpur0_.TALK_PURC_ID=?
+17/12/05 19:02:31 WARN TestContextManager: Caught exception while allowing TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener@41581c3f] to process &apos;after&apos; execution for test: method [public void jp.bo.bocc.service.impl.TalkPurcMsgServiceImplTest.testCreateMessage() throws java.lang.Exception], instance [jp.bo.bocc.service.impl.TalkPurcMsgServiceImplTest@4742466e], exception [org.springframework.dao.EmptyResultDataAccessException: No entity found for query; nested exception is javax.persistence.NoResultException: No entity found for query]
+org.springframework.orm.jpa.JpaSystemException: Transaction was marked for rollback only; cannot commit; nested exception is org.hibernate.TransactionException: Transaction was marked for rollback only; cannot commit
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.convertHibernateAccessException(HibernateJpaDialect.java:333)
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.translateExceptionIfPossible(HibernateJpaDialect.java:244)
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:521)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:761)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:730)
+	at org.springframework.test.context.transaction.TransactionContext.endTransaction(TransactionContext.java:128)
+	at org.springframework.test.context.transaction.TransactionalTestExecutionListener.afterTestMethod(TransactionalTestExecutionListener.java:227)
+	at org.springframework.test.context.TestContextManager.afterTestMethod(TestContextManager.java:319)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:94)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:252)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Caused by: org.hibernate.TransactionException: Transaction was marked for rollback only; cannot commit
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commit(JdbcResourceLocalTransactionCoordinatorImpl.java:217)
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:68)
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:517)
+	... 31 more
+</system-out>
+  </testcase>
+  <testcase classname="jp.bo.bocc.service.impl.TalkPurcMsgServiceImplTest" name="testCreateMessage" time="0.142">
+    <error message="Transaction was marked for rollback only; cannot commit; nested exception is org.hibernate.TransactionException: Transaction was marked for rollback only; cannot commit" type="org.springframework.orm.jpa.JpaSystemException">org.springframework.orm.jpa.JpaSystemException: Transaction was marked for rollback only; cannot commit; nested exception is org.hibernate.TransactionException: Transaction was marked for rollback only; cannot commit
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.convertHibernateAccessException(HibernateJpaDialect.java:333)
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.translateExceptionIfPossible(HibernateJpaDialect.java:244)
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:521)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:761)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:730)
+	at org.springframework.test.context.transaction.TransactionContext.endTransaction(TransactionContext.java:128)
+	at org.springframework.test.context.transaction.TransactionalTestExecutionListener.afterTestMethod(TransactionalTestExecutionListener.java:227)
+	at org.springframework.test.context.TestContextManager.afterTestMethod(TestContextManager.java:319)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:94)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:252)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Caused by: org.hibernate.TransactionException: Transaction was marked for rollback only; cannot commit
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commit(JdbcResourceLocalTransactionCoordinatorImpl.java:217)
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:68)
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:517)
+	... 31 more
+</error>
+  </testcase>
+  <testcase classname="jp.bo.bocc.service.impl.TalkPurcMsgServiceImplTest" name="findTalkPurcMsgInTalkPurcWithTimeAfterTime" time="0.134">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at jp.bo.bocc.service.impl.TalkPurcMsgServiceImpl.findTalkPurcMsgInTalkPurcWithTime(TalkPurcMsgServiceImpl.java:182)
+	at jp.bo.bocc.service.impl.TalkPurcMsgServiceImpl$$FastClassBySpringCGLIB$$d9feb663.invoke(&lt;generated&gt;)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:652)
+	at jp.bo.bocc.service.impl.TalkPurcMsgServiceImpl$$EnhancerBySpringCGLIB$$d82f4920.findTalkPurcMsgInTalkPurcWithTime(&lt;generated&gt;)
+	at jp.bo.bocc.service.impl.TalkPurcMsgServiceImplTest.findTalkPurcMsgInTalkPurcWithTimeAfterTime(TalkPurcMsgServiceImplTest.java:61)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:252)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</error>
+    <system-out>17/12/05 19:02:31 INFO TransactionContext: Began transaction (1) for test context [DefaultTestContext@4a3bf37c testClass = TalkPurcMsgServiceImplTest, testInstance = jp.bo.bocc.service.impl.TalkPurcMsgServiceImplTest@2173e4d5, testMethod = findTalkPurcMsgInTalkPurcWithTimeAfterTime@TalkPurcMsgServiceImplTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@63636de0 testClass = TalkPurcMsgServiceImplTest, locations = &apos;{}&apos;, classes = &apos;{class jp.bo.bocc.system.config.AppConfig}&apos;, contextInitializerClasses = &apos;[]&apos;, activeProfiles = &apos;{app}&apos;, propertySourceLocations = &apos;{}&apos;, propertySourceProperties = &apos;{}&apos;, contextCustomizers = set[[empty]], contextLoader = &apos;org.springframework.test.context.support.DelegatingSmartContextLoader&apos;, parent = [null]]]; transaction manager [org.springframework.orm.jpa.JpaTransactionManager@3fde8f7c]; rollback [true]
+Hibernate: select shttalkpur0_.TALK_PURC_ID as TALK_PURC_ID1_21_0_, shttalkpur0_.CMN_ENTRY_DATE as CMN_ENTRY_DATE2_21_0_, shttalkpur0_.CMN_ENTRY_USER_NO as CMN_ENTRY_USER_NO3_21_0_, shttalkpur0_.CMN_ENTRY_USER_TYPE as CMN_ENTRY_USER_TYP4_21_0_, shttalkpur0_.CMN_DELETE_FLAG as CMN_DELETE_FLAG5_21_0_, shttalkpur0_.CMN_LAST_UPDT_DATE as CMN_LAST_UPDT_DATE6_21_0_, shttalkpur0_.CMN_LAST_UPDT_USER_NO as CMN_LAST_UPDT_USER7_21_0_, shttalkpur0_.CMN_LAST_UPDT_USER_TYPE as CMN_LAST_UPDT_USER8_21_0_, shttalkpur0_.TALK_PURC_POST_ID as TALK_PURC_POST_ID11_21_0_, shttalkpur0_.TALK_PURC_PART_ID as TALK_PURC_PART_ID12_21_0_, shttalkpur0_.TALK_PURC_STATUS as TALK_PURC_STATUS9_21_0_, shttalkpur0_.TALK_PURC_TEND_TO_SELL_TIME as TALK_PURC_TEND_TO10_21_0_, shmpost1_.POST_ID as POST_ID1_4_1_, shmpost1_.CMN_ENTRY_DATE as CMN_ENTRY_DATE2_4_1_, shmpost1_.CMN_ENTRY_USER_NO as CMN_ENTRY_USER_NO3_4_1_, shmpost1_.CMN_ENTRY_USER_TYPE as CMN_ENTRY_USER_TYP4_4_1_, shmpost1_.CMN_DELETE_FLAG as CMN_DELETE_FLAG5_4_1_, shmpost1_.CMN_LAST_UPDT_DATE as CMN_LAST_UPDT_DATE6_4_1_, shmpost1_.CMN_LAST_UPDT_USER_NO as CMN_LAST_UPDT_USER7_4_1_, shmpost1_.CMN_LAST_UPDT_USER_TYPE as CMN_LAST_UPDT_USER8_4_1_, shmpost1_.DESTINATION_PUBLISH_TYPE as DESTINATION_PUBLIS9_4_1_, shmpost1_.GROUP_PUBLISH_ID as GROUP_PUBLISH_ID10_4_1_, shmpost1_.POST_IS_IN_PATROL as POST_IS_IN_PATROL11_4_1_, shmpost1_.POST_PARTNER_ID as POST_PARTNER_ID12_4_1_, shmpost1_.POST_ADDR_TXT as POST_ADDR_TXT13_4_1_, shmpost1_.POST_CATEGORY_ID as POST_CATEGORY_ID27_4_1_, shmpost1_.POST_CTRL_STATUS as POST_CTRL_STATUS14_4_1_, shmpost1_.POST_DESCRIPTION as POST_DESCRIPTION15_4_1_, shmpost1_.POST_HASH_TAG_VAL as POST_HASH_TAG_VAL16_4_1_, shmpost1_.POST_IMAGES as POST_IMAGES17_4_1_, shmpost1_.POST_LIKE_TIMES as POST_LIKE_TIMES18_4_1_, shmpost1_.POST_NAME as POST_NAME19_4_1_, shmpost1_.POST_PRICE as POST_PRICE20_4_1_, shmpost1_.POST_PTRL_STATUS as POST_PTRL_STATUS21_4_1_, shmpost1_.POST_REPORT_TIMES as POST_REPORT_TIMES22_4_1_, shmpost1_.POST_SELL_STATUS as POST_SELL_STATUS23_4_1_, shmpost1_.POST_TYPE as POST_TYPE24_4_1_, shmpost1_.POST_ADDR as POST_ADDR28_4_1_, shmpost1_.POST_USER_ID as POST_USER_ID29_4_1_, shmpost1_.POST_TIME_PATROL as POST_TIME_PATROL25_4_1_, shmpost1_.USER_UPDATE_AT as USER_UPDATE_AT26_4_1_, shmcategor2_.CATEGORY_ID as CATEGORY_ID1_3_2_, shmcategor2_.CMN_ENTRY_DATE as CMN_ENTRY_DATE2_3_2_, shmcategor2_.CMN_ENTRY_USER_NO as CMN_ENTRY_USER_NO3_3_2_, shmcategor2_.CMN_ENTRY_USER_TYPE as CMN_ENTRY_USER_TYP4_3_2_, shmcategor2_.CMN_DELETE_FLAG as CMN_DELETE_FLAG5_3_2_, shmcategor2_.CMN_LAST_UPDT_DATE as CMN_LAST_UPDT_DATE6_3_2_, shmcategor2_.CMN_LAST_UPDT_USER_NO as CMN_LAST_UPDT_USER7_3_2_, shmcategor2_.CMN_LAST_UPDT_USER_TYPE as CMN_LAST_UPDT_USER8_3_2_, shmcategor2_.CATEGORY_NAME as CATEGORY_NAME9_3_2_, shmcategor2_.CATEGORY_PARENT_ID as CATEGORY_PARENT_I10_3_2_, shmcategor2_.IMAGE_REQUIRED as IMAGE_REQUIRED11_3_2_, shmaddr3_.ADDR_ID as ADDR_ID1_0_3_, shmaddr3_.CMN_ENTRY_DATE as CMN_ENTRY_DATE2_0_3_, shmaddr3_.CMN_ENTRY_USER_NO as CMN_ENTRY_USER_NO3_0_3_, shmaddr3_.CMN_ENTRY_USER_TYPE as CMN_ENTRY_USER_TYP4_0_3_, shmaddr3_.CMN_DELETE_FLAG as CMN_DELETE_FLAG5_0_3_, shmaddr3_.CMN_LAST_UPDT_DATE as CMN_LAST_UPDT_DATE6_0_3_, shmaddr3_.CMN_LAST_UPDT_USER_NO as CMN_LAST_UPDT_USER7_0_3_, shmaddr3_.CMN_LAST_UPDT_USER_TYPE as CMN_LAST_UPDT_USER8_0_3_, shmaddr3_.ADDR_PARENT_ID as ADDR_PARENT_ID9_0_3_, shmaddr3_.ADDR_AREA_CODE as ADDR_AREA_CODE10_0_3_, shmaddr3_.ADDR_AREA_NAME as ADDR_AREA_NAME11_0_3_, shmuser4_.USER_ID as USER_ID1_5_4_, shmuser4_.CMN_ENTRY_DATE as CMN_ENTRY_DATE2_5_4_, shmuser4_.CMN_ENTRY_USER_NO as CMN_ENTRY_USER_NO3_5_4_, shmuser4_.CMN_ENTRY_USER_TYPE as CMN_ENTRY_USER_TYP4_5_4_, shmuser4_.CMN_DELETE_FLAG as CMN_DELETE_FLAG5_5_4_, shmuser4_.CMN_LAST_UPDT_DATE as CMN_LAST_UPDT_DATE6_5_4_, shmuser4_.CMN_LAST_UPDT_USER_NO as CMN_LAST_UPDT_USER7_5_4_, shmuser4_.CMN_LAST_UPDT_USER_TYPE as CMN_LAST_UPDT_USER8_5_4_, shmuser4_.USER_ADDRESS_ID as USER_ADDRESS_ID28_5_4_, shmuser4_.USER_AVTR as USER_AVTR29_5_4_, shmuser4_.USER_BSID as USER_BSID9_5_4_, shmuser4_.USER_CAREER as USER_CAREER10_5_4_, shmuser4_.USER_CTRL_STATUS as USER_CTRL_STATUS11_5_4_, shmuser4_.USER_DATE_OF_BIRTH as USER_DATE_OF_BIRT12_5_4_, shmuser4_.USER_DESCR as USER_DESCR13_5_4_, shmuser4_.USER_EMAIL as USER_EMAIL14_5_4_, shmuser4_.USER_FIRST_NAME as USER_FIRST_NAME15_5_4_, shmuser4_.USER_GENDER as USER_GENDER16_5_4_, shmuser4_.USER_IS_IN_PATROL as USER_IS_IN_PATROL17_5_4_, shmuser4_.USER_JOB as USER_JOB18_5_4_, shmuser4_.USER_LAST_NAME as USER_LAST_NAME19_5_4_, shmuser4_.LEFT_DATE as LEFT_DATE20_5_4_, shmuser4_.USER_NICK_NAME as USER_NICK_NAME21_5_4_, shmuser4_.USER_PWD as USER_PWD22_5_4_, shmuser4_.USER_PHONE as USER_PHONE23_5_4_, shmuser4_.USER_PTRL_STATUS as USER_PTRL_STATUS24_5_4_, shmuser4_.USER_STATUS as USER_STATUS25_5_4_, shmuser4_.USER_TIME_PATROL as USER_TIME_PATROL26_5_4_, shmuser4_.USER_UPDATE_AT as USER_UPDATE_AT27_5_4_, shmaddr5_.ADDR_ID as ADDR_ID1_0_5_, shmaddr5_.CMN_ENTRY_DATE as CMN_ENTRY_DATE2_0_5_, shmaddr5_.CMN_ENTRY_USER_NO as CMN_ENTRY_USER_NO3_0_5_, shmaddr5_.CMN_ENTRY_USER_TYPE as CMN_ENTRY_USER_TYP4_0_5_, shmaddr5_.CMN_DELETE_FLAG as CMN_DELETE_FLAG5_0_5_, shmaddr5_.CMN_LAST_UPDT_DATE as CMN_LAST_UPDT_DATE6_0_5_, shmaddr5_.CMN_LAST_UPDT_USER_NO as CMN_LAST_UPDT_USER7_0_5_, shmaddr5_.CMN_LAST_UPDT_USER_TYPE as CMN_LAST_UPDT_USER8_0_5_, shmaddr5_.ADDR_PARENT_ID as ADDR_PARENT_ID9_0_5_, shmaddr5_.ADDR_AREA_CODE as ADDR_AREA_CODE10_0_5_, shmaddr5_.ADDR_AREA_NAME as ADDR_AREA_NAME11_0_5_, shrfile6_.FILE_ID as FILE_ID1_6_6_, shrfile6_.CMN_ENTRY_DATE as CMN_ENTRY_DATE2_6_6_, shrfile6_.CMN_ENTRY_USER_NO as CMN_ENTRY_USER_NO3_6_6_, shrfile6_.CMN_ENTRY_USER_TYPE as CMN_ENTRY_USER_TYP4_6_6_, shrfile6_.CMN_DELETE_FLAG as CMN_DELETE_FLAG5_6_6_, shrfile6_.CMN_LAST_UPDT_DATE as CMN_LAST_UPDT_DATE6_6_6_, shrfile6_.CMN_LAST_UPDT_USER_NO as CMN_LAST_UPDT_USER7_6_6_, shrfile6_.CMN_LAST_UPDT_USER_TYPE as CMN_LAST_UPDT_USER8_6_6_, shrfile6_.FILE_DIR as FILE_DIR9_6_6_, shrfile6_.FILE_EXT as FILE_EXT10_6_6_, shrfile6_.FILE_HEIGHT as FILE_HEIGHT11_6_6_, shrfile6_.FILE_NAME as FILE_NAME12_6_6_, shrfile6_.FILE_ORG_NAME as FILE_ORG_NAME13_6_6_, shrfile6_.FILE_PROVIDER as FILE_PROVIDER14_6_6_, shrfile6_.FILE_SIZE as FILE_SIZE15_6_6_, shrfile6_.FILE_WIDTH as FILE_WIDTH16_6_6_, shmuser7_.USER_ID as USER_ID1_5_7_, shmuser7_.CMN_ENTRY_DATE as CMN_ENTRY_DATE2_5_7_, shmuser7_.CMN_ENTRY_USER_NO as CMN_ENTRY_USER_NO3_5_7_, shmuser7_.CMN_ENTRY_USER_TYPE as CMN_ENTRY_USER_TYP4_5_7_, shmuser7_.CMN_DELETE_FLAG as CMN_DELETE_FLAG5_5_7_, shmuser7_.CMN_LAST_UPDT_DATE as CMN_LAST_UPDT_DATE6_5_7_, shmuser7_.CMN_LAST_UPDT_USER_NO as CMN_LAST_UPDT_USER7_5_7_, shmuser7_.CMN_LAST_UPDT_USER_TYPE as CMN_LAST_UPDT_USER8_5_7_, shmuser7_.USER_ADDRESS_ID as USER_ADDRESS_ID28_5_7_, shmuser7_.USER_AVTR as USER_AVTR29_5_7_, shmuser7_.USER_BSID as USER_BSID9_5_7_, shmuser7_.USER_CAREER as USER_CAREER10_5_7_, shmuser7_.USER_CTRL_STATUS as USER_CTRL_STATUS11_5_7_, shmuser7_.USER_DATE_OF_BIRTH as USER_DATE_OF_BIRT12_5_7_, shmuser7_.USER_DESCR as USER_DESCR13_5_7_, shmuser7_.USER_EMAIL as USER_EMAIL14_5_7_, shmuser7_.USER_FIRST_NAME as USER_FIRST_NAME15_5_7_, shmuser7_.USER_GENDER as USER_GENDER16_5_7_, shmuser7_.USER_IS_IN_PATROL as USER_IS_IN_PATROL17_5_7_, shmuser7_.USER_JOB as USER_JOB18_5_7_, shmuser7_.USER_LAST_NAME as USER_LAST_NAME19_5_7_, shmuser7_.LEFT_DATE as LEFT_DATE20_5_7_, shmuser7_.USER_NICK_NAME as USER_NICK_NAME21_5_7_, shmuser7_.USER_PWD as USER_PWD22_5_7_, shmuser7_.USER_PHONE as USER_PHONE23_5_7_, shmuser7_.USER_PTRL_STATUS as USER_PTRL_STATUS24_5_7_, shmuser7_.USER_STATUS as USER_STATUS25_5_7_, shmuser7_.USER_TIME_PATROL as USER_TIME_PATROL26_5_7_, shmuser7_.USER_UPDATE_AT as USER_UPDATE_AT27_5_7_ from SHT_TALK_PURC shttalkpur0_ left outer join SHM_POST shmpost1_ on shttalkpur0_.TALK_PURC_POST_ID=shmpost1_.POST_ID left outer join SHM_CATEGORY shmcategor2_ on shmpost1_.POST_CATEGORY_ID=shmcategor2_.CATEGORY_ID left outer join SHM_ADDR shmaddr3_ on shmpost1_.POST_ADDR=shmaddr3_.ADDR_ID left outer join SHM_USER shmuser4_ on shmpost1_.POST_USER_ID=shmuser4_.USER_ID left outer join SHM_ADDR shmaddr5_ on shmuser4_.USER_ADDRESS_ID=shmaddr5_.ADDR_ID left outer join SHR_FILE shrfile6_ on shmuser4_.USER_AVTR=shrfile6_.FILE_ID left outer join SHM_USER shmuser7_ on shttalkpur0_.TALK_PURC_PART_ID=shmuser7_.USER_ID where shttalkpur0_.TALK_PURC_ID=? and ( shttalkpur0_.CMN_DELETE_FLAG=0)
+17/12/05 19:02:32 INFO TransactionContext: Rolled back transaction for test context [DefaultTestContext@4a3bf37c testClass = TalkPurcMsgServiceImplTest, testInstance = jp.bo.bocc.service.impl.TalkPurcMsgServiceImplTest@2173e4d5, testMethod = findTalkPurcMsgInTalkPurcWithTimeAfterTime@TalkPurcMsgServiceImplTest, testException = java.lang.NullPointerException, mergedContextConfiguration = [MergedContextConfiguration@63636de0 testClass = TalkPurcMsgServiceImplTest, locations = &apos;{}&apos;, classes = &apos;{class jp.bo.bocc.system.config.AppConfig}&apos;, contextInitializerClasses = &apos;[]&apos;, activeProfiles = &apos;{app}&apos;, propertySourceLocations = &apos;{}&apos;, propertySourceProperties = &apos;{}&apos;, contextCustomizers = set[[empty]], contextLoader = &apos;org.springframework.test.context.support.DelegatingSmartContextLoader&apos;, parent = [null]]].
+</system-out>
+  </testcase>
+  <testcase classname="jp.bo.bocc.service.impl.TalkPurcMsgServiceImplTest" name="testReceiveMessage" time="0.201"/>
+  <testcase classname="jp.bo.bocc.service.impl.TalkPurcMsgServiceImplTest" name="findTalkPurcMsgInTalkPurc" time="0.207">
+    <error message="Index: 0, Size: 0" type="java.lang.IndexOutOfBoundsException">java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.rangeCheck(ArrayList.java:653)
+	at java.util.ArrayList.get(ArrayList.java:429)
+	at java.util.Collections$UnmodifiableList.get(Collections.java:1309)
+	at jp.bo.bocc.service.impl.TalkPurcMsgServiceImplTest.findTalkPurcMsgInTalkPurc(TalkPurcMsgServiceImplTest.java:50)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:252)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</error>
+    <system-out>17/12/05 19:02:32 INFO TransactionContext: Began transaction (1) for test context [DefaultTestContext@4a3bf37c testClass = TalkPurcMsgServiceImplTest, testInstance = jp.bo.bocc.service.impl.TalkPurcMsgServiceImplTest@541897c6, testMethod = findTalkPurcMsgInTalkPurc@TalkPurcMsgServiceImplTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@63636de0 testClass = TalkPurcMsgServiceImplTest, locations = &apos;{}&apos;, classes = &apos;{class jp.bo.bocc.system.config.AppConfig}&apos;, contextInitializerClasses = &apos;[]&apos;, activeProfiles = &apos;{app}&apos;, propertySourceLocations = &apos;{}&apos;, propertySourceProperties = &apos;{}&apos;, contextCustomizers = set[[empty]], contextLoader = &apos;org.springframework.test.context.support.DelegatingSmartContextLoader&apos;, parent = [null]]]; transaction manager [org.springframework.orm.jpa.JpaTransactionManager@3fde8f7c]; rollback [true]
+Hibernate: select shttalkpur0_.TALK_PURC_MSG_ID as col_0_0_, shttalkpur0_.TALK_PURC_MSG_CONT as col_1_0_, shttalkpur0_.TALK_PURC_MSG_STATUS as col_2_0_, shttalkpur0_.CMN_ENTRY_DATE as col_3_0_, shttalkpur0_.TALK_PURC_MSG_CREATOR as col_4_0_, shttalkpur0_.TALK_PURC_MSG_TYPE as col_5_0_ from SHT_TALK_PURC_MSG shttalkpur0_ where ( shttalkpur0_.CMN_DELETE_FLAG=0) and shttalkpur0_.TALK_PURC_ID=? and shttalkpur0_.ISACTIVE=1 order by shttalkpur0_.CMN_ENTRY_DATE DESC
+Hibernate: select * from ( select shttalkpur0_.TALK_PURC_MSG_ID as col_0_0_, shttalkpur0_.TALK_PURC_MSG_CONT as col_1_0_, shttalkpur0_.TALK_PURC_MSG_STATUS as col_2_0_, shttalkpur0_.CMN_ENTRY_DATE as col_3_0_, shttalkpur0_.TALK_PURC_MSG_CREATOR as col_4_0_, shttalkpur0_.TALK_PURC_MSG_TYPE as col_5_0_ from SHT_TALK_PURC_MSG shttalkpur0_ where ( shttalkpur0_.CMN_DELETE_FLAG=0) and shttalkpur0_.TALK_PURC_ID=? and shttalkpur0_.ISACTIVE=1 order by shttalkpur0_.CMN_ENTRY_DATE DESC ) where rownum &lt;= ?
+17/12/05 19:02:32 INFO TransactionContext: Rolled back transaction for test context [DefaultTestContext@4a3bf37c testClass = TalkPurcMsgServiceImplTest, testInstance = jp.bo.bocc.service.impl.TalkPurcMsgServiceImplTest@541897c6, testMethod = findTalkPurcMsgInTalkPurc@TalkPurcMsgServiceImplTest, testException = java.lang.IndexOutOfBoundsException: Index: 0, Size: 0, mergedContextConfiguration = [MergedContextConfiguration@63636de0 testClass = TalkPurcMsgServiceImplTest, locations = &apos;{}&apos;, classes = &apos;{class jp.bo.bocc.system.config.AppConfig}&apos;, contextInitializerClasses = &apos;[]&apos;, activeProfiles = &apos;{app}&apos;, propertySourceLocations = &apos;{}&apos;, propertySourceProperties = &apos;{}&apos;, contextCustomizers = set[[empty]], contextLoader = &apos;org.springframework.test.context.support.DelegatingSmartContextLoader&apos;, parent = [null]]].
+</system-out>
+  </testcase>
+  <testcase classname="jp.bo.bocc.service.impl.TalkPurcMsgServiceImplTest" name="findTalkPurcMsgInTalkPurcWithTimeBeforeTime" time="0.143">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at jp.bo.bocc.service.impl.TalkPurcMsgServiceImpl.findTalkPurcMsgInTalkPurcWithTime(TalkPurcMsgServiceImpl.java:182)
+	at jp.bo.bocc.service.impl.TalkPurcMsgServiceImpl$$FastClassBySpringCGLIB$$d9feb663.invoke(&lt;generated&gt;)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:652)
+	at jp.bo.bocc.service.impl.TalkPurcMsgServiceImpl$$EnhancerBySpringCGLIB$$d82f4920.findTalkPurcMsgInTalkPurcWithTime(&lt;generated&gt;)
+	at jp.bo.bocc.service.impl.TalkPurcMsgServiceImplTest.findTalkPurcMsgInTalkPurcWithTimeBeforeTime(TalkPurcMsgServiceImplTest.java:55)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:252)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</error>
+    <system-out>17/12/05 19:02:32 INFO TransactionContext: Began transaction (1) for test context [DefaultTestContext@4a3bf37c testClass = TalkPurcMsgServiceImplTest, testInstance = jp.bo.bocc.service.impl.TalkPurcMsgServiceImplTest@59d0fac9, testMethod = findTalkPurcMsgInTalkPurcWithTimeBeforeTime@TalkPurcMsgServiceImplTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@63636de0 testClass = TalkPurcMsgServiceImplTest, locations = &apos;{}&apos;, classes = &apos;{class jp.bo.bocc.system.config.AppConfig}&apos;, contextInitializerClasses = &apos;[]&apos;, activeProfiles = &apos;{app}&apos;, propertySourceLocations = &apos;{}&apos;, propertySourceProperties = &apos;{}&apos;, contextCustomizers = set[[empty]], contextLoader = &apos;org.springframework.test.context.support.DelegatingSmartContextLoader&apos;, parent = [null]]]; transaction manager [org.springframework.orm.jpa.JpaTransactionManager@3fde8f7c]; rollback [true]
+Hibernate: select shttalkpur0_.TALK_PURC_ID as TALK_PURC_ID1_21_0_, shttalkpur0_.CMN_ENTRY_DATE as CMN_ENTRY_DATE2_21_0_, shttalkpur0_.CMN_ENTRY_USER_NO as CMN_ENTRY_USER_NO3_21_0_, shttalkpur0_.CMN_ENTRY_USER_TYPE as CMN_ENTRY_USER_TYP4_21_0_, shttalkpur0_.CMN_DELETE_FLAG as CMN_DELETE_FLAG5_21_0_, shttalkpur0_.CMN_LAST_UPDT_DATE as CMN_LAST_UPDT_DATE6_21_0_, shttalkpur0_.CMN_LAST_UPDT_USER_NO as CMN_LAST_UPDT_USER7_21_0_, shttalkpur0_.CMN_LAST_UPDT_USER_TYPE as CMN_LAST_UPDT_USER8_21_0_, shttalkpur0_.TALK_PURC_POST_ID as TALK_PURC_POST_ID11_21_0_, shttalkpur0_.TALK_PURC_PART_ID as TALK_PURC_PART_ID12_21_0_, shttalkpur0_.TALK_PURC_STATUS as TALK_PURC_STATUS9_21_0_, shttalkpur0_.TALK_PURC_TEND_TO_SELL_TIME as TALK_PURC_TEND_TO10_21_0_, shmpost1_.POST_ID as POST_ID1_4_1_, shmpost1_.CMN_ENTRY_DATE as CMN_ENTRY_DATE2_4_1_, shmpost1_.CMN_ENTRY_USER_NO as CMN_ENTRY_USER_NO3_4_1_, shmpost1_.CMN_ENTRY_USER_TYPE as CMN_ENTRY_USER_TYP4_4_1_, shmpost1_.CMN_DELETE_FLAG as CMN_DELETE_FLAG5_4_1_, shmpost1_.CMN_LAST_UPDT_DATE as CMN_LAST_UPDT_DATE6_4_1_, shmpost1_.CMN_LAST_UPDT_USER_NO as CMN_LAST_UPDT_USER7_4_1_, shmpost1_.CMN_LAST_UPDT_USER_TYPE as CMN_LAST_UPDT_USER8_4_1_, shmpost1_.DESTINATION_PUBLISH_TYPE as DESTINATION_PUBLIS9_4_1_, shmpost1_.GROUP_PUBLISH_ID as GROUP_PUBLISH_ID10_4_1_, shmpost1_.POST_IS_IN_PATROL as POST_IS_IN_PATROL11_4_1_, shmpost1_.POST_PARTNER_ID as POST_PARTNER_ID12_4_1_, shmpost1_.POST_ADDR_TXT as POST_ADDR_TXT13_4_1_, shmpost1_.POST_CATEGORY_ID as POST_CATEGORY_ID27_4_1_, shmpost1_.POST_CTRL_STATUS as POST_CTRL_STATUS14_4_1_, shmpost1_.POST_DESCRIPTION as POST_DESCRIPTION15_4_1_, shmpost1_.POST_HASH_TAG_VAL as POST_HASH_TAG_VAL16_4_1_, shmpost1_.POST_IMAGES as POST_IMAGES17_4_1_, shmpost1_.POST_LIKE_TIMES as POST_LIKE_TIMES18_4_1_, shmpost1_.POST_NAME as POST_NAME19_4_1_, shmpost1_.POST_PRICE as POST_PRICE20_4_1_, shmpost1_.POST_PTRL_STATUS as POST_PTRL_STATUS21_4_1_, shmpost1_.POST_REPORT_TIMES as POST_REPORT_TIMES22_4_1_, shmpost1_.POST_SELL_STATUS as POST_SELL_STATUS23_4_1_, shmpost1_.POST_TYPE as POST_TYPE24_4_1_, shmpost1_.POST_ADDR as POST_ADDR28_4_1_, shmpost1_.POST_USER_ID as POST_USER_ID29_4_1_, shmpost1_.POST_TIME_PATROL as POST_TIME_PATROL25_4_1_, shmpost1_.USER_UPDATE_AT as USER_UPDATE_AT26_4_1_, shmcategor2_.CATEGORY_ID as CATEGORY_ID1_3_2_, shmcategor2_.CMN_ENTRY_DATE as CMN_ENTRY_DATE2_3_2_, shmcategor2_.CMN_ENTRY_USER_NO as CMN_ENTRY_USER_NO3_3_2_, shmcategor2_.CMN_ENTRY_USER_TYPE as CMN_ENTRY_USER_TYP4_3_2_, shmcategor2_.CMN_DELETE_FLAG as CMN_DELETE_FLAG5_3_2_, shmcategor2_.CMN_LAST_UPDT_DATE as CMN_LAST_UPDT_DATE6_3_2_, shmcategor2_.CMN_LAST_UPDT_USER_NO as CMN_LAST_UPDT_USER7_3_2_, shmcategor2_.CMN_LAST_UPDT_USER_TYPE as CMN_LAST_UPDT_USER8_3_2_, shmcategor2_.CATEGORY_NAME as CATEGORY_NAME9_3_2_, shmcategor2_.CATEGORY_PARENT_ID as CATEGORY_PARENT_I10_3_2_, shmcategor2_.IMAGE_REQUIRED as IMAGE_REQUIRED11_3_2_, shmaddr3_.ADDR_ID as ADDR_ID1_0_3_, shmaddr3_.CMN_ENTRY_DATE as CMN_ENTRY_DATE2_0_3_, shmaddr3_.CMN_ENTRY_USER_NO as CMN_ENTRY_USER_NO3_0_3_, shmaddr3_.CMN_ENTRY_USER_TYPE as CMN_ENTRY_USER_TYP4_0_3_, shmaddr3_.CMN_DELETE_FLAG as CMN_DELETE_FLAG5_0_3_, shmaddr3_.CMN_LAST_UPDT_DATE as CMN_LAST_UPDT_DATE6_0_3_, shmaddr3_.CMN_LAST_UPDT_USER_NO as CMN_LAST_UPDT_USER7_0_3_, shmaddr3_.CMN_LAST_UPDT_USER_TYPE as CMN_LAST_UPDT_USER8_0_3_, shmaddr3_.ADDR_PARENT_ID as ADDR_PARENT_ID9_0_3_, shmaddr3_.ADDR_AREA_CODE as ADDR_AREA_CODE10_0_3_, shmaddr3_.ADDR_AREA_NAME as ADDR_AREA_NAME11_0_3_, shmuser4_.USER_ID as USER_ID1_5_4_, shmuser4_.CMN_ENTRY_DATE as CMN_ENTRY_DATE2_5_4_, shmuser4_.CMN_ENTRY_USER_NO as CMN_ENTRY_USER_NO3_5_4_, shmuser4_.CMN_ENTRY_USER_TYPE as CMN_ENTRY_USER_TYP4_5_4_, shmuser4_.CMN_DELETE_FLAG as CMN_DELETE_FLAG5_5_4_, shmuser4_.CMN_LAST_UPDT_DATE as CMN_LAST_UPDT_DATE6_5_4_, shmuser4_.CMN_LAST_UPDT_USER_NO as CMN_LAST_UPDT_USER7_5_4_, shmuser4_.CMN_LAST_UPDT_USER_TYPE as CMN_LAST_UPDT_USER8_5_4_, shmuser4_.USER_ADDRESS_ID as USER_ADDRESS_ID28_5_4_, shmuser4_.USER_AVTR as USER_AVTR29_5_4_, shmuser4_.USER_BSID as USER_BSID9_5_4_, shmuser4_.USER_CAREER as USER_CAREER10_5_4_, shmuser4_.USER_CTRL_STATUS as USER_CTRL_STATUS11_5_4_, shmuser4_.USER_DATE_OF_BIRTH as USER_DATE_OF_BIRT12_5_4_, shmuser4_.USER_DESCR as USER_DESCR13_5_4_, shmuser4_.USER_EMAIL as USER_EMAIL14_5_4_, shmuser4_.USER_FIRST_NAME as USER_FIRST_NAME15_5_4_, shmuser4_.USER_GENDER as USER_GENDER16_5_4_, shmuser4_.USER_IS_IN_PATROL as USER_IS_IN_PATROL17_5_4_, shmuser4_.USER_JOB as USER_JOB18_5_4_, shmuser4_.USER_LAST_NAME as USER_LAST_NAME19_5_4_, shmuser4_.LEFT_DATE as LEFT_DATE20_5_4_, shmuser4_.USER_NICK_NAME as USER_NICK_NAME21_5_4_, shmuser4_.USER_PWD as USER_PWD22_5_4_, shmuser4_.USER_PHONE as USER_PHONE23_5_4_, shmuser4_.USER_PTRL_STATUS as USER_PTRL_STATUS24_5_4_, shmuser4_.USER_STATUS as USER_STATUS25_5_4_, shmuser4_.USER_TIME_PATROL as USER_TIME_PATROL26_5_4_, shmuser4_.USER_UPDATE_AT as USER_UPDATE_AT27_5_4_, shmaddr5_.ADDR_ID as ADDR_ID1_0_5_, shmaddr5_.CMN_ENTRY_DATE as CMN_ENTRY_DATE2_0_5_, shmaddr5_.CMN_ENTRY_USER_NO as CMN_ENTRY_USER_NO3_0_5_, shmaddr5_.CMN_ENTRY_USER_TYPE as CMN_ENTRY_USER_TYP4_0_5_, shmaddr5_.CMN_DELETE_FLAG as CMN_DELETE_FLAG5_0_5_, shmaddr5_.CMN_LAST_UPDT_DATE as CMN_LAST_UPDT_DATE6_0_5_, shmaddr5_.CMN_LAST_UPDT_USER_NO as CMN_LAST_UPDT_USER7_0_5_, shmaddr5_.CMN_LAST_UPDT_USER_TYPE as CMN_LAST_UPDT_USER8_0_5_, shmaddr5_.ADDR_PARENT_ID as ADDR_PARENT_ID9_0_5_, shmaddr5_.ADDR_AREA_CODE as ADDR_AREA_CODE10_0_5_, shmaddr5_.ADDR_AREA_NAME as ADDR_AREA_NAME11_0_5_, shrfile6_.FILE_ID as FILE_ID1_6_6_, shrfile6_.CMN_ENTRY_DATE as CMN_ENTRY_DATE2_6_6_, shrfile6_.CMN_ENTRY_USER_NO as CMN_ENTRY_USER_NO3_6_6_, shrfile6_.CMN_ENTRY_USER_TYPE as CMN_ENTRY_USER_TYP4_6_6_, shrfile6_.CMN_DELETE_FLAG as CMN_DELETE_FLAG5_6_6_, shrfile6_.CMN_LAST_UPDT_DATE as CMN_LAST_UPDT_DATE6_6_6_, shrfile6_.CMN_LAST_UPDT_USER_NO as CMN_LAST_UPDT_USER7_6_6_, shrfile6_.CMN_LAST_UPDT_USER_TYPE as CMN_LAST_UPDT_USER8_6_6_, shrfile6_.FILE_DIR as FILE_DIR9_6_6_, shrfile6_.FILE_EXT as FILE_EXT10_6_6_, shrfile6_.FILE_HEIGHT as FILE_HEIGHT11_6_6_, shrfile6_.FILE_NAME as FILE_NAME12_6_6_, shrfile6_.FILE_ORG_NAME as FILE_ORG_NAME13_6_6_, shrfile6_.FILE_PROVIDER as FILE_PROVIDER14_6_6_, shrfile6_.FILE_SIZE as FILE_SIZE15_6_6_, shrfile6_.FILE_WIDTH as FILE_WIDTH16_6_6_, shmuser7_.USER_ID as USER_ID1_5_7_, shmuser7_.CMN_ENTRY_DATE as CMN_ENTRY_DATE2_5_7_, shmuser7_.CMN_ENTRY_USER_NO as CMN_ENTRY_USER_NO3_5_7_, shmuser7_.CMN_ENTRY_USER_TYPE as CMN_ENTRY_USER_TYP4_5_7_, shmuser7_.CMN_DELETE_FLAG as CMN_DELETE_FLAG5_5_7_, shmuser7_.CMN_LAST_UPDT_DATE as CMN_LAST_UPDT_DATE6_5_7_, shmuser7_.CMN_LAST_UPDT_USER_NO as CMN_LAST_UPDT_USER7_5_7_, shmuser7_.CMN_LAST_UPDT_USER_TYPE as CMN_LAST_UPDT_USER8_5_7_, shmuser7_.USER_ADDRESS_ID as USER_ADDRESS_ID28_5_7_, shmuser7_.USER_AVTR as USER_AVTR29_5_7_, shmuser7_.USER_BSID as USER_BSID9_5_7_, shmuser7_.USER_CAREER as USER_CAREER10_5_7_, shmuser7_.USER_CTRL_STATUS as USER_CTRL_STATUS11_5_7_, shmuser7_.USER_DATE_OF_BIRTH as USER_DATE_OF_BIRT12_5_7_, shmuser7_.USER_DESCR as USER_DESCR13_5_7_, shmuser7_.USER_EMAIL as USER_EMAIL14_5_7_, shmuser7_.USER_FIRST_NAME as USER_FIRST_NAME15_5_7_, shmuser7_.USER_GENDER as USER_GENDER16_5_7_, shmuser7_.USER_IS_IN_PATROL as USER_IS_IN_PATROL17_5_7_, shmuser7_.USER_JOB as USER_JOB18_5_7_, shmuser7_.USER_LAST_NAME as USER_LAST_NAME19_5_7_, shmuser7_.LEFT_DATE as LEFT_DATE20_5_7_, shmuser7_.USER_NICK_NAME as USER_NICK_NAME21_5_7_, shmuser7_.USER_PWD as USER_PWD22_5_7_, shmuser7_.USER_PHONE as USER_PHONE23_5_7_, shmuser7_.USER_PTRL_STATUS as USER_PTRL_STATUS24_5_7_, shmuser7_.USER_STATUS as USER_STATUS25_5_7_, shmuser7_.USER_TIME_PATROL as USER_TIME_PATROL26_5_7_, shmuser7_.USER_UPDATE_AT as USER_UPDATE_AT27_5_7_ from SHT_TALK_PURC shttalkpur0_ left outer join SHM_POST shmpost1_ on shttalkpur0_.TALK_PURC_POST_ID=shmpost1_.POST_ID left outer join SHM_CATEGORY shmcategor2_ on shmpost1_.POST_CATEGORY_ID=shmcategor2_.CATEGORY_ID left outer join SHM_ADDR shmaddr3_ on shmpost1_.POST_ADDR=shmaddr3_.ADDR_ID left outer join SHM_USER shmuser4_ on shmpost1_.POST_USER_ID=shmuser4_.USER_ID left outer join SHM_ADDR shmaddr5_ on shmuser4_.USER_ADDRESS_ID=shmaddr5_.ADDR_ID left outer join SHR_FILE shrfile6_ on shmuser4_.USER_AVTR=shrfile6_.FILE_ID left outer join SHM_USER shmuser7_ on shttalkpur0_.TALK_PURC_PART_ID=shmuser7_.USER_ID where shttalkpur0_.TALK_PURC_ID=? and ( shttalkpur0_.CMN_DELETE_FLAG=0)
+17/12/05 19:02:32 INFO TransactionContext: Rolled back transaction for test context [DefaultTestContext@4a3bf37c testClass = TalkPurcMsgServiceImplTest, testInstance = jp.bo.bocc.service.impl.TalkPurcMsgServiceImplTest@59d0fac9, testMethod = findTalkPurcMsgInTalkPurcWithTimeBeforeTime@TalkPurcMsgServiceImplTest, testException = java.lang.NullPointerException, mergedContextConfiguration = [MergedContextConfiguration@63636de0 testClass = TalkPurcMsgServiceImplTest, locations = &apos;{}&apos;, classes = &apos;{class jp.bo.bocc.system.config.AppConfig}&apos;, contextInitializerClasses = &apos;[]&apos;, activeProfiles = &apos;{app}&apos;, propertySourceLocations = &apos;{}&apos;, propertySourceProperties = &apos;{}&apos;, contextCustomizers = set[[empty]], contextLoader = &apos;org.springframework.test.context.support.DelegatingSmartContextLoader&apos;, parent = [null]]].
+</system-out>
+  </testcase>
+</testsuite>

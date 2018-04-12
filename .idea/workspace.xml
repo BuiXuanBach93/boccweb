@@ -1,0 +1,2436 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1c48ef0b-250d-473b-8e6e-471d57574605" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/config/local/appEnv.properties" afterPath="$PROJECT_DIR$/src/main/config/local/appEnv.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/config/local/db/db.properties" afterPath="$PROJECT_DIR$/src/main/config/local/db/db.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/jp/bo/bocc/service/impl/AddressServiceImplTest.java" afterPath="$PROJECT_DIR$/src/test/java/jp/bo/bocc/service/impl/AddressServiceImplTest.java" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="appEnv.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/config/local/appEnv.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1275">
+              <caret line="75" column="25" lean-forward="false" selection-start-line="75" selection-start-column="25" selection-end-line="75" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserRepositoryImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/jp/bo/bocc/repository/UserRepositoryImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2652">
+              <caret line="186" column="21" lean-forward="false" selection-start-line="186" selection-start-column="21" selection-end-line="186" selection-end-column="21" />
+              <folding>
+                <marker date="1522024542664" expanded="true" signature="3573:3691" ph="SELECT COUNT... SHM_USER" />
+                <marker date="1522024542664" expanded="true" signature="3963:4080" ph="SELECT COUNT... SHM_USER" />
+                <marker date="1522024542664" expanded="true" signature="4330:4392" ph="select MIN(T... SHM_USER" />
+                <marker date="1522024542664" expanded="true" signature="4637:4675" ph="SELECT M_MEM... missingValue" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConverterUtils.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/jp/bo/bocc/helper/ConverterUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="37" column="23" lean-forward="false" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SyncExcServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/jp/bo/bocc/service/impl/SyncExcServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3162">
+              <caret line="220" column="61" lean-forward="false" selection-start-line="220" selection-start-column="61" selection-end-line="220" selection-end-column="61" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/jp/bo/bocc/service/UserService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3808">
+              <caret line="242" column="9" lean-forward="false" selection-start-line="242" selection-start-column="9" selection-end-line="242" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SyncExcRepositoryCustom.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/jp/bo/bocc/repository/SyncExcRepositoryCustom.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="15" column="15" lean-forward="false" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SyncExcRepositoryImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/jp/bo/bocc/repository/SyncExcRepositoryImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="123">
+              <caret line="57" column="22" lean-forward="false" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="22" />
+              <folding>
+                <marker date="1522171582730" expanded="true" signature="1044:1234" ph="SELECT COUNT... SHT_QA" />
+                <marker date="1522171582730" expanded="true" signature="1133:1233" ph="SELECT surm.... SHT_USER_READ_MSG" />
+                <marker date="1522171582730" expanded="true" signature="1619:1684" ph="SELECT MAX(T... SHT_SYNC_EXC" />
+                <marker date="1522171582730" expanded="true" signature="2239:2544" ph="SELECT USER_... SHM_USER" />
+                <marker date="1522171582730" expanded="true" signature="2581:3070" ph="SELECT USER_... SHM_USER" />
+                <marker date="1522171582730" expanded="true" signature="3852:4165" ph="SELECT M_MEM... missingValue" />
+                <marker date="1522171582730" expanded="true" signature="5052:5530" ph="SELECT M_MEM... missingValue" />
+                <marker date="1522171582730" expanded="true" signature="5116:5530" ph="SELECT M_MEM... MSV_MEMBR_INF_SRCH_W_WK" />
+                <marker date="1522171582730" expanded="true" signature="5986:6027" ph="SELECT MAX(S... SHT_SYNC_EXC" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AddressServiceImplTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/jp/bo/bocc/service/impl/AddressServiceImplTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/jp/bo/bocc/service/impl/UserServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3842">
+              <caret line="301" column="33" lean-forward="false" selection-start-line="301" selection-start-column="33" selection-end-line="301" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RepositoryFactorySupport.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/1.12.5.RELEASE/spring-data-commons-1.12.5.RELEASE.jar!/org/springframework/data/repository/core/support/RepositoryFactorySupport.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4624">
+              <caret line="332" column="0" lean-forward="false" selection-start-line="332" selection-start-column="0" selection-end-line="332" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit4 Test Class" />
+        <option value="HTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>pageTitleDiv</find>
+      <find>nicEdit-main</find>
+      <find>kpi</find>
+      <find>Add</find>
+      <find>samp</find>
+      <find>new msg</find>
+      <find>choosePushType</find>
+      <find>JUST_MESSAGE</find>
+      <find>main</find>
+      <find>rest</find>
+      <find>basedir</find>
+      <find>catc</find>
+      <find>newM</find>
+      <find>interru</find>
+      <find>tendToLe</find>
+      <find>tend</find>
+      <find>handleS</find>
+      <find>30</find>
+      <find>subscr</find>
+      <find>sys</find>
+      <find>ter</find>
+      <find>successMsg</find>
+      <find>sync-da</find>
+      <find>sync</find>
+      <find>status</find>
+      <find>leftDa</find>
+      <find>このユーザは停止中か退会済みです。</find>
+      <find>handleSyncTendToLeaveLogic</find>
+      <find>退会予定者となりましたので、お取引に対し</find>
+      <find>before</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/banner/editBanner.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/jp/bo/bocc/controller/api/BannerController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/banner/createBanner.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/jp/bo/bocc/controller/web/BannerWebController.java" />
+        <option value="$PROJECT_DIR$/src/main/config/dev/db/db.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/db/migration/V1_063__ALTER_SHR_CATEGORY.sql" />
+        <option value="$PROJECT_DIR$/src/test/java/jp/bo/bocc/service/impl/UserServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/db/migration/V1_091__CREATE_TABLE_SHT_SYNC_EXC.sql" />
+        <option value="$PROJECT_DIR$/src/main/resources/db/migration/V1_092__ALTER_TABLE_SHM_USER.sql" />
+        <option value="$PROJECT_DIR$/src/main/resources/db/migration/V1_093__INSERT_SYS_CONFIG_SYNC_DATE.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/jp/bo/bocc/entity/ShmUser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jp/bo/bocc/enums/JobEnum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jp/bo/bocc/enums/SysConfigEnum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jp/bo/bocc/repository/SyncExcRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jp/bo/bocc/entity/dto/ShmUserBsDTO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jp/bo/bocc/controller/api/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jp/bo/bocc/jobs/JobHandleSyncTendToLeaveUser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jp/bo/bocc/controller/web/request/SyncDateConfigureRequest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jp/bo/bocc/service/SysConfigService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jp/bo/bocc/service/impl/SysConfigServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/maintain/date-config.jsp" />
+        <option value="$PROJECT_DIR$/src/main/resources/db/migration/V1_086__ALTER_TABLE_SHT_TALK_PURC_MSG.sql" />
+        <option value="$PROJECT_DIR$/src/main/resources/db/migration/V1_094__ALTER_TABLE_SHR_SYS_CONFIG.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/jp/bo/bocc/service/SyncExcService.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/defs/tiles.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/layout/nav-bar.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/maintain/user-left-sync.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/jp/bo/bocc/controller/web/AdminUserWebController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jp/bo/bocc/system/apiconfig/interceptor/AuthenticationInterceptor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jp/bo/bocc/jobs/JobHandleSyncLeftUser.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/db/migration/V1_095__ALTER_TABLE_SHT_SYNC_EXC.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/jp/bo/bocc/entity/ShtSyncExc.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jp/bo/bocc/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/config/test/appEnv.properties" />
+        <option value="$PROJECT_DIR$/src/main/config/prod/appEnv.properties" />
+        <option value="$PROJECT_DIR$/src/main/config/dev/appEnv.properties" />
+        <option value="$PROJECT_DIR$/src/main/config/botest/appEnv.properties" />
+        <option value="$PROJECT_DIR$/src/main/config/bostaging/appEnv.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/jp/bo/bocc/system/config/AppConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/messages.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/jp/bo/bocc/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jp/bo/bocc/repository/UserRepositoryImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jp/bo/bocc/repository/UserRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jp/bo/bocc/repository/UserRepositoryCustom.java" />
+        <option value="$PROJECT_DIR$/src/main/config/staging/appEnv.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/jp/bo/bocc/repository/SyncExcRepositoryCustom.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jp/bo/bocc/service/impl/SyncExcServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/config/local/db/db.properties" />
+        <option value="$PROJECT_DIR$/src/main/config/local/appEnv.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/jp/bo/bocc/repository/SyncExcRepositoryImpl.java" />
+        <option value="$PROJECT_DIR$/src/test/java/jp/bo/bocc/service/impl/AddressServiceImplTest.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource ProjectPane="true" />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bocc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bocc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Maven: org.springframework:spring-web:4.3.6.RELEASE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bocc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bocc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bocc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bocc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bocc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bocc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="impl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bocc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bocc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bocc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bocc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bocc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="repository" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../PCWEB/pcweb" />
+    <property name="SearchEverywhereHistoryKey" value="Addre&#9;FILE&#9;file://D:/workspace/PROJECT/BOCC/web/src/test/java/jp/bo/bocc/service/impl/AddressServiceImplTest.java&#10;UserRE&#9;FILE&#9;file://D:/workspace/PROJECT/BOCC/web/src/main/java/jp/bo/bocc/repository/UserRepositoryImpl.java&#10;User&#9;FILE&#9;file://D:/workspace/PROJECT/BOCC/web/src/main/java/jp/bo/bocc/repository/UserRepositoryImpl.java&#10;Add&#9;FILE&#9;file://D:/workspace/PROJECT/BOCC/web/src/test/java/jp/bo/bocc/service/impl/AddressServiceImplTest.java&#10;Syn&#9;FILE&#9;file://D:/workspace/PROJECT/BOCC/web/src/main/java/jp/bo/bocc/service/impl/SyncExcServiceImpl.java&#10;Address&#9;PSI&#9;JAVA://jp.bo.bocc.service.impl.AddressServiceImplTest&#10;userRepo&#9;PSI&#9;JAVA://jp.bo.bocc.repository.UserRepositoryImpl&#10;SyncEx&#9;FILE&#9;file://D:/workspace/PROJECT/BOCC/web/src/main/java/jp/bo/bocc/service/impl/SyncExcServiceImpl.java&#10;UserService&#9;FILE&#9;file://D:/workspace/PROJECT/BOCC/web/src/main/java/jp/bo/bocc/service/impl/UserServiceImpl.java&#10;TalkPurcRe&#9;FILE&#9;file://D:/workspace/PROJECT/BOCC/web/src/main/java/jp/bo/bocc/repository/TalkPurcRepository.java&#10;TalkPurcRepo&#9;FILE&#9;file://D:/workspace/PROJECT/BOCC/web/src/main/java/jp/bo/bocc/repository/TalkPurcMsgRepositoryImpl.java&#10;App&#9;FILE&#9;file://D:/workspace/PROJECT/BOCC/web/src/main/java/jp/bo/bocc/system/config/AppConfig.java&#10;TalkPurcMsg&#9;PSI&#9;JAVA://jp.bo.bocc.controller.api.TalkPurcMsgController&#10;mes&#9;FILE&#9;file://D:/workspace/PROJECT/BOCC/web/src/main/resources/messages.properties&#10;AppCon&#9;FILE&#9;file://D:/workspace/PROJECT/BOCC/web/src/main/java/jp/bo/bocc/system/config/AppConfig.java&#10;ShmUser&#9;PSI&#9;JAVA://jp.bo.bocc.entity.ShmUser&#10;UserRe&#9;FILE&#9;file://D:/workspace/PROJECT/BOCC/web/src/main/java/jp/bo/bocc/repository/UserRepository.java&#10;UserRepo&#9;PSI&#9;JAVA://jp.bo.bocc.repository.UserRepositoryCustom&#10;BannerWeb&#9;PSI&#9;JAVA://jp.bo.bocc.controller.web.BannerWebController&#10;ShtSy&#9;FILE&#9;file://D:/workspace/PROJECT/BOCC/web/src/main/java/jp/bo/bocc/entity/ShtSyncExc.java&#10;UserSer&#9;FILE&#9;file://D:/workspace/PROJECT/BOCC/web/src/main/java/jp/bo/bocc/service/impl/UserServiceImpl.java&#10;JobHandleSyncTendToLeaveUser&#9;FILE&#9;file://D:/workspace/PROJECT/BOCC/web/src/main/java/jp/bo/bocc/jobs/JobHandleSyncTendToLeaveUser.java&#10;Aut&#9;FILE&#9;file://D:/workspace/PROJECT/BOCC/web/src/main/java/jp/bo/bocc/system/apiconfig/interceptor/AuthenticationInterceptor.java&#10;Admin&#9;FILE&#9;file://D:/workspace/PROJECT/BOCC/web/src/main/java/jp/bo/bocc/controller/web/AdminUserWebController.java&#10;AdminW&#9;FILE&#9;file://D:/workspace/PROJECT/BOCC/web/src/main/java/jp/bo/bocc/controller/web/AdminUserWebController.java&#10;Sync&#9;FILE&#9;file://D:/workspace/PROJECT/BOCC/web/src/main/java/jp/bo/bocc/service/impl/SyncExcServiceImpl.java&#10;PushSer&#9;PSI&#9;JAVA://jp.bo.bocc.service.impl.PushNotifyServiceImpl&#10;SNS&#9;PSI&#9;JAVA://jp.bo.bocc.push.impl.SNSMobilePushServiceImpl&#10;SyncExcR&#9;FILE&#9;file://D:/workspace/PROJECT/BOCC/web/src/main/java/jp/bo/bocc/repository/SyncExcRepositoryImpl.java&#10;AppCo&#9;FILE&#9;file://D:/workspace/PROJECT/BOCC/web/src/main/java/jp/bo/bocc/system/config/AppConfig.java&#10;H&#9;FILE&#9;file://D:/workspace/PROJECT/BOCC/web/src/main/java/jp/bo/bocc/jobs/JobHandleSyncTendToLeaveUser.java&#10;TalkPurc&#9;PSI&#9;JAVA://jp.bo.bocc.controller.api.TalkPurcController&#10;handl&#9;FILE&#9;file://D:/workspace/PROJECT/BOCC/web/src/main/java/jp/bo/bocc/jobs/JobHandleUserLeft.java&#10;SyncE&#9;FILE&#9;file://D:/workspace/PROJECT/BOCC/web/src/main/java/jp/bo/bocc/service/impl/SyncExcServiceImpl.java&#10;QaRe&#9;FILE&#9;file://D:/workspace/PROJECT/BOCC/web/src/main/java/jp/bo/bocc/repository/QaRepositoryImpl.java&#10;SyncREpo&#9;FILE&#9;file://D:/workspace/PROJECT/BOCC/web/src/main/java/jp/bo/bocc/repository/SyncExcRepositoryCustom.java&#10;userRe&#9;FILE&#9;file://D:/workspace/PROJECT/BOCC/web/src/main/java/jp/bo/bocc/repository/UserRepository.java&#10;ShtPus&#9;PSI&#9;JAVA://jp.bo.bocc.entity.ShtPushNotify&#10;ShtSync&#9;FILE&#9;file://D:/workspace/PROJECT/BOCC/web/src/main/java/jp/bo/bocc/entity/ShtSyncExc.java&#10;PushWeb&#9;PSI&#9;JAVA://jp.bo.bocc.controller.web.PushNotifyWebController&#10;PushNotifySer&#9;PSI&#9;JAVA://jp.bo.bocc.service.impl.PushNotifyServiceImpl&#10;QaRepo&#9;FILE&#9;file://D:/workspace/PROJECT/BOCC/web/src/main/java/jp/bo/bocc/repository/QaRepositoryImpl.java&#10;QaSer&#9;FILE&#9;file://D:/workspace/PROJECT/BOCC/web/src/main/java/jp/bo/bocc/service/impl/QaServiceImpl.java&#10;TalkQaRE&#9;FILE&#9;file://D:/workspace/PROJECT/BOCC/web/src/main/java/jp/bo/bocc/repository/TalkQaRepositoryImpl.java&#10;TalkQa&#9;FILE&#9;file://D:/workspace/PROJECT/BOCC/web/src/main/java/jp/bo/bocc/repository/TalkQaRepository.java&#10;Banner&#9;FILE&#9;file://D:/workspace/PROJECT/BOCC/web/src/main/java/jp/bo/bocc/controller/api/BannerController.java&#10;createBann&#9;FILE&#9;file://D:/workspace/PROJECT/BOCC/web/src/main/webapp/WEB-INF/views/banner/createBanner.jsp&#10;BannerW&#9;PSI&#9;JAVA://jp.bo.bocc.controller.web.BannerWebController&#10;QaCon&#9;FILE&#9;file://D:/workspace/PROJECT/BOCC/web/src/main/java/jp/bo/bocc/controller/api/QaController.java&#10;Read&#9;FILE&#9;file://D:/workspace/PROJECT/BOCC/web/src/main/java/jp/bo/bocc/repository/UserReadMsgRepositoryImpl.java" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="jp.bo.bocc.service.impl" />
+      <recent name="jp.bo.bocc.service" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="jp.bo.bocc.jobs" />
+      <recent name="jp.bo.bocc.repository" />
+      <recent name="jp.bo.bocc.service.impl" />
+      <recent name="jp.bo.bocc.service" />
+      <recent name="jp.bo.bocc.entity" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\PROJECT\BOCC\web\src\main\resources\db\migration" />
+      <recent name="D:\workspace\PROJECT\BOCC\web\src\main\webapp\WEB-INF\views\maintain" />
+      <recent name="D:\workspace\PROJECT\BOCC\web\src\main\webapp\resources\plugins\nic-editor" />
+      <recent name="D:\workspace\PROJECT\BOCC\web\src\main\webapp\resources\plugins\froala-editor" />
+      <recent name="D:\workspace\PROJECT\BOCC\web\src\main\webapp\resources\plugins\summernote\font" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workspace\PROJECT\BOCC\web\src\main\webapp\WEB-INF\views\pushNotify" />
+      <recent name="D:\workspace\PROJECT\BOCC\web\src\main\resources\db\migration" />
+      <recent name="D:\workspace\PROJECT\BOCC\web\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.AddressServiceImplTest.getProvinces">
+    <configuration default="false" name="PostServiceImplTest.searchPost" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="jp.bo.bocc.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="bocc" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="jp.bo.bocc.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="jp.bo.bocc.service.impl.PostServiceImplTest" />
+      <option name="METHOD_NAME" value="searchPost" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="CategoryServiceImplTest.getCategoriesDeleted" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="jp.bo.bocc.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="bocc" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="jp.bo.bocc.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="jp.bo.bocc.service.impl.CategoryServiceImplTest" />
+      <option name="METHOD_NAME" value="getCategoriesDeleted" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="UserServiceImplTest.testGetBSId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="jp.bo.bocc.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="bocc" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="jp.bo.bocc.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="jp.bo.bocc.service.impl.UserServiceImplTest" />
+      <option name="METHOD_NAME" value="testGetBSId" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="AddressServiceImplTest.getAddress" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="jp.bo.bocc.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="bocc" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="jp.bo.bocc.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="jp.bo.bocc.service.impl.AddressServiceImplTest" />
+      <option name="METHOD_NAME" value="getAddress" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="AddressServiceImplTest.getProvinces" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="jp.bo.bocc.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="bocc" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="jp.bo.bocc.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="jp.bo.bocc.service.impl.AddressServiceImplTest" />
+      <option name="METHOD_NAME" value="getProvinces" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment />
+      <server-settings />
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Cold Fusion runner description" factoryName="Cold Fusion" custom_browser="" web_path="">
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="launchBrowser" value="true" />
+      <setting name="launchBrowserUrl" value="" />
+      <setting name="depsClasspath" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="bocc" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JettyConfiguration" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment />
+      <server-settings>
+        <data>
+          <option name="configFiles">
+            <list>
+              <JettyConfigFile>
+                <option name="active" value="true" />
+                <option name="path" value="modules\jmx.mod" />
+              </JettyConfigFile>
+            </list>
+          </option>
+          <option name="myConfigFiles">
+            <list>
+              <JettyConfigFile>
+                <option name="active" value="true" />
+                <option name="path" value="modules\jmx.mod" />
+              </JettyConfigFile>
+            </list>
+          </option>
+        </data>
+      </server-settings>
+      <predefined_log_file id="Jetty" enabled="true" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method />
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
+      <method />
+    </configuration>
+    <configuration default="false" name="Unnamed" type="JettyConfiguration" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment />
+      <server-settings>
+        <data>
+          <option name="configFiles">
+            <list>
+              <JettyConfigFile>
+                <option name="active" value="true" />
+                <option name="path" value="modules\jmx.mod" />
+              </JettyConfigFile>
+            </list>
+          </option>
+          <option name="myConfigFiles">
+            <list>
+              <JettyConfigFile>
+                <option name="active" value="true" />
+                <option name="path" value="modules\jmx.mod" />
+              </JettyConfigFile>
+            </list>
+          </option>
+        </data>
+      </server-settings>
+      <predefined_log_file id="Jetty" enabled="true" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Jetty" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="jetty:run" />
+              </list>
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method />
+    </configuration>
+    <configuration default="false" name="tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.12" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
+      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
+      <deployment>
+        <artifact name="bocc:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/bocc" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_bocc" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="52198" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="bocc:war" />
+        </option>
+      </method>
+    </configuration>
+    <list size="8">
+      <item index="0" class="java.lang.String" itemvalue="Jetty Server.Unnamed" />
+      <item index="1" class="java.lang.String" itemvalue="Maven.Jetty" />
+      <item index="2" class="java.lang.String" itemvalue="Tomcat Server.tomcat" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.PostServiceImplTest.searchPost" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.CategoryServiceImplTest.getCategoriesDeleted" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.UserServiceImplTest.testGetBSId" />
+      <item index="6" class="java.lang.String" itemvalue="JUnit.AddressServiceImplTest.getAddress" />
+      <item index="7" class="java.lang.String" itemvalue="JUnit.AddressServiceImplTest.getProvinces" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.AddressServiceImplTest.getProvinces" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.AddressServiceImplTest.getAddress" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.UserServiceImplTest.testGetBSId" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.PostServiceImplTest.searchPost" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.CategoryServiceImplTest.getCategoriesDeleted" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1c48ef0b-250d-473b-8e6e-471d57574605" name="Default" comment="" />
+      <created>1493977614487</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1493977614487</updated>
+      <workItem from="1493977619286" duration="5775000" />
+      <workItem from="1494205967153" duration="24881000" />
+      <workItem from="1494292326800" duration="23891000" />
+      <workItem from="1494383435913" duration="27684000" />
+      <workItem from="1494467073997" duration="21472000" />
+      <workItem from="1494553169008" duration="15387000" />
+      <workItem from="1494648171579" duration="3142000" />
+      <workItem from="1494812132733" duration="27585000" />
+      <workItem from="1494897886632" duration="32642000" />
+      <workItem from="1494985849621" duration="20940000" />
+      <workItem from="1495019944095" duration="566000" />
+      <workItem from="1495071374092" duration="24785000" />
+      <workItem from="1495157926688" duration="24202000" />
+      <workItem from="1495415833793" duration="26510000" />
+      <workItem from="1495502232567" duration="5848000" />
+      <workItem from="1495509080848" duration="6091000" />
+      <workItem from="1495515214150" duration="1180000" />
+      <workItem from="1495521489707" duration="15551000" />
+      <workItem from="1495589919069" duration="15811000" />
+      <workItem from="1495612862401" duration="19925000" />
+      <workItem from="1495674943860" duration="30047000" />
+      <workItem from="1495760984716" duration="29883000" />
+      <workItem from="1495937806541" duration="27076000" />
+      <workItem from="1496021859079" duration="25946000" />
+      <workItem from="1496054881762" duration="3473000" />
+      <workItem from="1496108260938" duration="27869000" />
+      <workItem from="1496194463685" duration="3394000" />
+      <workItem from="1496204611226" duration="29307000" />
+      <workItem from="1496280977471" duration="24041000" />
+      <workItem from="1496367758181" duration="22620000" />
+      <workItem from="1496626287344" duration="28359000" />
+      <workItem from="1496716109446" duration="18103000" />
+      <workItem from="1496800550915" duration="8305000" />
+      <workItem from="1496886309734" duration="4702000" />
+      <workItem from="1496918681521" duration="3235000" />
+      <workItem from="1496972262072" duration="11117000" />
+      <workItem from="1497233196402" duration="19535000" />
+      <workItem from="1497264941322" duration="2444000" />
+      <workItem from="1497318330497" duration="12679000" />
+      <workItem from="1497336125412" duration="10482000" />
+      <workItem from="1497402753423" duration="23189000" />
+      <workItem from="1497490913615" duration="18368000" />
+      <workItem from="1497577983685" duration="15849000" />
+      <workItem from="1497836041180" duration="19835000" />
+      <workItem from="1497923432920" duration="25886000" />
+      <workItem from="1498010201834" duration="22495000" />
+      <workItem from="1498095643873" duration="18162000" />
+      <workItem from="1498440180786" duration="22315000" />
+      <workItem from="1498526261573" duration="8689000" />
+      <workItem from="1498535429580" duration="27631000" />
+      <workItem from="1498612481293" duration="25212000" />
+      <workItem from="1498700064160" duration="10326000" />
+      <workItem from="1498713754179" duration="19036000" />
+      <workItem from="1498785595021" duration="24345000" />
+      <workItem from="1499093006477" duration="2109000" />
+      <workItem from="1499305490966" duration="804000" />
+      <workItem from="1499306351697" duration="2683000" />
+      <workItem from="1499350765958" duration="1453000" />
+      <workItem from="1499352271674" duration="425000" />
+      <workItem from="1499672305750" duration="8936000" />
+      <workItem from="1499683457632" duration="13583000" />
+      <workItem from="1499757800732" duration="16829000" />
+      <workItem from="1499851286623" duration="361000" />
+      <workItem from="1502070551805" duration="23566000" />
+      <workItem from="1502415612654" duration="7322000" />
+      <workItem from="1502678316200" duration="4999000" />
+      <workItem from="1502779952672" duration="6624000" />
+      <workItem from="1502847673658" duration="1936000" />
+      <workItem from="1502943874143" duration="1672000" />
+      <workItem from="1503396788395" duration="1440000" />
+      <workItem from="1503540277659" duration="7982000" />
+      <workItem from="1503630207182" duration="14185000" />
+      <workItem from="1503883946406" duration="23218000" />
+      <workItem from="1503973132538" duration="9062000" />
+      <workItem from="1504151138440" duration="5717000" />
+      <workItem from="1504228740188" duration="22902000" />
+      <workItem from="1504493956276" duration="20801000" />
+      <workItem from="1504575020816" duration="23198000" />
+      <workItem from="1504660581332" duration="24789000" />
+      <workItem from="1504746932017" duration="24890000" />
+      <workItem from="1505094953574" duration="17116000" />
+      <workItem from="1505180339134" duration="14832000" />
+      <workItem from="1505265997696" duration="24000" />
+      <workItem from="1505269835520" duration="7804000" />
+      <workItem from="1505285212684" duration="11038000" />
+      <workItem from="1505351728009" duration="29379000" />
+      <workItem from="1505402485841" duration="4701000" />
+      <workItem from="1505437926768" duration="29290000" />
+      <workItem from="1505645237914" duration="3017000" />
+      <workItem from="1505697243641" duration="12989000" />
+      <workItem from="1505717345912" duration="17364000" />
+      <workItem from="1505784092460" duration="20064000" />
+      <workItem from="1505878348601" duration="17260000" />
+      <workItem from="1505956895771" duration="13011000" />
+      <workItem from="1505976032097" duration="13747000" />
+      <workItem from="1506006214248" duration="7114000" />
+      <workItem from="1506042922747" duration="14036000" />
+      <workItem from="1506303681886" duration="10806000" />
+      <workItem from="1506561591533" duration="16703000" />
+      <workItem from="1506652060530" duration="6488000" />
+      <workItem from="1506909089828" duration="1353000" />
+      <workItem from="1507169219989" duration="1633000" />
+      <workItem from="1507192452974" duration="4351000" />
+      <workItem from="1507252735662" duration="26253000" />
+      <workItem from="1507514804482" duration="19665000" />
+      <workItem from="1507599254925" duration="17657000" />
+      <workItem from="1507685178924" duration="3925000" />
+      <workItem from="1507710277916" duration="4586000" />
+      <workItem from="1507771326549" duration="26289000" />
+      <workItem from="1507857722336" duration="23981000" />
+      <workItem from="1508120559883" duration="14767000" />
+      <workItem from="1508165993876" duration="823000" />
+      <workItem from="1508203507908" duration="3245000" />
+      <workItem from="1508217965124" duration="5956000" />
+      <workItem from="1508310083083" duration="9152000" />
+      <workItem from="1508376610250" duration="20639000" />
+      <workItem from="1508464334003" duration="2382000" />
+      <workItem from="1508468842073" duration="2848000" />
+      <workItem from="1508723271126" duration="2674000" />
+      <workItem from="1508818795883" duration="3304000" />
+      <workItem from="1508985372180" duration="1608000" />
+      <workItem from="1509008876893" duration="1840000" />
+      <workItem from="1509067788236" duration="4606000" />
+      <workItem from="1509102795773" duration="695000" />
+      <workItem from="1509327140488" duration="4006000" />
+      <workItem from="1509362133913" duration="40000" />
+      <workItem from="1509415283539" duration="2666000" />
+      <workItem from="1509452959338" duration="636000" />
+      <workItem from="1509525248978" duration="1364000" />
+      <workItem from="1509526845977" duration="7914000" />
+      <workItem from="1509585135091" duration="6077000" />
+      <workItem from="1509676353825" duration="51000" />
+      <workItem from="1509935271952" duration="1829000" />
+      <workItem from="1510107045036" duration="4766000" />
+      <workItem from="1510199528878" duration="13373000" />
+      <workItem from="1510277138618" duration="10072000" />
+      <workItem from="1510537498307" duration="5565000" />
+      <workItem from="1510622569537" duration="16461000" />
+      <workItem from="1510708495915" duration="12098000" />
+      <workItem from="1510824622974" duration="1320000" />
+      <workItem from="1510882073617" duration="28148000" />
+      <workItem from="1510970359356" duration="22774000" />
+      <workItem from="1511142875751" duration="29585000" />
+      <workItem from="1511228884501" duration="23307000" />
+      <workItem from="1511316415864" duration="13553000" />
+      <workItem from="1511401092975" duration="12406000" />
+      <workItem from="1511496575475" duration="7890000" />
+      <workItem from="1511747040040" duration="17533000" />
+      <workItem from="1511834048576" duration="21709000" />
+      <workItem from="1511918391974" duration="28686000" />
+      <workItem from="1512006608387" duration="13583000" />
+      <workItem from="1512092055820" duration="7784000" />
+      <workItem from="1512122085898" duration="1004000" />
+      <workItem from="1512350252811" duration="9042000" />
+      <workItem from="1512395930530" duration="8399000" />
+      <workItem from="1512436636060" duration="28720000" />
+      <workItem from="1512529302860" duration="15285000" />
+      <workItem from="1512610384721" duration="25442000" />
+      <workItem from="1512697903280" duration="22162000" />
+      <workItem from="1512894232495" duration="24481000" />
+      <workItem from="1512956448854" duration="22482000" />
+      <workItem from="1513042333819" duration="23742000" />
+      <workItem from="1513128672607" duration="25770000" />
+      <workItem from="1513215703691" duration="20937000" />
+      <workItem from="1513301676374" duration="21160000" />
+      <workItem from="1513560635497" duration="22268000" />
+      <workItem from="1513647117531" duration="24086000" />
+      <workItem from="1513733132509" duration="23329000" />
+      <workItem from="1513819191761" duration="25127000" />
+      <workItem from="1513906084516" duration="9646000" />
+      <workItem from="1514176864792" duration="13457000" />
+      <workItem from="1514251586906" duration="17665000" />
+      <workItem from="1514337345641" duration="12093000" />
+      <workItem from="1514425181431" duration="13611000" />
+      <workItem from="1514513738742" duration="16951000" />
+      <workItem from="1514862136045" duration="16181000" />
+      <workItem from="1514943790361" duration="22557000" />
+      <workItem from="1515030542895" duration="20397000" />
+      <workItem from="1515117015650" duration="16502000" />
+      <workItem from="1515378140523" duration="5134000" />
+      <workItem from="1515480843937" duration="9114000" />
+      <workItem from="1515547093972" duration="20332000" />
+      <workItem from="1515635134926" duration="6693000" />
+      <workItem from="1515731121370" duration="7626000" />
+      <workItem from="1515981596336" duration="6080000" />
+      <workItem from="1516066631215" duration="11142000" />
+      <workItem from="1516156581072" duration="17806000" />
+      <workItem from="1516239926738" duration="11473000" />
+      <workItem from="1516344397083" duration="5527000" />
+      <workItem from="1516361411546" duration="1212000" />
+      <workItem from="1516585050291" duration="14648000" />
+      <workItem from="1516671038503" duration="7442000" />
+      <workItem from="1516758828975" duration="14736000" />
+      <workItem from="1516794620168" duration="827000" />
+      <workItem from="1516882317668" duration="3010000" />
+      <workItem from="1516930349722" duration="31623000" />
+      <workItem from="1517019604862" duration="10857000" />
+      <workItem from="1517189816129" duration="18294000" />
+      <workItem from="1517276133140" duration="13581000" />
+      <workItem from="1517364668531" duration="4462000" />
+      <workItem from="1517391185143" duration="1655000" />
+      <workItem from="1517450753842" duration="8174000" />
+      <workItem from="1517540183965" duration="10160000" />
+      <workItem from="1517966138943" duration="23243000" />
+      <workItem from="1518056397788" duration="21123000" />
+      <workItem from="1518158671774" duration="2709000" />
+      <workItem from="1518398130121" duration="21572000" />
+      <workItem from="1518485533108" duration="7584000" />
+      <workItem from="1518518282369" duration="3927000" />
+      <workItem from="1519176148949" duration="14359000" />
+      <workItem from="1519265662199" duration="17425000" />
+      <workItem from="1519349447899" duration="6005000" />
+      <workItem from="1519610646952" duration="13665000" />
+      <workItem from="1519694668454" duration="10467000" />
+      <workItem from="1519784459190" duration="16928000" />
+      <workItem from="1519871833891" duration="17131000" />
+      <workItem from="1519954034573" duration="20539000" />
+      <workItem from="1520213409709" duration="10704000" />
+      <workItem from="1520300537153" duration="22954000" />
+      <workItem from="1520386341288" duration="24737000" />
+      <workItem from="1520473486435" duration="17202000" />
+      <workItem from="1520559763049" duration="16475000" />
+      <workItem from="1520819849253" duration="17295000" />
+      <workItem from="1520842451511" duration="5112000" />
+      <workItem from="1520905025307" duration="6009000" />
+      <workItem from="1522451187980" duration="4691000" />
+      <workItem from="1520930269005" duration="4041000" />
+      <workItem from="1520993881651" duration="11356000" />
+      <workItem from="1521076929076" duration="17875000" />
+      <workItem from="1521164468599" duration="14180000" />
+      <workItem from="1521646868509" duration="1549000" />
+      <workItem from="1521735111750" duration="7793000" />
+      <workItem from="1521812640499" duration="2106000" />
+      <workItem from="1522022503631" duration="2887000" />
+      <workItem from="1522157904373" duration="10412000" />
+      <workItem from="1522173099443" duration="387000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="AddressServiceImplTest_getProvinces - 2018.03.23 at 01h 12m 41s.xml">
+      <configuration name="AddressServiceImplTest.getProvinces" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AddressServiceImplTest_getProvinces - 2018.03.23 at 01h 14m 56s.xml">
+      <configuration name="AddressServiceImplTest.getProvinces" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AddressServiceImplTest_getProvinces - 2018.03.23 at 21h 41m 01s.xml">
+      <configuration name="AddressServiceImplTest.getProvinces" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AddressServiceImplTest_getProvinces - 2018.03.23 at 21h 43m 34s.xml">
+      <configuration name="AddressServiceImplTest.getProvinces" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AddressServiceImplTest_getProvinces - 2018.03.28 at 00h 55m 43s.xml">
+      <configuration name="AddressServiceImplTest.getProvinces" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AddressServiceImplTest_getProvinces - 2018.03.28 at 00h 58m 05s.xml">
+      <configuration name="AddressServiceImplTest.getProvinces" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AddressServiceImplTest_getProvinces - 2018.05.02 at 01h 16m 54s.xml">
+      <configuration name="AddressServiceImplTest.getProvinces" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AddressServiceImplTest_getProvinces - 2018.05.02 at 01h 18m 50s.xml">
+      <configuration name="AddressServiceImplTest.getProvinces" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SNSMobilePushServiceImplTest_testSendIOSAppNotification - 2017.12.19 at 14h 19m 35s.xml">
+      <configuration name="SNSMobilePushServiceImplTest.testSendIOSAppNotification" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceImplTest_testGetBSId - 2018.03.06 at 10h 34m 06s.xml">
+      <configuration name="UserServiceImplTest.testGetBSId" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="3164066000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32083791" sideWeight="0.50860214" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932165" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30605564" sideWeight="0.49139786" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932165" sideWeight="0.4978678" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44203684" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932165" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29035753" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33694476" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28805238" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31543118" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.195629" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32827735" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/jp/bo/bocc/service/impl/PostServiceImpl.java</url>
+          <line>993</line>
+          <properties />
+          <option name="timeStamp" value="399" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/jp/bo/bocc/controller/api/TalkPurcController.java</url>
+          <line>71</line>
+          <properties />
+          <option name="timeStamp" value="414" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/jp/bo/bocc/controller/web/QaWebController.java</url>
+          <line>109</line>
+          <properties />
+          <option name="timeStamp" value="420" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/jp/bo/bocc/service/impl/PostServiceImplTest.java</url>
+          <line>140</line>
+          <properties />
+          <option name="timeStamp" value="432" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/jp/bo/bocc/service/impl/PostServiceImplTest.java</url>
+          <line>141</line>
+          <properties />
+          <option name="timeStamp" value="433" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/jp/bo/bocc/controller/api/PostController.java</url>
+          <line>84</line>
+          <properties />
+          <option name="timeStamp" value="435" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/jp/bo/bocc/controller/web/AdminUserWebController.java</url>
+          <line>636</line>
+          <properties />
+          <option name="timeStamp" value="438" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/jp/bo/bocc/controller/web/response/MonthlyKpiListExcelView.java</url>
+          <line>53</line>
+          <properties />
+          <option name="timeStamp" value="439" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/jp/bo/bocc/controller/web/response/MonthlyKpiListExcelView.java</url>
+          <line>48</line>
+          <properties />
+          <option name="timeStamp" value="441" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/jp/bo/bocc/controller/api/PushNotifyController.java</url>
+          <line>43</line>
+          <properties />
+          <option name="timeStamp" value="448" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/jp/bo/bocc/service/impl/ImageServiceImpl.java</url>
+          <line>130</line>
+          <properties />
+          <option name="timeStamp" value="454" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/jp/bo/bocc/service/impl/ImageServiceImpl.java</url>
+          <line>132</line>
+          <properties />
+          <option name="timeStamp" value="456" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/jp/bo/bocc/repository/PostRepositoryImpl.java</url>
+          <line>301</line>
+          <properties />
+          <option name="timeStamp" value="467" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/jp/bo/bocc/controller/web/PushNotifyWebController.java</url>
+          <line>141</line>
+          <properties />
+          <option name="timeStamp" value="470" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/jp/bo/bocc/repository/PostRepositoryImpl.java</url>
+          <line>98</line>
+          <properties />
+          <option name="timeStamp" value="474" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/jp/bo/bocc/service/impl/StorageServiceImpl.java</url>
+          <line>68</line>
+          <properties />
+          <option name="timeStamp" value="477" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/jp/bo/bocc/controller/web/PushNotifyWebController.java</url>
+          <line>145</line>
+          <properties />
+          <option name="timeStamp" value="481" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/jp/bo/bocc/service/impl/PushNotifyServiceImpl.java</url>
+          <line>230</line>
+          <properties />
+          <option name="timeStamp" value="487" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/jp/bo/bocc/controller/web/AdminUserWebController.java</url>
+          <line>735</line>
+          <properties />
+          <option name="timeStamp" value="496" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/jp/bo/bocc/service/impl/PostServiceImpl.java</url>
+          <line>225</line>
+          <properties />
+          <option name="timeStamp" value="508" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/jp/bo/bocc/service/impl/PostServiceImpl.java</url>
+          <line>958</line>
+          <properties />
+          <option name="timeStamp" value="536" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/jp/bo/bocc/service/impl/PostServiceImpl.java</url>
+          <line>955</line>
+          <properties />
+          <option name="timeStamp" value="537" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/jp/bo/bocc/controller/api/PostController.java</url>
+          <line>66</line>
+          <properties />
+          <option name="timeStamp" value="538" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/jp/bo/bocc/push/impl/SNSMobilePushServiceImpl.java</url>
+          <line>243</line>
+          <properties />
+          <option name="timeStamp" value="539" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/jp/bo/bocc/service/impl/PushNotifyServiceImpl.java</url>
+          <line>165</line>
+          <properties />
+          <option name="timeStamp" value="541" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/jp/bo/bocc/helper/PushUtils.java</url>
+          <line>68</line>
+          <properties />
+          <option name="timeStamp" value="542" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/jp/bo/bocc/controller/api/AccessTokenController.java</url>
+          <line>48</line>
+          <properties />
+          <option name="timeStamp" value="548" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/jp/bo/bocc/controller/api/AccessTokenController.java</url>
+          <line>89</line>
+          <properties />
+          <option name="timeStamp" value="549" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/jp/bo/bocc/controller/web/BannerWebController.java</url>
+          <line>250</line>
+          <properties />
+          <option name="timeStamp" value="550" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/jp/bo/bocc/controller/api/BannerController.java</url>
+          <line>39</line>
+          <properties />
+          <option name="timeStamp" value="554" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/jp/bo/bocc/service/impl/CategoryServiceImplTest.java</url>
+          <line>32</line>
+          <properties />
+          <option name="timeStamp" value="555" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/jp/bo/bocc/system/apiconfig/interceptor/AuthenticationInterceptor.java</url>
+          <line>82</line>
+          <properties />
+          <option name="timeStamp" value="557" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/jp/bo/bocc/service/impl/QaServiceImpl.java</url>
+          <line>218</line>
+          <properties />
+          <option name="timeStamp" value="562" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/jp/bo/bocc/controller/web/PushNotifyWebController.java</url>
+          <line>170</line>
+          <properties />
+          <option name="timeStamp" value="565" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/jp/bo/bocc/controller/web/PushNotifyWebController.java</url>
+          <line>143</line>
+          <properties />
+          <option name="timeStamp" value="567" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/jp/bo/bocc/service/impl/UserServiceImplTest.java</url>
+          <line>319</line>
+          <properties />
+          <option name="timeStamp" value="568" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/jp/bo/bocc/service/impl/UserServiceImpl.java</url>
+          <line>434</line>
+          <properties />
+          <option name="timeStamp" value="585" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/jp/bo/bocc/system/config/AppConfig.java</url>
+          <line>347</line>
+          <properties />
+          <option name="timeStamp" value="591" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/jp/bo/bocc/controller/web/AdminUserWebController.java</url>
+          <line>797</line>
+          <properties />
+          <option name="timeStamp" value="594" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/jp/bo/bocc/service/impl/SyncExcServiceImpl.java</url>
+          <line>203</line>
+          <properties />
+          <option name="timeStamp" value="597" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/jp/bo/bocc/service/impl/SyncExcServiceImpl.java</url>
+          <line>77</line>
+          <properties />
+          <option name="timeStamp" value="598" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/jp/bo/bocc/service/impl/SyncExcServiceImpl.java</url>
+          <line>81</line>
+          <properties />
+          <option name="timeStamp" value="600" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/jp/bo/bocc/service/impl/AddressServiceImplTest.java</url>
+          <line>51</line>
+          <properties />
+          <option name="timeStamp" value="603" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/jp/bo/bocc/service/impl/SyncExcServiceImpl.java</url>
+          <line>157</line>
+          <properties />
+          <option name="timeStamp" value="605" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/jp/bo/bocc/repository/SyncExcRepositoryImpl.java</url>
+          <line>100</line>
+          <properties />
+          <option name="timeStamp" value="606" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/jp/bo/bocc/service/impl/SyncExcServiceImpl.java</url>
+          <line>173</line>
+          <properties />
+          <option name="timeStamp" value="607" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/jp/bo/bocc/service/impl/SyncExcServiceImpl.java</url>
+          <line>139</line>
+          <properties />
+          <option name="timeStamp" value="608" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/jp/bo/bocc/service/impl/SyncExcServiceImpl.java</url>
+          <line>191</line>
+          <properties />
+          <option name="timeStamp" value="612" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/jp/bo/bocc/service/impl/SyncExcServiceImpl.java</url>
+          <line>165</line>
+          <properties />
+          <option name="timeStamp" value="613" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/jp/bo/bocc/service/impl/SyncExcServiceImpl.java</url>
+          <line>167</line>
+          <properties />
+          <option name="timeStamp" value="614" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/jp/bo/bocc/service/impl/SyncExcServiceImpl.java</url>
+          <line>169</line>
+          <properties />
+          <option name="timeStamp" value="615" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/jp/bo/bocc/repository/SyncExcRepositoryImpl.java</url>
+          <line>89</line>
+          <properties />
+          <option name="timeStamp" value="616" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/jp/bo/bocc/service/impl/UserServiceImpl.java</url>
+          <line>303</line>
+          <properties />
+          <option name="timeStamp" value="617" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/jp/bo/bocc/service/impl/AddressServiceImplTest.java</url>
+          <line>39</line>
+          <properties />
+          <option name="timeStamp" value="618" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="619" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/db/migration/V1_076__ALTER_SHM_POST.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="36" lean-forward="false" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/db/migration/V1_075__CREATE_TABLE_SHT_GROUP_PBL_DETAIL.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/db/migration/V1_077__CREATE_TABLE_SHT_CATEGORY_SETTING.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="33" lean-forward="false" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/db/migration/V1_078__CREATE_TABLE_SHT_BANNER.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="12" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/db/migration/V1_079__ALTER_TABLE_SHT_PUSH_NOTIFY.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="31" lean-forward="false" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/db/migration/V1_080__ALTER_TABLE_SHT_USER_NTF.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/db/migration/V1_081__CREATE_TABLE_SHT_KPI_STORAGE.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/db/migration/V1_084__CREATE_TABLE_SHT_BANNER_PAGE.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/db/migration/V1_085__ALTER_TABLE_SHT_BANNER.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="35" lean-forward="false" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/db/migration/V1_086__ALTER_TABLE_SHT_TALK_PURC_MSG.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="51" lean-forward="false" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/db/migration/V1_087__ALTER_TABLE_SHT_BANNER_PAGE.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="46" lean-forward="true" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/db/migration/V1_088__ALTER_TABLE_SHR_SYS_ADMIN.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/db/migration/V1_089__CREATE_SYSTEM_USER.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/db/migration/V1_090__CREATE_TABLE_SHT_USER_READ_MSG.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jp/bo/bocc/enums/SysConfigEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="12" lean-forward="false" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jp/bo/bocc/jobs/JobReviewAfter7Days.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="34" column="37" lean-forward="false" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jp/bo/bocc/service/impl/PushNotifyServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="385" column="48" lean-forward="true" selection-start-line="385" selection-start-column="48" selection-end-line="385" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jp/bo/bocc/enums/JobEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="61" lean-forward="true" selection-start-line="16" selection-start-column="61" selection-end-line="16" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/config/botest/db/db.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="27" lean-forward="false" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/db/migration/V1_094__ALTER_TABLE_SHR_SYS_CONFIG.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/db/migration/V1_095__ALTER_TABLE_SHT_SYNC_EXC.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/db/migration/V1_092__ALTER_TABLE_SHM_USER.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/config/prod/db/db.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jp/bo/bocc/system/config/AppConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4386">
+          <caret line="316" column="58" lean-forward="false" selection-start-line="316" selection-start-column="58" selection-end-line="316" selection-end-column="58" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#3237#3238#0" expanded="false" />
+            <element signature="e#3282#3283#0" expanded="false" />
+            <element signature="e#5115#5116#0" expanded="false" />
+            <element signature="e#5145#5146#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jp/bo/bocc/repository/TalkPurcMsgRepositoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="94" column="5" lean-forward="false" selection-start-line="94" selection-start-column="5" selection-end-line="94" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jp/bo/bocc/service/impl/TalkPurcServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="280" column="43" lean-forward="false" selection-start-line="280" selection-start-column="43" selection-end-line="280" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jp/bo/bocc/repository/TalkPurcRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="53" column="22" lean-forward="false" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/config/botest/appEnv.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="75" column="40" lean-forward="false" selection-start-line="75" selection-start-column="40" selection-end-line="75" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/config/test/db/db.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="6" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/config/prod/appEnv.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="74" column="20" lean-forward="true" selection-start-line="74" selection-start-column="20" selection-end-line="74" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/1.12.5.RELEASE/spring-data-commons-1.12.5.RELEASE.jar!/org/springframework/data/repository/CrudRepository.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="17" column="6" lean-forward="false" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jp/bo/bocc/repository/UserRepositoryCustom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="21" column="30" lean-forward="false" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jp/bo/bocc/repository/UserRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jp/bo/bocc/service/impl/QaServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3298">
+          <caret line="229" column="0" lean-forward="false" selection-start-line="229" selection-start-column="0" selection-end-line="229" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1921#1922#0" expanded="false" />
+            <element signature="e#1972#1973#0" expanded="false" />
+            <element signature="e#2061#2062#0" expanded="false" />
+            <element signature="e#2112#2113#0" expanded="false" />
+            <element signature="e#2166#2167#0" expanded="false" />
+            <element signature="e#2213#2214#0" expanded="false" />
+            <element signature="e#6904#6905#0" expanded="false" />
+            <element signature="e#6957#6958#0" expanded="false" />
+            <element signature="e#7015#7016#0" expanded="false" />
+            <element signature="e#7070#7071#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jp/bo/bocc/push/impl/SNSMobilePushServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6834">
+          <caret line="444" column="0" lean-forward="false" selection-start-line="444" selection-start-column="0" selection-end-line="444" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#5844#5845#0" expanded="false" />
+            <element signature="e#5886#5887#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/config/staging/appEnv.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="71" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/config/local/db/db.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/config/staging/db/db.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="6" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.6.RELEASE/spring-web-4.3.6.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="128" column="57" lean-forward="false" selection-start-line="128" selection-start-column="57" selection-end-line="128" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.3.6.RELEASE/spring-aop-4.3.6.RELEASE.jar!/org/springframework/aop/framework/JdkDynamicAopProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="88" column="0" lean-forward="false" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jp/bo/bocc/helper/ConverterUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="37" column="23" lean-forward="false" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/config/local/appEnv.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1275">
+          <caret line="75" column="25" lean-forward="false" selection-start-line="75" selection-start-column="25" selection-end-line="75" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jp/bo/bocc/repository/UserRepositoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2652">
+          <caret line="186" column="21" lean-forward="false" selection-start-line="186" selection-start-column="21" selection-end-line="186" selection-end-column="21" />
+          <folding>
+            <marker date="1522024542664" expanded="true" signature="3573:3691" ph="SELECT COUNT... SHM_USER" />
+            <marker date="1522024542664" expanded="true" signature="3963:4080" ph="SELECT COUNT... SHM_USER" />
+            <marker date="1522024542664" expanded="true" signature="4330:4392" ph="select MIN(T... SHM_USER" />
+            <marker date="1522024542664" expanded="true" signature="4637:4675" ph="SELECT M_MEM... missingValue" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/1.12.5.RELEASE/spring-data-commons-1.12.5.RELEASE.jar!/org/springframework/data/repository/core/support/RepositoryFactorySupport.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4624">
+          <caret line="332" column="0" lean-forward="false" selection-start-line="332" selection-start-column="0" selection-end-line="332" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jp/bo/bocc/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3808">
+          <caret line="242" column="9" lean-forward="false" selection-start-line="242" selection-start-column="9" selection-end-line="242" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jp/bo/bocc/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3842">
+          <caret line="301" column="33" lean-forward="false" selection-start-line="301" selection-start-column="33" selection-end-line="301" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jp/bo/bocc/service/impl/SyncExcServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3162">
+          <caret line="220" column="61" lean-forward="false" selection-start-line="220" selection-start-column="61" selection-end-line="220" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jp/bo/bocc/repository/SyncExcRepositoryCustom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="15" column="15" lean-forward="false" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jp/bo/bocc/repository/SyncExcRepositoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="57" column="22" lean-forward="false" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="22" />
+          <folding>
+            <marker date="1522171582730" expanded="true" signature="1044:1234" ph="SELECT COUNT... SHT_QA" />
+            <marker date="1522171582730" expanded="true" signature="1133:1233" ph="SELECT surm.... SHT_USER_READ_MSG" />
+            <marker date="1522171582730" expanded="true" signature="1619:1684" ph="SELECT MAX(T... SHT_SYNC_EXC" />
+            <marker date="1522171582730" expanded="true" signature="2239:2544" ph="SELECT USER_... SHM_USER" />
+            <marker date="1522171582730" expanded="true" signature="2581:3070" ph="SELECT USER_... SHM_USER" />
+            <marker date="1522171582730" expanded="true" signature="3852:4165" ph="SELECT M_MEM... missingValue" />
+            <marker date="1522171582730" expanded="true" signature="5052:5530" ph="SELECT M_MEM... missingValue" />
+            <marker date="1522171582730" expanded="true" signature="5116:5530" ph="SELECT M_MEM... MSV_MEMBR_INF_SRCH_W_WK" />
+            <marker date="1522171582730" expanded="true" signature="5986:6027" ph="SELECT MAX(S... SHT_SYNC_EXC" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/jp/bo/bocc/service/impl/AddressServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>bocc:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>bocc</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

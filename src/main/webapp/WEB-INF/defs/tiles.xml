@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC  "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"  "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+
+<tiles-definitions>
+
+    <!-- Base Definition -->
+    <definition name="base-definition"
+                template="/WEB-INF/layout/common.jsp">
+        <put-attribute name="body_template" value="/WEB-INF/layout/main.jsp"/>
+        <put-attribute name="nav-bar" value="/WEB-INF/layout/nav-bar.jsp"  />
+        <put-attribute name="header" value="/WEB-INF/layout/header.jsp" />
+        <put-attribute name="content" value="" />
+        <put-attribute name="body" value="" />
+        <put-attribute name="footer" value="/WEB-INF/layout/footer.jsp" />
+
+        <put-list-attribute name="stylesheets" cascade="true">
+            <add-attribute value="/resources/AdminLTE/css/AdminLTE.min.css" />
+            <!--             <add-attribute value="resources/css/skins/skin-purple.min.css" /> -->
+            <!--             <add-attribute value="resources/css/skins/skin-purple.min.css" /> -->
+            <!--             <add-attribute value="resources/css/skins/skin-black.min.css" /> -->
+            <!--             <add-attribute value="resources/css/skins/skin-blue.min.css" /> -->
+            <!--             <add-attribute value="resources/css/skins/skin-red.min.css" /> -->
+            <!--             <add-attribute value="resources/css/skins/skin-yellow.min.css" /> -->
+            <!--             <add-attribute value="resources/css/skins/skin-green.min.css" /> -->
+            <add-attribute value="/resources/AdminLTE/css/skins/_all-skins.min.css" />
+        </put-list-attribute>
+        <put-list-attribute name="javascripts" cascade="true">
+            <add-attribute value="/resources/AdminLTE/js/app.min.js" />
+            <add-attribute value="/resources/AdminLTE/js/demo.js" />
+        </put-list-attribute>
+
+    </definition>
+
+    <!-- PAGES -->
+    <definition name="dashboard" extends="base-definition">
+        <put-attribute name="title" value="ダッシュ ボード" />
+        <put-attribute name="content" value="/WEB-INF/views/dashboard.jsp"/>
+    </definition>
+
+    <definition name="error"
+                template="/WEB-INF/views/error.jsp">
+        <put-list-attribute name="stylesheets" cascade="true">
+            <add-attribute value="/resources/AdminLTE/css/AdminLTE.min.css" />
+            <add-attribute value="/resources/AdminLTE/css/skins/_all-skins.min.css" />
+        </put-list-attribute>
+
+    </definition>
+
+    <definition name="login" template="/WEB-INF/layout/common_login.jsp">
+        <put-attribute name="title" value="ログイン" />
+        <put-attribute name="body_template" value="/WEB-INF/views/authen/login.jsp" />
+        <put-attribute name="nav-bar" value="/WEB-INF/layout/nav-bar.jsp"  />
+        <put-attribute name="header" value="/WEB-INF/layout/header.jsp" />
+        <put-attribute name="content" value="" />
+        <put-attribute name="body" value="" />
+        <put-attribute name="footer" value="/WEB-INF/layout/footer.jsp" />
+
+        <put-list-attribute name="stylesheets" cascade="true">
+            <add-attribute value="/resources/AdminLTE/css/AdminLTE.min.css" />
+            <add-attribute value="/resources/AdminLTE/css/skins/_all-skins.min.css" />
+        </put-list-attribute>
+        <put-list-attribute name="javascripts" cascade="true">
+            <add-attribute value="/resources/AdminLTE/js/app.min.js" />
+            <add-attribute value="/resources/AdminLTE/js/demo.js" />
+        </put-list-attribute>
+
+    </definition>
+
+    <definition name="post-search" extends="base-definition"  >
+        <put-attribute name="title" value="投稿検索" />
+        <put-attribute name="content" value="/WEB-INF/views/post/post_search.jsp" />
+    </definition>
+
+    <definition name="post-detail" extends="base-definition"  >
+        <put-attribute name="title" value="投稿の詳細" />
+        <put-attribute name="content" value="/WEB-INF/views/post/postDetail.jsp" />
+    </definition>
+
+    <definition name="user-search" extends="base-definition"  >
+        <put-attribute name="title" value="ユーザ検索" />
+        <put-attribute name="content" value="/WEB-INF/views/user/user_search.jsp" />
+    </definition>
+
+    <definition name="list-admin-user" extends="base-definition"  >
+        <put-attribute name="title" value="ユーザー権限設定マスタ" />
+        <put-attribute name="content" value="/WEB-INF/views/admin/listAdminUser.jsp" />
+    </definition>
+    <definition name="edit-admin-user" extends="base-definition"  >
+        <put-attribute name="title" value="管理者編集" />
+        <put-attribute name="content" value="/WEB-INF/views/admin/editAdminUser.jsp" />
+    </definition>
+    <definition name="change-admin-password" extends="base-definition"  >
+        <put-attribute name="title" value="管理者編集" />
+        <put-attribute name="content" value="/WEB-INF/views/admin/changeAdminPassword.jsp" />
+    </definition>
+    <definition name="register-admin" extends="base-definition"  >
+        <put-attribute name="title" value="新規登録" />
+        <put-attribute name="content" value="/WEB-INF/views/admin/createAdminUser.jsp" />
+    </definition>
+    <definition name="detail-admin-user" extends="base-definition"  >
+        <put-attribute name="title" value="管理者の詳細" />
+        <put-attribute name="content" value="/WEB-INF/views/admin/detailAdminUser.jsp" />
+    </definition>
+    <definition name="list-admin-ng" extends="base-definition"  >
+        <put-attribute name="title" value="NGワードマスタ" />
+        <put-attribute name="content" value="/WEB-INF/views/adminNg/listAdminNg.jsp" />
+    </definition>
+
+    <definition name="create-admin-ng" extends="base-definition"  >
+        <put-attribute name="title" value="NG ワード 登録" />
+        <put-attribute name="content" value="/WEB-INF/views/adminNg/createAdminNg.jsp" />
+    </definition>
+
+    <definition name="post-patrol" extends="base-definition"  >
+        <put-attribute name="title" value="サイト パトロール ( 投稿 )" />
+        <put-attribute name="content" value="/WEB-INF/views/patrol/post/post_patrol.jsp" />
+    </definition>
+
+    <definition name="post-patrol-sequent" extends="base-definition"  >
+        <put-attribute name="title" value="連続 パトロール" />
+        <put-attribute name="content" value="/WEB-INF/views/patrol/post/post_patrol_detail.jsp" />
+    </definition>
+
+    <definition name="post-patrol-detail" extends="base-definition"  >
+        <put-attribute name="title" value="サイトパトロール（投稿詳細）" />
+        <put-attribute name="content" value="/WEB-INF/views/patrol/post/post_patrol_detail.jsp"/>
+    </definition>
+
+    <definition name="edit-admin-ng" extends="base-definition"  >
+        <put-attribute name="title" value="NG ワード 編集" />
+        <put-attribute name="content" value="/WEB-INF/views/adminNg/editAdminNg.jsp" />
+    </definition>
+
+    <definition name="list-talk" extends="base-definition"  >
+        <put-attribute name="title" value="トークー覧" />
+        <put-attribute name="content" value="/WEB-INF/views/talk/listTalk.jsp" />
+    </definition>
+
+    <definition name="user-detail" extends="base-definition"  >
+        <put-attribute name="title" value="ユーザー詳細" />
+        <put-attribute name="content" value="/WEB-INF/views/user/user-detail.jsp" />
+    </definition>
+
+    <definition name="talk-detail" extends="base-definition"  >
+        <put-attribute name="title" value="トーク 詳細" />
+        <put-attribute name="content" value="/WEB-INF/views/talk/talkDetail.jsp" />
+    </definition>
+
+    <definition name="user-activation-email" template="/WEB-INF/views/user/reg_email_template.jsp">
+    </definition>
+
+    <definition name="banner-page" template="/WEB-INF/views/banner/banner_page_template.jsp">
+    </definition>
+
+    <definition name="preview-banner-page" template="/WEB-INF/views/banner/banner_page_template.jsp">
+    </definition>
+
+    <definition name="list-qa" extends="base-definition"  >
+        <put-attribute name="title" value="お問合わせー覧" />
+        <put-attribute name="content" value="/WEB-INF/views/qa/listQa.jsp" />
+    </definition>
+
+    <definition name="detail-qa" extends="base-definition"  >
+        <put-attribute name="title" value="お問合わせ詳細" />
+        <put-attribute name="content" value="/WEB-INF/views/qa/detailQa.jsp" />
+    </definition>
+
+    <definition name="patrol-handle-user" extends="base-definition"  >
+        <put-attribute name="title" value="サイト パトロール ( ユーザー )" />
+        <put-attribute name="content" value="/WEB-INF/views/patrol/user/user_patrol.jsp" />
+    </definition>
+
+    <definition name="patrol-handle-user-detail" extends="base-definition"  >
+        <put-attribute name="title" value="サイト パトロール ( ユーザー )" />
+        <put-attribute name="content" value="/WEB-INF/views/patrol/user/user_patrol_detail.jsp" />
+    </definition>
+
+    <definition name="user-patrol-sequent" extends="base-definition"  >
+        <put-attribute name="title" value="連続 パトロール" />
+        <put-attribute name="content" value="/WEB-INF/views/patrol/user/user_patrol_detail.jsp" />
+    </definition>
+
+    <definition name="patrol-handle-search" extends="base-definition"  >
+        <put-attribute name="title" value="サイト パトロール ( ユーザー )" />
+        <put-attribute name="content" value="/WEB-INF/views/patrol/user/user_patrol.jsp" />
+    </definition>
+
+    <definition name="log-export-csv" extends="base-definition"  >
+        <put-attribute name="title" value="CSV 出力 ログ" />
+        <put-attribute name="content" value="/WEB-INF/views/csv/log_export_csv.jsp" />
+    </definition>
+
+    <definition name="torino-csv" extends="base-definition"  >
+        <put-attribute name="title" value="期間 システム 取り込み用 CSV 出力" />
+        <put-attribute name="content" value="/WEB-INF/views/csv/torino_csv.jsp" />
+    </definition>
+    <definition name="post-sample-upload" extends="base-definition">
+        <put-attribute name="title" value="ダッシュ ボード" />
+        <put-attribute name="content" value="/WEB-INF/views/admin/post/postUpload.jsp"/>
+    </definition>
+
+    <definition name="maintain" extends="base-definition">
+        <put-attribute name="title" value="メンテナンス設定" />
+        <put-attribute name="content" value="/WEB-INF/views/maintain/maintain-sys.jsp"/>
+    </definition>
+
+    <definition name="valid-version" extends="base-definition">
+        <put-attribute name="title" value="有効なバージョン" />
+        <put-attribute name="content" value="/WEB-INF/views/maintain/valid-version.jsp"/>
+    </definition>
+
+    <definition name="migration-msg" extends="base-definition">
+        <put-attribute name="title" value=" 移行メッセージ" />
+        <put-attribute name="content" value="/WEB-INF/views/maintain/migration-msg.jsp"/>
+    </definition>
+
+    <definition name="topic-migration" extends="base-definition">
+        <put-attribute name="title" value="PUSH通知配信用移行" />
+        <put-attribute name="content" value="/WEB-INF/views/maintain/topic-migration.jsp"/>
+    </definition>
+
+    <definition name="kpi-sync" extends="base-definition">
+        <put-attribute name="title" value="KPIの過去データ同期" />
+        <put-attribute name="content" value="/WEB-INF/views/maintain/kpi-sync.jsp"/>
+    </definition>
+
+    <definition name="sync-date-config" extends="base-definition">
+        <put-attribute name="title" value=" 移行メッセージ" />
+        <put-attribute name="content" value="/WEB-INF/views/maintain/sync-date-config.jsp"/>
+    </definition>
+
+    <definition name="user-left-sync" extends="base-definition">
+        <put-attribute name="title" value=" 移行メッセージ" />
+        <put-attribute name="content" value="/WEB-INF/views/maintain/user-left-sync.jsp"/>
+    </definition>
+
+    <definition name="create-push" extends="base-definition">
+        <put-attribute name="title" value="PUSH通知送信" />
+        <put-attribute name="content" value="/WEB-INF/views/pushNotify/createPush.jsp"/>
+    </definition>
+
+    <definition name="list-push" extends="base-definition">
+        <put-attribute name="title" value="PUSH通知送信" />
+        <put-attribute name="content" value="/WEB-INF/views/pushNotify/listPush.jsp"/>
+    </definition>
+    <definition name="edit-push" extends="base-definition">
+        <put-attribute name="title" value="PUSH通知送信" />
+        <put-attribute name="content" value="/WEB-INF/views/pushNotify/editPush.jsp"/>
+    </definition>
+    <definition name="replicate-push" extends="base-definition">
+        <put-attribute name="title" value="PUSH通知送信" />
+        <put-attribute name="content" value="/WEB-INF/views/pushNotify/replicatePush.jsp"/>
+    </definition>
+    <definition name="list-group-publish" extends="base-definition">
+        <put-attribute name="title" value="法人グループ設定" />
+        <put-attribute name="content" value="/WEB-INF/views/grouppublish/listGroup.jsp"/>
+    </definition>
+    <definition name="create-group-publish" extends="base-definition">
+        <put-attribute name="title" value="法人グループ設定" />
+        <put-attribute name="content" value="/WEB-INF/views/grouppublish/createGroup.jsp"/>
+    </definition>
+    <definition name="edit-group-publish" extends="base-definition">
+        <put-attribute name="title" value="法人グループ設定" />
+        <put-attribute name="content" value="/WEB-INF/views/grouppublish/editGroup.jsp"/>
+    </definition>
+    <definition name="list-category-setting" extends="base-definition">
+        <put-attribute name="title" value="カテゴリ管理・追加" />
+        <put-attribute name="content" value="/WEB-INF/views/categorysetting/listCategorySetting.jsp"/>
+    </definition>
+    <definition name="create-category-setting" extends="base-definition">
+        <put-attribute name="title" value="カテゴリ追加・編集" />
+        <put-attribute name="content" value="/WEB-INF/views/categorysetting/createCategorySetting.jsp"/>
+    </definition>
+    <definition name="edit-category-setting" extends="base-definition">
+        <put-attribute name="title" value="カテゴリ追加・編集" />
+        <put-attribute name="content" value="/WEB-INF/views/categorysetting/editCategorySetting.jsp"/>
+    </definition>
+    <definition name="kpi-daily" extends="base-definition">
+        <put-attribute name="title" value="KPI集計" />
+        <put-attribute name="content" value="/WEB-INF/views/kpi/daily.jsp"/>
+    </definition>
+    <definition name="kpi-monthly" extends="base-definition">
+        <put-attribute name="title" value="KPI集計" />
+        <put-attribute name="content" value="/WEB-INF/views/kpi/monthly.jsp"/>
+    </definition>
+    <definition name="list-banner" extends="base-definition">
+        <put-attribute name="title" value="特集バナー管理" />
+        <put-attribute name="content" value="/WEB-INF/views/banner/listBanner.jsp"/>
+    </definition>
+    <definition name="create-banner" extends="base-definition">
+        <put-attribute name="title" value="特集バナー管理" />
+        <put-attribute name="content" value="/WEB-INF/views/banner/createBanner.jsp"/>
+    </definition>
+    <definition name="edit-banner" extends="base-definition">
+        <put-attribute name="title" value="特集バナー管理" />
+        <put-attribute name="content" value="/WEB-INF/views/banner/editBanner.jsp"/>
+    </definition>
+</tiles-definitions>
